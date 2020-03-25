@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE forms SYSTEM 'formsmodel5.dtd'>
+<forms>
+<meta version="SGnP2015" person="Tomasic Valentino" last-change="Valentino" status="" aux1="4330856" submit="" />
+<formset id="BC">
+<form id="BC1" print-condition="&amp; $F ==X_GEMEINDE &apos;Goldach&apos;">
+<barcode-group id="BARCODE" interface-type="sg" max-line-length="150" tax-id="X_REGNUM" name="X_NAME" first-name="X_VNAME" birthdate="F11_GEBEM_String" address="X_STRASSE" zip="X_PLZ_String" city="X_ORT" tax-year="2015" pdf-macro-file-id="F11_MacroFileId" form-counter-start="1" form-counter-default="1" list-counter-start="1" boolean-send-type="false-true" />
+<string id="BC1_Barcode" ignore-content="yes">0123456789</string>
+<string id="BC1_BarcodeZusatz" ignore-content="yes" expression="BC1_Barcode">0123456789</string>
+</form>
+</formset>
+<formset id="F1">
+<form id="F11">
+<string id="F11_DocVersion" constant="yes">20160225</string>
+<string id="F11_MacroFileId" expression="\com.ifactory.steuersgnp2015.model.OpMacroFileId X_REGNUM F11_ENDSP F11_Steuerjahr">4330856201599999828</string>
+<integer id="F11_Steuerjahr">2015</integer>
+<boolean id="F11_Unterjaehrig" expression="! &amp; F11_SteuerpflichtigAnfangJahr F11_SteuerpflichtigEndeJahr">false</boolean>
+<boolean id="F11_Beendigung">false</boolean>
+<date id="F11_BEGSP" code="010-10003" />
+<date id="F11_ENDSP" code="010-10004" />
+<date id="F11_DefaultVon">1.1.2015</date>
+<date id="F11_DefaultBis">31.12.2015</date>
+<boolean id="F11_SteuerpflichtigAnfangJahr" expression="!&gt; F11_BEGSP F11_DefaultVon">true</boolean>
+<boolean id="F11_SteuerpflichtigEndeJahr" expression="!&lt; F11_ENDSP F11_DefaultBis">true</boolean>
+<string id="SIEHE" constant="yes">siehe Zusatzblätter</string>
+<string id="SIEHE_KURZ" constant="yes">Zusatzbl.</string>
+<boolean id="HatBerufskosten" expression="|F11_UnselbEM F11_UnselbEF">true</boolean>
+<boolean id="HatBetrieb" expression="|F11_SelbEM F11_SelbEF">false</boolean>
+<boolean id="HatLiegenschaften" />
+<boolean id="HatKrankheit" />
+<boolean id="HatVersicherungsp" />
+<boolean id="HatSchulden" />
+<boolean id="HatFreiwZuwend" />
+<boolean id="HatVertreter" />
+<boolean id="HatSchenkungen" expression="| F21_SCH F21_VV">false</boolean>
+<boolean id="HatErbschaften" expression="| F21_UE F21_VE">true</boolean>
+<boolean id="HatKinder" />
+<boolean id="HatFormular10" />
+<string id="WIZARD_STATE">Einreichen|-|Steuerpflichtige|-|Verhaeltnisse|ErbSchenkKoll|-|-|Erbschaften|Wertschriften|AbzugGeschWS|DialogDateneingabe|-|EinkUnselbst|-|Sozialversicherung|UebrigeEinkuenfte|-|Berufskosten|-|-|Versicherungsp|UnterhaltRentenl|Selbstvors3A|WeitAbzuege|-|Sozialabzuege|-|BeweglVermoegen|-|KapitallVorsorge|AbschliessendeAngaben|Abschluss</string>
+<boolean id="ET_OK">false</boolean>
+<boolean id="ET_USEADDR" />
+<integer id="ET_TRY">1</integer>
+<string id="ET_REGNUMEM" />
+<string id="ET_REGNUMEF" />
+<string id="ET_NAMEEM" />
+<string id="ET_NAMEEF" />
+<string id="ET_VNAMEEM" />
+<string id="ET_VNAMEEF" />
+<string id="ET_ZIV" />
+<string id="ET_KONFEM" />
+<string id="ET_KONFEF" />
+<date id="ET_GEBEM" />
+<date id="ET_GEBEF" />
+<string id="ET_KONTO1" />
+<string id="ET_KONTO2" />
+<string id="ET_KONTO3" />
+<string id="ET_ADR1" />
+<string id="ET_ADR2" />
+<string id="ET_ADR3" />
+<string id="ET_ADR4" />
+<string id="ET_ADR5" />
+<string id="ET_ADR6" />
+<string id="ET_ADR7" />
+<string id="ET_BFSNr" />
+<string id="ET_STNUM" />
+<date id="ET_STDAT" />
+<string id="ET_LAUF" />
+<string id="ET_WVNUM" />
+<date id="ET_WVDAT" />
+<string id="ET_WVLAUF" />
+<date id="X_EINREICH" enable="$F" />
+<string id="X_RUCKFRGName" enable="$F" code="010-10005">Tomasic</string>
+<string id="X_RUCKFRGVorname" enable="$F" code="010-10500">Valentino</string>
+<string id="X_TELP" enable="$F" code="010-10006">078 778 9106</string>
+<string id="X_EMAIL" enable="$F" code="010-10008">valentino.tomasic@ntb.ch</string>
+<string id="X_TELG" enable="$F" code="010-10007" />
+<string id="X_NAME">Tomasic</string>
+<string id="X_NAMEEF" />
+<string id="X_VNAME">Valentino</string>
+<string id="X_VNAMEEF" />
+<string id="X_FULLNAME" expression="? (| ==X_MANNNAME &apos;&apos; ==X_FRAUNAME &apos;&apos;) (~X_MANNNAME X_FRAUNAME) (~~ X_MANNNAME &apos;, &apos; X_FRAUNAME)">Tomasic Valentino</string>
+<string id="X_MANNNAME" expression="++X_NAME &apos; &apos; X_VNAME" code="010-10009">Tomasic Valentino</string>
+<string id="X_FRAUNAME" expression="?X_MARRIED,(++X_NAMEEF &apos; &apos; X_VNAMEEF),&apos;&apos;" code="010-10016" />
+<string id="X_REGNONEW">4330856</string>
+<string id="X_REGNUM" expression="X_REGNONEW" code="010-10001">4330856</string>
+<boolean id="X_MARRIED" expression="| ==F11_ZIV &apos;Verheiratet&apos; ==F11_ZIV &apos;eingetragene Partnerschaft&apos;">false</boolean>
+<boolean id="X_MENABLE" enable="X_MARRIED" />
+<string id="X_SIEHEIFMARRIED" expression="?X_MARRIED,SIEHE,&apos;&apos;" />
+<string id="X_GEMEINDE" enable="$F" code="010-10002">Rebstein</string>
+<string id="X_SUBGEMEINDE" enable="$F" />
+<string id="X_ADR1" expression="?ET_USEADDR ET_ADR1 X_MANNNAME" code="010-10034">Tomasic Valentino</string>
+<string id="X_ADR2" expression="?ET_USEADDR ET_ADR2 X_FRAUNAME" code="010-10035" />
+<string id="X_ADR3" expression="?ET_USEADDR ET_ADR3 X_STRASSE" code="010-10036">Scherlerweg 14</string>
+<string id="X_ADR4" expression="?ET_USEADDR ET_ADR4 (++\string X_PLZ &apos; &apos; X_ORT)" code="010-10037">9446 Rebstein</string>
+<string id="X_ADR5" expression="?ET_USEADDR ET_ADR5 &apos;&apos;" code="010-10038" />
+<string id="X_ADR6" expression="?ET_USEADDR ET_ADR6 &apos;&apos;" code="010-10039" />
+<string id="X_ADR7" expression="?ET_USEADDR ET_ADR7 &apos;&apos;" code="010-10040" />
+<string id="X_STRASSE" enable="$F">Scherlerweg 14</string>
+<integer id="X_PLZ" enable="$F">9446</integer>
+<string id="X_PLZ_String" expression="\string X_PLZ">9446</string>
+<string id="X_ORT" enable="$F">Rebstein</string>
+<string id="X_FAX" enable="$F" />
+<string id="X_STPFLICHT" expression="X_MANNNAME">Tomasic Valentino</string>
+<string id="F11_NamePers1" expression="? (| ==X_VNAME &apos;&apos; ==X_NAME &apos;&apos;) (&apos;Person 1&apos;) (~~~ X_VNAME &apos; &apos; (\substring X_NAME 0 1)  &apos;.&apos;)">Valentino T.</string>
+<string id="F11_NamePers2" expression="? (| !X_MARRIED | ==X_VNAMEEF &apos;&apos; ==X_NAMEEF &apos;&apos;) (&apos;Person 2&apos;) (~~~ X_VNAMEEF &apos; &apos; (\substring X_NAMEEF 0 1)  &apos;.&apos;)">Person 2</string>
+<string id="F11_NamePers1Full" expression="? (| ==X_VNAME &apos;&apos; ==X_NAME &apos;&apos;) (&apos;Person 1&apos;) (~~ X_VNAME &apos; &apos; X_NAME">Valentino Tomasic</string>
+<string id="F11_NamePers2Full" expression="? (| ==X_VNAMEEF &apos;&apos; ==X_NAMEEF &apos;&apos;) (&apos;Person 2&apos;) (~~ X_VNAMEEF &apos; &apos; X_NAMEEF">Person 2</string>
+<date id="F11_GEBEM" code="010-10010">20.12.1991</date>
+<string id="F11_GEBEM_String" expression="\string F11_GEBEM">20.12.1991</string>
+<integer id="F11_SteuerTage" expression="\com.ifactory.steuersgnp2015.model.ComputeDays F11_BEGSP F11_ENDSP">360</integer>
+<float id="F11_SteuerScale" expression="/F11_SteuerTage 360.0">1.0</float>
+<string id="F11_KONEM" code="010-10012">Römisch-Katholisch</string>
+<string id="F11_KONTOLD1" expression="ET_KONTO1" code="010-10028" />
+<string id="F11_KONTOLD2" expression="ET_KONTO2" code="010-10030" />
+<string id="F11_KONTOLD3" expression="ET_KONTO3" code="010-10032" />
+<string id="F11_KONT01" enable="==F11_KONT03 &apos;&apos;" mandatory="F11_KontoAuslEnabled" code="010-10029">Raiffeisenbank Rebstein-Marbach</string>
+<string id="F11_KONT02" enable="==F11_KONT03 &apos;&apos;" code="010-10031">CH77 8132 4000 0038 1770 7</string>
+<string id="F11_KONT03" enable="&amp; ==F11_KONT01 &apos;&apos; ==F11_KONT02 &apos;&apos;" code="010-10033" />
+<string id="F11_FormKONT01" expression="F11_KONT01">Raiffeisenbank Rebstein-Marbach</string>
+<string id="F11_FormKONT02" expression="F11_KONT02">CH77 8132 4000 0038 1770 7</string>
+<string id="F11_FormKONT03" expression="F11_KONT03" />
+<boolean id="F11_KontoAuslEnabled">false</boolean>
+<string id="F11_KONTOBIC" enable="F11_KontoAuslEnabled" disabled="&apos;&apos;" mandatory="$T" code="010-10080" />
+<string id="F11_KONTOBLZ" enable="F11_KontoAuslEnabled" disabled="&apos;&apos;" mandatory="$T" code="010-10081" />
+<string id="F11_KONTOOrt" enable="F11_KontoAuslEnabled" disabled="&apos;&apos;" mandatory="$T" code="010-10082" />
+<string id="F11_ZIV" code="010-10011">Ledig</string>
+<date id="F11_GEBEF" enable="X_MARRIED" disabled="&apos;&apos;" code="010-10017" />
+<string id="F11_KONEF" enable="X_MARRIED" disabled="&apos;&apos;" code="010-10019" />
+<boolean id="F11_UnselbEM" code="010-100140">true</boolean>
+<boolean id="F11_SelbEM" code="010-100141">false</boolean>
+<boolean id="F11_KeinErwerbEM" code="010-100142">false</boolean>
+<boolean id="F11_UnselbEF" code="010-100210">false</boolean>
+<boolean id="F11_SelbEF" code="010-100211">false</boolean>
+<boolean id="F11_KeinErwerbEF" code="010-100212">false</boolean>
+<list id="F11_HBEM" min-entries="1" entry-type="string" code="010-10013">
+<string enable="&lt;=(#F11_HBEM,1)" disabled="SIEHE">50% Student, 50% Ingenieur</string>
+</list>
+<list id="F11_HBEF" min-entries="1" entry-type="string" code="010-10020">
+<string enable="&amp;(&lt;=(#F11_HBEF,1),X_MARRIED)" disabled="X_SIEHEIFMARRIED" />
+</list>
+<integer id="F11_KIANZ" expression="!=F11_KindVorname &apos;&apos;">0</integer>
+<boolean id="F11_PrintKinderTableZB" expression="&gt; #F11_KindUniqueId 5">false</boolean>
+<table id="F11OV1TAB" emit-code="$T">
+<list id="F11_KindUniqueId" entry-type="string" entry-init="\unique_id" ignore-content="yes" />
+<list id="F11_KindVorname" entry-type="string" code="010-10041" />
+<list id="F11_KindName" entry-type="string" code="010-10042" />
+<list id="F11_KindGebdatum" entry-type="date" code="010-10024" />
+<list id="F11_Schulpflicht" entry-type="string" />
+<list id="F11_SchulpflichtUebermittlung" entry-type="string" entry-expression="?==[F11_Schulpflicht] &apos;Im Vorschulalter&apos; &apos;VS&apos; ?==[F11_Schulpflicht] &apos;In Ausbildung&apos; &apos;AB&apos; &apos;&apos;" code="010-10025" />
+<list id="F11_Schule" entry-type="string" code="010-10026" />
+<list id="F11_EndeSchule" entry-type="string" code="010-10027" />
+<list id="F11_KindRegnum" entry-type="string" code="010-10045" />
+<list id="F11_KinderVorschule" entry-type="integer" entry-expression="? == [F11_Schulpflicht] &apos;Im Vorschulalter&apos;) 7200 &apos;&apos;" />
+<list id="F11_KinderAusbildung" entry-type="integer" entry-expression="? == [F11_Schulpflicht] &apos;In Ausbildung&apos; 10200 &apos;&apos;" />
+<list id="F11_KinderAbzug" entry-type="integer" entry-expression="?  &gt;= \year [F11_KindGebdatum] -F11_Steuerjahr 17 20000 &apos;&apos;" />
+<list id="F11_KindNameVorname" entry-expression="? | ==[F11_KindName] &apos;&apos; ==[F11_KindVorname] &apos;&apos; ~[F11_KindName] [F11_KindVorname]  ~~[F11_KindName] &apos; &apos; [F11_KindVorname]" entry-type="string" />
+</table>
+<list id="F11_SchulePflicht" entry-type="string" source="F11_Schule" filter="&lt;[F11_KindGebdatum] -F11_Steuerjahr 15" />
+<string id="F11_KindVorname0" expression="? &lt; #F11_KindVorname 6 [F11_KindVorname 0 SIEHE_KURZ &apos;&apos;" />
+<string id="F11_KindVorname1" expression="? &lt; #F11_KindVorname 6 [F11_KindVorname 1 &apos;&apos;" />
+<string id="F11_KindVorname2" expression="? &lt; #F11_KindVorname 6 [F11_KindVorname 2 &apos;&apos;" />
+<string id="F11_KindVorname3" expression="? &lt; #F11_KindVorname 6 [F11_KindVorname 3 &apos;&apos;" />
+<string id="F11_KindVorname4" expression="? &lt; #F11_KindVorname 6 [F11_KindVorname 4 &apos;&apos;" />
+<string id="F11_KindName0" expression="? &lt; #F11_KindName 6 [F11_KindName 0 &apos;&apos;" />
+<string id="F11_KindName1" expression="? &lt; #F11_KindName 6 [F11_KindName 1 &apos;&apos;" />
+<string id="F11_KindName2" expression="? &lt; #F11_KindName 6 [F11_KindName 2 &apos;&apos;" />
+<string id="F11_KindName3" expression="? &lt; #F11_KindName 6 [F11_KindName 3 &apos;&apos;" />
+<string id="F11_KindName4" expression="? &lt; #F11_KindName 6 [F11_KindName 4 &apos;&apos;" />
+<date id="F11_KindGebdatum0" expression="? &lt; #F11_KindGebdatum 6 [F11_KindGebdatum 0 &apos;&apos;" />
+<date id="F11_KindGebdatum1" expression="? &lt; #F11_KindGebdatum 6 [F11_KindGebdatum 1 &apos;&apos;" />
+<date id="F11_KindGebdatum2" expression="? &lt; #F11_KindGebdatum 6 [F11_KindGebdatum 2 &apos;&apos;" />
+<date id="F11_KindGebdatum3" expression="? &lt; #F11_KindGebdatum 6 [F11_KindGebdatum 3 &apos;&apos;" />
+<date id="F11_KindGebdatum4" expression="? &lt; #F11_KindGebdatum 6 [F11_KindGebdatum 4 &apos;&apos;" />
+<string id="F11_Schulpflicht0" expression="? &lt; #F11_Schulpflicht 6 [F11_Schulpflicht 0 &apos;&apos;" />
+<string id="F11_Schulpflicht1" expression="? &lt; #F11_Schulpflicht 6 [F11_Schulpflicht 1 &apos;&apos;" />
+<string id="F11_Schulpflicht2" expression="? &lt; #F11_Schulpflicht 6 [F11_Schulpflicht 2 &apos;&apos;" />
+<string id="F11_Schulpflicht3" expression="? &lt; #F11_Schulpflicht 6 [F11_Schulpflicht 3 &apos;&apos;" />
+<string id="F11_Schulpflicht4" expression="? &lt; #F11_Schulpflicht 6 [F11_Schulpflicht 4 &apos;&apos;" />
+<string id="F11_Schule0" expression="? &lt; #F11_Schule 6 [F11_Schule 0 &apos;&apos;" />
+<string id="F11_Schule1" expression="? &lt; #F11_Schule 6 [F11_Schule 1 &apos;&apos;" />
+<string id="F11_Schule2" expression="? &lt; #F11_Schule 6 [F11_Schule 2 &apos;&apos;" />
+<string id="F11_Schule3" expression="? &lt; #F11_Schule 6 [F11_Schule 3 &apos;&apos;" />
+<string id="F11_Schule4" expression="? &lt; #F11_Schule 6 [F11_Schule 4 &apos;&apos;" />
+<string id="F11_EndeSchule0" expression="? &lt; #F11_EndeSchule 6 [F11_EndeSchule 0 &apos;&apos;" />
+<string id="F11_EndeSchule1" expression="? &lt; #F11_EndeSchule 6 [F11_EndeSchule 1 &apos;&apos;" />
+<string id="F11_EndeSchule2" expression="? &lt; #F11_EndeSchule 6 [F11_EndeSchule 2 &apos;&apos;" />
+<string id="F11_EndeSchule3" expression="? &lt; #F11_EndeSchule 6 [F11_EndeSchule 3 &apos;&apos;" />
+<string id="F11_EndeSchule4" expression="? &lt; #F11_EndeSchule 6 [F11_EndeSchule 4 &apos;&apos;" />
+<string id="F11_ReduziertFormulareEtax" expression="&apos;02&apos;" code="010-10046">02</string>
+<string id="F11_Mitteilungen" />
+</form>
+<form id="F12">
+<table id="Z20TAB">
+<list id="F11_AGHBEM" min-entries="1" entry-type="string" code="010-10015">
+<string enable="&lt;=(#F11_AGHBEM,1)" disabled="SIEHE">Swissoptic AG, Heerbrugg</string>
+</list>
+<list id="F12_1HBEM" min-entries="1" entry-type="integer" code="010-100">
+<integer enable="&lt;=(#F12_1HBEM,1)" disabled="F12_1HBEMTOT">21474</integer>
+</list>
+</table>
+<table id="Z21TAB">
+<list id="F11_AGHBEF" min-entries="1" entry-type="string" code="010-10022">
+<string enable="&amp;(&lt;=(#F11_AGHBEF,1),X_MARRIED)" disabled="X_SIEHEIFMARRIED" />
+</list>
+<list id="F12_1HBEF" min-entries="1" entry-type="integer" code="010-102">
+<integer enable="&amp;X_MARRIED,&lt;=(#F12_1HBEF,1)" disabled="F12_1HBEFTOT" />
+</list>
+</table>
+<table id="Z22TAB">
+<list id="F12_1NBEMART" min-entries="1" entry-type="string" code="010-10104">
+<string enable="&lt;=(#F12_1NBEMART,1)" disabled="SIEHE" />
+</list>
+<list id="F12_1NBEM" min-entries="1" entry-type="integer" code="010-104">
+<integer enable="&lt;=(#F12_1NBEM,1)" disabled="F12_1NBEMTOT" />
+</list>
+</table>
+<table id="Z23TAB">
+<list id="F12_1NBEFART" min-entries="1" entry-type="string" code="010-10106">
+<string enable="&amp;X_MARRIED,&lt;=(#F12_1NBEFART,1)" disabled="X_SIEHEIFMARRIED" />
+</list>
+<list id="F12_1NBEF" min-entries="1" entry-type="integer" code="010-106">
+<integer enable="&amp;X_MARRIED,&lt;=(#F12_1NBEF,1)" disabled="F12_1NBEFTOT" />
+</list>
+</table>
+<integer id="F12_1HBEMTOT" expression="@F12_1HBEM">21474</integer>
+<integer id="F12_1HBEFTOT" expression="?X_MARRIED,@F12_1HBEF,&apos;&apos;" />
+<integer id="F12_1NBEMTOT" expression="@F12_1NBEM" />
+<integer id="F12_1NBEFTOT" expression="?X_MARRIED,@F12_1NBEF,&apos;&apos;" />
+<table id="F12OV18TAB">
+<list id="F12_1SITZEMBEZ" entry-type="string" min-entries="1" code="010-10108">
+<string />
+</list>
+<list id="F12_1SITZEM" entry-type="integer" min-entries="1" code="010-108">
+<integer enable="== #F12_1SITZEM 1" disabled="F12_1SITZEMTOT" />
+</list>
+</table>
+<integer id="F12_1SITZEMTOT" expression="@F12_1SITZEM" />
+<table id="F12OV110TAB">
+<list id="F12_1SITZEFBEZ" entry-type="string" min-entries="1" code="010-10110">
+<string />
+</list>
+<list id="F12_1SITZEF" entry-type="integer" min-entries="1" code="010-110">
+<integer enable="&amp;X_MARRIED == #F12_1SITZEF 1" disabled="F12_1SITZEFTOT" />
+</list>
+</table>
+<integer id="F12_1SITZEFTOT" expression="?X_MARRIED @F12_1SITZEF &apos;&apos;" />
+<table id="Z24TAB">
+<list id="F12_2HBEMART" min-entries="1" entry-type="string" code="010-10112">
+<string enable="&lt;=(#F12_2HBEMART,1)" disabled="SIEHE" />
+</list>
+<list id="F12_2HBEMMittarbeit" min-entries="1" entry-type="boolean" enable="X_MARRIED">
+<boolean enable="&amp;X_MARRIED,&lt;=(#F12_2HBEMMittarbeit,1)" disabled="" />
+</list>
+<list id="F12_2HBEM" min-entries="1" entry-type="integer" code="010-112">
+<integer enable="&lt;=(#F12_2HBEM,1)" disabled="F12_2HBEMTOT" />
+</list>
+<list id="F12_DoppelverEinkMann_SEHauptM" entry-expression="? &amp; X_MARRIED [F12_2HBEMMittarbeit] *0.5 [F12_2HBEM]  [F12_2HBEM]" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2HBEMMittarbeit] *0.5 [F12_2HBEM]  [F12_2HBEM]" />
+</list>
+<list id="F12_DoppelverEinkFrau_SEHauptM" entry-expression="? &amp; X_MARRIED [F12_2HBEMMittarbeit] *0.5 [F12_2HBEM] &apos;&apos;" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2HBEMMittarbeit] *0.5 [F12_2HBEM] &apos;&apos;" />
+</list>
+</table>
+<table id="Z25TAB">
+<list id="F12_2HBEFART" min-entries="1" entry-type="string" code="010-10114">
+<string enable="&amp;X_MARRIED,&lt;=(#F12_2HBEFART,1)" disabled="X_SIEHEIFMARRIED" />
+</list>
+<list id="F12_2HBEFMittarbeit" min-entries="1" entry-type="boolean">
+<boolean enable="&amp;X_MARRIED,&lt;=(#F12_2HBEFMittarbeit,1)" disabled="" />
+</list>
+<list id="F12_2HBEF" min-entries="1" entry-type="integer" code="010-114">
+<integer enable="&amp;X_MARRIED,&lt;=(#F12_2HBEF,1)" disabled="F12_2HBEFTOT" />
+</list>
+<list id="F12_DoppelverEinkFrau_SEHauptF" entry-expression="? &amp; X_MARRIED [F12_2HBEFMittarbeit] *0.5 [F12_2HBEF] [F12_2HBEF]" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2HBEFMittarbeit] *0.5 [F12_2HBEF] [F12_2HBEF]" />
+</list>
+<list id="F12_DoppelverEinkMann_SEHauptF" entry-expression="? &amp; X_MARRIED [F12_2HBEFMittarbeit] *0.5 [F12_2HBEF] &apos;&apos;" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2HBEFMittarbeit] *0.5 [F12_2HBEF] &apos;&apos;" />
+</list>
+</table>
+<integer id="F12_2HBEMTOT" expression="@F12_2HBEM" />
+<integer id="F12_2HBEFTOT" expression="?X_MARRIED,@F12_2HBEF,&apos;&apos;" />
+<table id="Z28TAB">
+<list id="F12_2GEEMART" min-entries="1" entry-type="string" code="010-10120">
+<string enable="&lt;=(#F12_2GEEMART,1)" disabled="SIEHE" />
+</list>
+<list id="F12_2GEEMMittarbeit" min-entries="1" entry-type="boolean" enable="X_MARRIED">
+<boolean enable="&amp;X_MARRIED,&lt;=(#F12_2GEEMMittarbeit,1)" disabled="" />
+</list>
+<list id="F12_2GEEM" min-entries="1" entry-type="integer" code="010-120">
+<integer enable="&lt;=(#F12_2GEEM,1)" disabled="F12_2GEEMTOT" />
+</list>
+<list id="F12_DoppelverEinkMann_SEGesM" entry-expression="? &amp; X_MARRIED [F12_2GEEMMittarbeit] *0.5 [F12_2GEEM] [F12_2GEEM]" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2GEEMMittarbeit] *0.5 [F12_2GEEM] [F12_2GEEM]" />
+</list>
+<list id="F12_DoppelverEinkFrau_SEGesM" entry-expression="? &amp; X_MARRIED [F12_2GEEMMittarbeit] *0.5 [F12_2GEEM] &apos;&apos;" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2GEEMMittarbeit] *0.5 [F12_2GEEM] &apos;&apos;" />
+</list>
+</table>
+<table id="Z29TAB">
+<list id="F12_2GEEFART" min-entries="1" entry-type="string" code="010-10122">
+<string enable="&amp;X_MARRIED,&lt;=(#F12_2GEEFART,1)" disabled="X_SIEHEIFMARRIED" />
+</list>
+<list id="F12_2GEEFMittarbeit" min-entries="1" entry-type="boolean">
+<boolean enable="&amp;X_MARRIED,&lt;=(#F12_2GEEFMittarbeit,1)" disabled="" />
+</list>
+<list id="F12_2GEEF" min-entries="1" entry-type="integer" code="010-122">
+<integer enable="&amp;X_MARRIED,&lt;=(#F12_2GEEF,1)" disabled="F12_2GEEFTOT" />
+</list>
+<list id="F12_DoppelverEinkFrau_SEGesF" entry-expression="? &amp; X_MARRIED [F12_2GEEFMittarbeit] *0.5 [F12_2GEEF] [F12_2GEEF]" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2GEEFMittarbeit] *0.5 [F12_2GEEF] [F12_2GEEF]" />
+</list>
+<list id="F12_DoppelverEinkMann_SEGesF" entry-expression="? &amp; X_MARRIED [F12_2GEEFMittarbeit] *0.5 [F12_2GEEF] &apos;&apos;" entry-type="integer" min-entries="1">
+<integer expression="? &amp; X_MARRIED [F12_2GEEFMittarbeit] *0.5 [F12_2GEEF] &apos;&apos;" />
+</list>
+</table>
+<integer id="F12_2GEEMTOT" expression="@F12_2GEEM" />
+<integer id="F12_2GEEFTOT" expression="?X_MARRIED,@F12_2GEEF,&apos;&apos;" />
+<integer id="F12_3AIEM" code="010-126" />
+<integer id="F12_3AIEF" enable="X_MARRIED" disabled="&apos;&apos;" code="010-128" />
+<table id="F12OV20TAB">
+<list id="F12_3RPEMBEZ" entry-type="string" min-entries="1" code="010-101302">
+<string />
+</list>
+<list id="F12_3RPEMB" entry-type="integer" min-entries="1" code="010-10130">
+<integer enable="== #F12_3RPEMB 1" disabled="&apos;&apos;" />
+</list>
+<list id="F12_3RPEMP" entry-type="float" min-entries="1" code="010-101301">
+<float enable="== #F12_3RPEMP 1" disabled="&apos;&apos;" />
+</list>
+<list id="F12_3RPEM" entry-type="integer" min-entries="1" entry-expression="? == [F12_3RPEMP] &apos;&apos; [F12_3RPEMB] (\floor /(*[F12_3RPEMB],[F12_3RPEMP]),100)" code="010-130">
+<integer expression="? == [F12_3RPEMP] &apos;&apos; [F12_3RPEMB] (\floor /(*[F12_3RPEMB],[F12_3RPEMP]),100)" />
+</list>
+</table>
+<integer id="F12_3RPEMTOT" expression="@F12_3RPEM" />
+<integer id="F12_3BetragEM0" expression="? &gt; #F12_3RPEM 1 F12_3RPEMTOT F12_3RPEM.0" />
+<table id="F12OV21TAB">
+<list id="F12_3RPEFBEZ" entry-type="string" min-entries="1" code="010-101322">
+<string />
+</list>
+<list id="F12_3RPEFB" entry-type="integer" min-entries="1" code="010-10132">
+<integer enable="&amp; X_MARRIED == #F12_3RPEFB 1" disabled="&apos;&apos;" />
+</list>
+<list id="F12_3RPEFP" entry-type="float" min-entries="1" code="010-101321">
+<float enable="&amp; X_MARRIED == #F12_3RPEFP 1" disabled="&apos;&apos;" />
+</list>
+<list id="F12_3RPEF" entry-type="integer" min-entries="1" entry-expression="?X_MARRIED,(? == [F12_3RPEFP] &apos;&apos; [F12_3RPEFB] (\floor /(*[F12_3RPEFB],[F12_3RPEFP]),100)),&apos;&apos;" code="010-132">
+<integer expression="?X_MARRIED,(? == [F12_3RPEFP] &apos;&apos; [F12_3RPEFB] (\floor /(*[F12_3RPEFB],[F12_3RPEFP]),100)),&apos;&apos;" />
+</list>
+</table>
+<integer id="F12_3RPEFTOT" expression="?X_MARRIED @F12_3RPEF &apos;&apos;" />
+<integer id="F12_3BetragEF0" expression="?X_MARRIED ? &gt; #F12_3RPEF 1 F12_3RPEFTOT F12_3RPEF.0 &apos;&apos;" />
+<integer id="F12_3EAEM" code="010-134" />
+<integer id="F12_3EAEF" enable="X_MARRIED" disabled="&apos;&apos;" code="010-136" />
+<integer id="F12_3ATEM" code="010-138" />
+<integer id="F12_3ATEF" enable="X_MARRIED" disabled="&apos;&apos;" code="010-140" />
+<integer id="F12_3ZUL" code="010-142" />
+<integer id="F12_4BERT" expression="F23_BERT" code="010-146" />
+<integer id="F12_BeteiligungenPrivat" expression="F23_AbzBeteiligungPrivat" code="010-147" />
+<integer id="F12_BeteiligungenGesch" expression="F23_AbzBeteiligungGesch" code="010-149" />
+<integer id="F12_dBStBeteiligungenPrivat" expression="* 0.6 F23_AbzBeteiligungPrivat" />
+<integer id="F12_dBStBeteiligungenGesch" expression="* 0.5 F23_AbzBeteiligungGesch" />
+<table id="F12OV12TAB">
+<list id="F12_6UBSPBEZ" min-entries="1" entry-type="string" code="010-10154">
+<string enable="&lt;=(#F12_6UBSPBEZ 1)" disabled="SIEHE" />
+</list>
+<list id="F12_6UBSP" min-entries="1" entry-type="integer" code="010-101540">
+<integer enable="&lt;=(#F12_6UBSP,1)" disabled="F12_6UBSPTOT" />
+</list>
+</table>
+<table id="F12OV13TAB">
+<list id="F12_6UBKIB" min-entries="1" entry-type="string" code="010-10156">
+<string enable="&lt;=(#F12_6UBKIB 1)" disabled="SIEHE" />
+</list>
+<list id="F12_6UBKI" min-entries="1" entry-type="integer" code="010-156">
+<integer enable="&lt;=(#F12_6UBKI,1)" disabled="F12_6UBKITOT" />
+</list>
+</table>
+<table id="F12OV14TAB">
+<list id="F12_6UEB" min-entries="1" entry-type="string" code="010-10158">
+<string enable="&lt;=(#F12_6UEB 1)" disabled="SIEHE" />
+</list>
+<list id="F12_6UE" min-entries="1" entry-type="integer" code="010-158">
+<integer enable="&lt;=(#F12_6UE,1)" disabled="F12_6UETOT" />
+</list>
+</table>
+<table id="F12OV16TAB">
+<list id="F12_6WEB" min-entries="1" entry-type="string" code="010-10162">
+<string enable="&lt;=(#F12_6WEB,1)" disabled="SIEHE" />
+</list>
+<list id="F12_6WE" min-entries="1" entry-type="integer" code="010-162">
+<integer enable="&lt;=(#F12_6WE,1)" disabled="F12_6WETOT" />
+</list>
+</table>
+<integer id="F12_6UBSPTOT" expression="@F12_6UBSP" code="010-154" />
+<integer id="F12_6UBKITOT" expression="@F12_6UBKI" />
+<integer id="F12_6UETOT" expression="@F12_6UE" />
+<integer id="F12_6WETOT" expression="@F12_6WE" />
+<integer id="F12_6KAJ" code="010-10164" />
+<integer id="F12_6KA" code="010-164" />
+<integer id="F12_SE_DoppelverEinkMann" expression="+++ @F12_DoppelverEinkMann_SEHauptF @F12_DoppelverEinkMann_SEGesF @F12_DoppelverEinkMann_SEHauptM @F12_DoppelverEinkMann_SEGesM" />
+<integer id="F12_SE_DoppelverEinkFrau" expression="+++ @F12_DoppelverEinkFrau_SEHauptF @F12_DoppelverEinkFrau_SEGesF @F12_DoppelverEinkFrau_SEHauptM @F12_DoppelverEinkFrau_SEGesM" />
+<integer id="F12_DoppelverEinkMann" expression="\max (- (++++ F12_1HBEMTOT F12_1NBEMTOT F12_1SITZEMTOT F12_SE_DoppelverEinkMann F12_3ATEM) (++ F41_dBSt_TOT F13_7BVG_Mann F13_4SVEM)) 0">15979</integer>
+<integer id="F12_DoppelverEinkFrau" expression="\max (- (++++ F12_1HBEFTOT F12_1NBEFTOT F12_1SITZEFTOT F12_SE_DoppelverEinkFrau F12_3ATEF) (++ F42_dBSt_TOT F13_7BVG_Frau F13_4SVEF)) 0" />
+<integer id="F12_DoppelverEinkommen" expression="\min F12_DoppelverEinkMann F12_DoppelverEinkFrau" />
+<integer id="F13_dBSt_8SAEP" expression="? (&amp; X_MARRIED F13_BeideEPErwerbstaetig) (\ceil *F11_SteuerScale (\max ( \min 13400 \max *0.5 F12_DoppelverEinkommen \min 8100 F12_DoppelverEinkommen ) 0 )) &apos;&apos;" />
+<integer id="F12_7TOT" expression="+++++++++++++++++++++++++++F12_1HBEMTOT,F12_1HBEFTOT,F12_1NBEMTOT,F12_1NBEFTOT,F12_1SITZEMTOT,F12_1SITZEFTOT,F12_2HBEMTOT,F12_2HBEFTOT,F12_2GEEMTOT,F12_2GEEFTOT,F12_3AIEM,F12_3AIEF,F12_3RPEMTOT,F12_3RPEFTOT,F12_3EAEM,F12_3EAEF,F12_3ATEM,F12_3ATEF,F12_3ZUL,F23_BERT F12_BeteiligungenPrivat F12_BeteiligungenGesch F7Z1_Ertrag,F12_6UBSPTOT,F12_6UBKITOT,F12_6UETOT,F12_6WETOT F12_6KA" code="010-168">21474</integer>
+<integer id="F12_dBSt_7TOT" expression="++--F12_7TOT F12_BeteiligungenPrivat F12_BeteiligungenGesch F12_dBStBeteiligungenPrivat F12_dBStBeteiligungenGesch">21474</integer>
+<integer id="F12_VereinfachtAbgerechnet" code="010-290">23422</integer>
+<integer id="F12_Ergaenzungsleistungen" code="010-291" />
+<integer id="F12_Hilflosenentschaedigung" code="010-292" />
+</form>
+<form id="F13">
+<table id="F13OV1TAB">
+<list id="F13_3UBEPA" entry-type="string" min-entries="1" code="010-102001">
+<string enable="&lt;=#F13_3UBEPA,1" disabled="SIEHE" />
+</list>
+<list id="F13_3UBEP" entry-type="integer" min-entries="1" code="010-102000">
+<integer enable="&lt;=#F13_3UBEP,1" disabled="F13_3UBEPTOT" />
+</list>
+</table>
+<integer id="F13_3UBEPTOT" expression="@F13_3UBEP" code="010-200" />
+<table id="F13OV2TAB">
+<list id="F13_3UBKIA" entry-type="string" min-entries="1" code="010-102021">
+<string enable="&lt;=#F13_3UBKIA,1" disabled="SIEHE" />
+</list>
+<list id="F13_3UBKI" entry-type="integer" min-entries="1" code="010-102020">
+<integer enable="&lt;=#F13_3UBKI,1" disabled="F13_3UBKITOT" />
+</list>
+</table>
+<integer id="F13_3UBKITOT" expression="@F13_3UBKI" code="010-202" />
+<table id="F13OV3TAB">
+<list id="F13_3UBREA" entry-type="string" min-entries="1" code="010-102041">
+<string enable="&lt;=#F13_3UBREA,1" disabled="SIEHE" />
+</list>
+<list id="F13_3UBRE" entry-type="integer" min-entries="1" code="010-102040">
+<integer enable="&lt;=#F13_3UBRE,1" disabled="F13_3UBRETOT" />
+</list>
+</table>
+<table id="F13_Saeule3aM" min-entries="1">
+<list id="F13_3aBezeichnungM" entry-type="string" min-entries="1" code="010-102081">
+<string />
+</list>
+<list id="F13_3aBetragM" entry-type="integer" min-entries="1" code="010-102082">
+<integer enable="== #F13_3aBetragM 1" disabled="F13_4SVEM" />
+</list>
+</table>
+<table id="F13_Saeule3aF" min-entries="1">
+<list id="F13_3aBezeichnungF" entry-type="string" min-entries="1" code="010-102101">
+<string />
+</list>
+<list id="F13_3aBetragF" entry-type="integer" min-entries="1" code="010-102102">
+<integer enable="&amp;X_MARRIED == #F13_3aBetragF 1" disabled="F13_4SVEF" />
+</list>
+</table>
+<integer id="F13_3UBRETOT" expression="@F13_3UBRE" code="010-204" />
+<integer id="F13_4SVEM" expression="@F13_3aBetragM" code="010-208" />
+<integer id="F13_4SVEF" expression="? X_MARRIED @F13_3aBetragF &apos;&apos;" code="010-210" />
+<integer id="F13_7BVG_Mann" code="010-218" />
+<integer id="F13_7BVG_Frau" enable="X_MARRIED" disabled="&apos;&apos;" code="010-219" />
+<integer id="F13_7BVG" expression="+F13_7BVG_Mann ?X_MARRIED F13_7BVG_Frau &apos;&apos;" />
+<integer id="F13_258Total" expression="F102_TotalKinderbetreuungskosten" code="010-258" />
+<integer id="F13_dBSt_258Total" expression="F102_dBSt_TotalKinderbetreuungskosten" code="010-2582" />
+<table id="F13OV4TAB">
+<list id="F13_7WABZ" entry-type="string" min-entries="1" code="010-102222">
+<string enable="&lt;=#F13_7WABZ,1" disabled="SIEHE" />
+</list>
+<list id="F13_7WAAZ" entry-type="integer" min-entries="1" code="010-222">
+<integer enable="&lt;=#F13_7WAAZ,1" disabled="F13_7WAAZTOT" />
+</list>
+</table>
+<integer id="F13_7WAAZTOT" expression="@F13_7WAAZ" />
+<boolean id="F13_BeideEPErwerbstaetig" enable="X_MARRIED" disabled="$F">false</boolean>
+<integer id="F13_8SAEP" expression="? (&amp; X_MARRIED F13_BeideEPErwerbstaetig) (\ceil *F11_SteuerScale 500) &apos;&apos;" code="010-226" />
+<integer id="F13_9TOTA" expression="\max 0 ++++++++++++F41_TOT,F42_TOT,F51_PZTOT,F13_3UBEPTOT,F13_3UBKITOT,F13_3UBRETOT,F13_4SVEM,F13_4SVEF,F61_TOT,F13_7BVG,F13_7WAAZTOT,F13_8SAEP,F13_258Total" code="010-230">8295</integer>
+<integer id="F13_dBSt_9TOTA" expression="+-+-+-+-+- F13_9TOTA F61_TOT F61_dBSt_TOT F41_TOT F41_dBSt_TOT F42_TOT F42_dBSt_TOT F13_8SAEP F13_dBSt_8SAEP F13_258Total F13_dBSt_258Total">7195</integer>
+<integer id="F13_10TOT" expression="\max 0 -F12_7TOT,F13_9TOTA" code="010-234">13179</integer>
+<integer id="F13_dBSt_10TOT" expression="\max 0 (- F12_dBSt_7TOT F13_dBSt_9TOTA)">14279</integer>
+<integer id="F13_11KSB" expression="? (&gt; F62_TOT 0) (* F13_10TOT 0.02) &apos;&apos;" code="010-238" />
+<integer id="F13_11KAZ" expression="\max 0 -F62_TOT,F13_11KSB" code="010-240" />
+<integer id="F13_dBSt_11KAZ" expression="\max 0 (- F62_TOT (* F13_dBSt_10TOT 0.05))">0</integer>
+<integer id="F13_Behinderung" expression="\max 0 F62_BehinderungTotal" code="010-235" />
+<integer id="F13_11ZSB" expression="?== F52_TOT &apos;&apos; &apos;&apos; 500" code="010-242" />
+<integer id="F13_11TotalMinusSB" expression="\max 0 -F52_TOT F13_11ZSB" />
+<integer id="F13_11ZAZ" expression="\min (\ceil *F13_10TOT 0.2) F13_11TotalMinusSB" code="010-244" />
+<integer id="F13_dBSt_11ZAZ" expression="? (&gt;= F52_TOT 100) (\min (* F13_dBSt_10TOT 0.2) F52_TOT) &apos;&apos;" />
+<integer id="F13_12TOT" expression="----F13_10TOT,F13_11KAZ,F13_Behinderung,F13_11ZAZ F52_ParteiTOT" code="010-248">13179</integer>
+<integer id="F13_dBSt_12TOT" expression="---- F13_dBSt_10TOT F13_dBSt_11KAZ F13_Behinderung F13_dBSt_11ZAZ F52_dBSt_ParteiTOT">14279</integer>
+<integer id="F13_13NSKA" expression="\ceil *F11_SteuerScale @F11_KinderVorschule" code="010-252" />
+<integer id="F13_13SAKA" expression="\ceil *F11_SteuerScale @F11_KinderAusbildung" code="010-254" />
+<integer id="F13_TotKinderabzugKanton" expression="+F13_13NSKA F13_13SAKA" />
+<integer id="F13_dBSt_13KA" expression="\ceil **F11_SteuerScale F11_KIANZ 6500">0</integer>
+<integer id="F13_256Total" expression="F101_TotalAusbildungskosten" code="010-256" />
+<table id="F13OV5TAB">
+<list id="F13_13UPBZ" entry-type="string" code="010-10264" />
+<list id="F13_13UPAZ" entry-type="integer" code="010-102264" />
+</table>
+<boolean />
+<integer id="F13_13UPANZ" expression="&gt;= F13_13UPAZ \floor *F11_SteuerScale 6500" code="010-26">0</integer>
+<boolean id="F13_13UPVorhanden" expression="&gt; F13_13UPANZ 0">false</boolean>
+<integer id="F13_13UPAZTOT" expression="@F13_13UPAZ" code="010-264" />
+<integer id="F13_dBSt_UnterstuetzungsAbzug" expression="\ceil **F11_SteuerScale F13_13UPANZ 6500">0</integer>
+<integer id="F13_dBSt_Verheiratet" expression="? X_MARRIED (\ceil *F11_SteuerScale 2600) &apos;&apos;" />
+<integer id="F13_14TOTRAW" expression="--- F13_12TOT F13_13NSKA F13_13SAKA F13_256Total">13179</integer>
+<integer id="F13_dBSt_14TOTRAW" expression="--- F13_dBSt_12TOT F13_dBSt_13KA F13_dBSt_UnterstuetzungsAbzug F13_dBSt_Verheiratet">14279</integer>
+<integer id="F13_14TOTRAWAux" expression="/- F13_14TOTRAW 50 100">131</integer>
+<integer id="F13_dBSt_14TOTRAWAux" expression="/- F13_dBSt_14TOTRAW 50 100">142</integer>
+<integer id="F13_14TOT" expression="\max 0 * F13_14TOTRAWAux 100" code="010-268">13100</integer>
+<integer id="F13_dBSt_14TOT" expression="\max 0 * F13_dBSt_14TOTRAWAux 100">14200</integer>
+<integer id="F13_EinkommenSteuerbarK" expression="\trunc F13_14TOT 100">13100</integer>
+<integer id="F13_EinkommenSteuerbarB" expression="\trunc F13_dBSt_14TOT 100">14200</integer>
+</form>
+<form id="F14">
+<integer id="F14_1BVBG" code="010-302" />
+<table id="F14BVLRTAB">
+<list id="F14_303Gesellschaft" entry-type="string" min-entries="3" code="010-103041">
+<string enable="== #F14_303Gesellschaft 3" disabled="SIEHE" />
+<string enable="== #F14_303Gesellschaft 3" disabled="&apos;&apos;" />
+<string enable="== #F14_303Gesellschaft 3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_303Abschluss" entry-type="string" min-entries="3" code="010-103042">
+<string enable="== #F14_303Abschluss 3" disabled="&apos;&apos;" />
+<string enable="== #F14_303Abschluss 3" disabled="&apos;&apos;" />
+<string enable="== #F14_303Abschluss 3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_303Ablauf" entry-type="string" min-entries="3" code="010-103043">
+<string enable="== #F14_303Ablauf 3" disabled="&apos;&apos;" />
+<string enable="== #F14_303Ablauf 3" disabled="&apos;&apos;" />
+<string enable="== #F14_303Ablauf 3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_303Summe" entry-type="integer" min-entries="3" code="010-103044">
+<integer enable="== #F14_303Summe 3" disabled="&apos;&apos;" />
+<integer enable="== #F14_303Summe 3" disabled="&apos;&apos;" />
+<integer enable="== #F14_303Summe 3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_303Steuerbar" entry-type="integer" min-entries="3" code="010-304">
+<integer enable="== #F14_303Steuerbar 3" disabled="&apos;&apos;" />
+<integer enable="== #F14_303Steuerbar 3" disabled="&apos;&apos;" />
+<integer enable="== #F14_303Steuerbar 3" disabled="F14_303Betrag" />
+</list>
+</table>
+<integer id="F14_303Anzahl" expression="!= F14_303Steuerbar &apos;&apos;">0</integer>
+<integer id="F14_303Betrag" expression="@F14_303Steuerbar" />
+<table id="F14MFTAB">
+<list id="F14_MFART" entry-type="string" min-entries="2" code="010-103061">
+<string enable="&lt;#F14_MFART,3" disabled="SIEHE" />
+<string enable="&lt;#F14_MFART,3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_MFPREIS" entry-type="integer" min-entries="2" code="010-103062">
+<integer enable="&lt;#F14_MFPREIS,3" disabled="&apos;&apos;" />
+<integer enable="&lt;#F14_MFPREIS,3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_MFJG" entry-type="string" min-entries="2" code="010-103063">
+<string enable="&lt;#F14_MFJG,3" disabled="&apos;&apos;" />
+<string enable="&lt;#F14_MFJG,3" disabled="&apos;&apos;" />
+</list>
+<list id="F14_1BVMF" entry-type="integer" min-entries="2" code="010-306" entry-expression="\com.ifactory.steuersgnp2015.model.ComputeRestStwAuto [F14_MFPREIS] [F14_MFJG]" entry-over-ridable="yes">
+<integer enable="&lt;#F14_MFJG,3" disabled="&apos;&apos;" expression="\com.ifactory.steuersgnp2015.model.ComputeRestStwAuto F14_MFPREIS.0 F14_MFJG.0" over-ridable="yes" overridden="no" />
+<integer enable="&lt;#F14_MFJG,3" disabled="F14_1BVMFTOT" expression="\com.ifactory.steuersgnp2015.model.ComputeRestStwAuto F14_MFPREIS.1 F14_MFJG.1" over-ridable="yes" overridden="no" />
+</list>
+</table>
+<integer id="F14_MFANZ" expression="!= F14_1BVMF &apos;&apos;">0</integer>
+<integer id="F14_1BVMFTOT" expression="@F14_1BVMF" />
+<integer id="F14_UnverteilteErbschaften" expression="F21_UnverteilteErbschaften" code="010-308" />
+<table id="F14UVTAB">
+<list id="F14_1BVUVB" entry-type="string" min-entries="1" code="010-10310">
+<string enable="&lt;=#F14_1BVUVB,1" disabled="SIEHE" />
+</list>
+<list id="F14_1BVUV" entry-type="integer" min-entries="1" code="010-310">
+<integer enable="&lt;=#F14_1BVUV,1" disabled="F14_1BVUVTOT" />
+</list>
+</table>
+<integer id="F14_1BVUVTOT" expression="@F14_1BVUV" />
+<table id="F14GESTAB">
+<list id="F14_3BSGEB" entry-type="string" min-entries="1" code="010-103141">
+<string enable="&lt;=#F14_3BSGEB,1" disabled="SIEHE" />
+</list>
+<list id="F14_3BSGE" entry-type="integer" min-entries="1" code="010-103140">
+<integer enable="&lt;=#F14_3BSGE,1" disabled="F14_3BSGETOT" />
+</list>
+</table>
+<integer id="F14_3BSGETOT" expression="@F14_3BSGE" code="010-314" />
+<table id="F14BSASTAB">
+<list id="F14_3BSAD" entry-type="date" min-entries="1" code="010-103161">
+<date enable="&lt;=#F14_3BSASB,1" disabled="&apos;&apos;" />
+</list>
+<list id="F14_3BSASB" entry-type="string" min-entries="1" code="010-103162">
+<string enable="&lt;=#F14_3BSASB,1" disabled="SIEHE" />
+</list>
+<list id="F14_3BSAS" entry-type="integer" min-entries="1" code="010-103160">
+<integer enable="&lt;=#F14_3BSAS,1" disabled="F14_3BSASTOT" />
+</list>
+</table>
+<integer id="F14_3BSASTOT" expression="@F14_3BSAS" code="010-316" />
+<table id="F14BSLBTAB">
+<list id="F14_3BSLBB" entry-type="string" min-entries="1" code="010-103181">
+<string enable="&lt;=#F14_3BSLBB,1" disabled="SIEHE" />
+</list>
+<list id="F14_3BSLB" entry-type="integer" min-entries="1" code="010-103180">
+<integer enable="&lt;=#F14_3BSLB,1" disabled="F14_3BSLBTOT" />
+</list>
+</table>
+<integer id="F14_3BSLBTOT" expression="@F14_3BSLB" code="010-318" />
+<integer id="F14_4TOT" expression="+++++++++F23_BSWT,F14_1BVBG F14_303Betrag F14_1BVMFTOT,F14_UnverteilteErbschaften,F14_1BVUVTOT,F7Z1_Steuerwert,F14_3BSGETOT,F14_3BSASTOT,F14_3BSLBTOT" code="010-322" />
+<integer id="F14_6TOT" expression="--F14_4TOT,F51_PSTOT,F51_GSTOT" code="010-326" />
+<integer id="F14_7SAAS" expression="?X_MARRIED,&apos;&apos;,75000" code="010-330">75000</integer>
+<integer id="F14_7SAEP" expression="?X_MARRIED,150000,&apos;&apos;" code="010-332" />
+<integer id="F14_7SAKI" expression="@F11_KinderAbzug" code="010-334" />
+<integer id="F14_8TOT" expression="\max 0 ---F14_6TOT,F14_7SAAS,F14_7SAEP,F14_7SAKI" code="010-338">0</integer>
+<integer id="F14_VermoegenSteuerbar" expression="\trunc F14_8TOT 1000">0</integer>
+<integer id="F14_KapitalLeistungenAusS3aTot" code="010-95001" />
+<integer id="F14_KapitalLeistungenAusS2Tot" code="010-95002" />
+<integer id="F14_KapitalLeistungenAusUebrigeTot" code="010-95003" />
+<integer id="F14_KapitalLeistungenTot" expression="++F14_KapitalLeistungenAusS3aTot F14_KapitalLeistungenAusS2Tot F14_KapitalLeistungenAusUebrigeTot" code="010-950" />
+<merge id="F14_Kapitalleistungen">
+<columns>
+<column-definition id="F14_KapitalleistungenBetrag" entry-type="integer" code="010-10050" />
+<column-definition id="F14_KapitalleistungenArt" entry-type="string" code="010-10052" />
+</columns>
+<merge-fields condition="!=F14_KapitalLeistungenAusS3aTot &apos;&apos;">
+<field-reference source="F14_KapitalLeistungenAusS3aTot" />
+<constant-value type="string">1</constant-value>
+</merge-fields>
+<merge-fields condition="!=F14_KapitalLeistungenAusS2Tot &apos;&apos;">
+<field-reference source="F14_KapitalLeistungenAusS2Tot" />
+<constant-value type="string">2</constant-value>
+</merge-fields>
+<merge-fields condition="!=F14_KapitalLeistungenAusUebrigeTot &apos;&apos;">
+<field-reference source="F14_KapitalLeistungenAusUebrigeTot" />
+<constant-value type="string">3</constant-value>
+</merge-fields>
+</merge>
+<boolean id="F14_LOHN" code="010-10054">true</boolean>
+<integer id="F14_LOHA" code="010-10055" enable="F14_LOHN" mandatory="yes">1</integer>
+<boolean id="F14_WERT" enable="$F" code="010-10056">true</boolean>
+<boolean id="F14_BILA" code="010-10057">false</boolean>
+<boolean id="F14_ERFO" code="010-10059" />
+<boolean id="F14_FORM" code="010-10061" expression="||||||| != F41_TOT &apos;&apos; != F42_TOT &apos;&apos; | &gt; #F51_PNAMADR 0 &gt; #F51_GNAMADR 0 &gt; #F52_DAT 0 != F61_TOT &apos;&apos; | &gt;#F62_RDAT 0 &gt;#F62_BehinderungDatum 0 &gt; #F7Z1_Index 0 &gt; #F101_AusbildTotal 0">true</boolean>
+<integer id="F14_FORA" code="010-10062" expression="+++++ ?(|!= F41_TOT &apos;&apos; != F42_TOT &apos;&apos;) 1 0  ?(|| &gt; #F51_PNAMADR 0 &gt; #F51_GNAMADR 0 &gt; #F52_DAT 0) 1 0  ?(|| != F61_TOT &apos;&apos; &gt; #F62_RDAT 0 &gt; #F62_BehinderungDatum 0) 1 0 #F7Z1_Index ? (&gt; #F7Z1_Index 1) 1 0 #F101_AusbildTotal">2</integer>
+<boolean id="F14_BESC" code="010-10063" />
+<integer id="F14_BESA" code="010-10064" enable="F14_BESC" mandatory="yes" />
+<boolean id="F14_AUFS" code="010-10065" />
+<integer id="F14_AUFA" code="010-10066" enable="F14_AUFS" mandatory="yes" />
+<date id="F14_BILD" code="010-10058" enable="F14_BILA" mandatory="yes">31.12.2015</date>
+<date id="F14_ERFD" code="010-10060" enable="F14_ERFO" mandatory="yes" />
+<string id="F14_SIGO" code="010-10067" mandatory="yes">Rebstein</string>
+<date id="F14_SIGD" code="010-10068" mandatory="yes">24.3.2016</date>
+</form>
+<form id="B1" instantiation="once" print-condition="\com.ifactory.steuersgnp2015.model.BoolPreDef &apos;B1_WillDruckBelegliste&apos; $T">
+<voucher-table id="B1_VOUCHERS" />
+</form>
+</formset>
+<formset id="F2">
+<form id="F21" instantiation="once">
+<boolean id="F21_ERGX" code="100-20016" />
+<integer id="F21_ERGA" code="100-20017" enable="F21_ERGX" mandatory="yes" />
+<boolean id="F21_STEX" code="100-200161" />
+<integer id="F21_STEA" code="100-200172" enable="F21_STEX" mandatory="yes" />
+<boolean id="F21_BANX" code="100-200162" />
+<integer id="F21_BANA" code="100-200173" enable="F21_BANX" mandatory="yes" />
+<boolean id="F21_LOTX" code="100-200163" />
+<integer id="F21_LOTA" code="100-200174" enable="F21_LOTX" mandatory="yes" />
+<boolean id="F21_WeitereBelege1" code="100-200164" />
+<string id="F21_WeitereBelegeArt1" code="100-200176" enable="F21_WeitereBelege1" mandatory="yes" />
+<boolean id="F21_WeitereBelege2" code="100-200165" />
+<string id="F21_WeitereBelegeArt2" code="100-200175" enable="F21_WeitereBelege2" mandatory="yes" />
+<string id="F21_SIGO" code="100-20018" expression="F14_SIGO">Rebstein</string>
+<date id="F21_SIGD" code="100-20019" expression="F14_SIGD">24.3.2016</date>
+<boolean id="F21_VE" code="100-20011">false</boolean>
+<string id="F21_VESE" expression="?F21_VE SIEHE &apos;&apos;" />
+<table id="ZA1TAB">
+<list id="F21_VENAM" min-entries="1" entry-type="string" code="100-200111" emit-code="F21_VE">
+<string enable="&amp; F21_VE &lt;=(#F21_VENAM,1)" disabled="F21_VESE" />
+</list>
+<list id="F21_VEDAT" min-entries="1" entry-type="date" code="100-200114" emit-code="F21_VE">
+<date enable="&amp; F21_VE &lt;=(#F21_VEDAT,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VETEI" min-entries="1" entry-type="date" code="100-200116" emit-code="F21_VE">
+<date enable="&amp; F21_VE &lt;=(#F21_VETEI,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VEWOH" min-entries="1" entry-type="string" code="100-200112" emit-code="F21_VE">
+<string enable="&amp; F21_VE &lt;=(#F21_VEWOH,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VEWOHK" min-entries="1" entry-type="string" code="100-200113" emit-code="F21_VE">
+<string enable="&amp; F21_VE &lt;=(#F21_VEWOHK,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VEBET" min-entries="1" entry-type="integer" code="100-200115" emit-code="F21_VE">
+<integer enable="&amp; F21_VE &lt;=(#F21_VEBET,1)" disabled="F21_VEBETTOT" />
+</list>
+</table>
+<integer id="F21_VEBETTOT" expression="? F21_VE @F21_VEBET &apos;&apos;" code="100-960" />
+<boolean id="F21_UE" code="100-20012">true</boolean>
+<string id="F21_UESE" expression="?F21_UE SIEHE &apos;&apos;">siehe Zusatzblätter</string>
+<table id="ZA2TAB">
+<list id="F21_UENAM" min-entries="1" entry-type="string" code="100-200121" emit-code="F21_UE">
+<string enable="&amp; F21_UE &lt;=(#F21_UENAM,1)" disabled="F21_UESE" />
+</list>
+<list id="F21_UEDAT" min-entries="1" entry-type="date" code="100-200124" emit-code="F21_UE">
+<date enable="&amp; F21_UE &lt;=(#F21_UEDAT,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_UEWOH" min-entries="1" entry-type="string" code="100-200122" emit-code="F21_UE">
+<string enable="&amp; F21_UE &lt;=(#F21_UEWOH,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_UEWOHK" min-entries="1" entry-type="string" code="100-200123" emit-code="F21_UE">
+<string enable="&amp; F21_UE &lt;=(#F21_UEWOHK,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_UEERB" min-entries="1" entry-type="integer" code="100-200125" emit-code="F21_UE">
+<integer enable="&amp; F21_UE &lt;=(#F21_UEERB,1)" disabled="F21_UnverteilteErbschaften" />
+</list>
+</table>
+<integer id="F21_UnverteilteErbschaften" expression="? F21_UE @F21_UEERB &apos;&apos;" code="100-961" />
+<boolean id="F21_SCH" code="100-20013">false</boolean>
+<string id="F21_VBSE" expression="?F21_SCH SIEHE &apos;&apos;" />
+<table id="ZA3TAB">
+<list id="F21_VBNAM" min-entries="1" entry-type="string" code="100-200131" emit-code="F21_SCH">
+<string enable="&amp; F21_SCH &lt;=(#F21_VBNAM,1)" disabled="F21_VBSE" />
+</list>
+<list id="F21_VBDAT" min-entries="1" entry-type="date" code="100-200133" emit-code="F21_SCH">
+<date enable="&amp; F21_SCH &lt;=(#F21_VBDAT,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VBADR" min-entries="1" entry-type="string" code="100-200132" emit-code="F21_SCH">
+<string enable="&amp; F21_SCH &lt;=(#F21_VBADR,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VBVWG" min-entries="1" entry-type="string" code="100-200135" emit-code="F21_SCH">
+<string enable="&amp; F21_SCH &lt;=(#F21_VBVWG,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VBBET" min-entries="1" entry-type="integer" code="100-200134" emit-code="F21_SCH">
+<integer enable="&amp; F21_SCH &lt;=(#F21_VBBET,1)" disabled="F21_VBBETTOT" />
+</list>
+</table>
+<integer id="F21_VBBETTOT" expression="? F21_SCH @F21_VBBET &apos;&apos;" code="100-962" />
+<boolean id="F21_VV" code="100-20014">false</boolean>
+<string id="F21_VVSE" expression="?F21_VV SIEHE &apos;&apos;" />
+<table id="ZA4TAB">
+<list id="F21_VVNAM" min-entries="1" entry-type="string" code="100-200141" emit-code="F21_VV">
+<string enable="&amp; F21_VV &lt;=(#F21_VVNAM,1)" disabled="F21_VVSE" />
+</list>
+<list id="F21_VVDAT" min-entries="1" entry-type="date" code="100-200143" emit-code="F21_VV">
+<date enable="&amp; F21_VV &lt;=(#F21_VVDAT,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VVADR" min-entries="1" entry-type="string" code="100-200142" emit-code="F21_VV">
+<string enable="&amp; F21_VV &lt;=(#F21_VVADR,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VVVWG" min-entries="1" entry-type="string" code="100-200145" emit-code="F21_VV">
+<string enable="&amp; F21_VV &lt;=(#F21_VVVWG,1)" disabled="&apos;&apos;" />
+</list>
+<list id="F21_VVBET" min-entries="1" entry-type="integer" code="100-200144" emit-code="F21_VV">
+<integer enable="&amp; F21_VV &lt;=(#F21_VVBET,1)" disabled="F21_VVBETTOT" />
+</list>
+</table>
+<integer id="F21_VVBETTOT" expression="? F21_VV @F21_VVBET &apos;&apos;" code="100-963" />
+<boolean id="F21_KOL" code="100-20015">false</boolean>
+<string id="F21_KOLSE" expression="?F21_KOL SIEHE &apos;&apos;" />
+<table id="ZA5TAB">
+<list id="F21_FIRM" min-entries="1" entry-type="string" code="100-200151" emit-code="F21_KOL">
+<string enable="&amp; F21_KOL &lt;(#F21_FIRM,2)" disabled="F21_KOLSE" />
+</list>
+</table>
+</form>
+<form id="F22" instantiation="once">
+<table id="F22_Wertschriften">
+<list id="F22_MainTaxClass" entry-type="string" />
+<list id="F22_TaxClasses" entry-type="string" />
+<list id="F22_Code" entry-type="string" />
+<list id="F22_Currency" entry-type="string" />
+<list id="F22_Amount" entry-type="float" />
+<list id="F22_CurrencyAmount" entry-type="string" />
+<list id="F22_ValorNumber" entry-type="string" />
+<list id="F22_ValorName" entry-type="text" />
+<list id="F22_ValorNameShort" entry-type="text" entry-expression="? [F22_IsKurslistenValor] \com.ifactory.steuersgnp2015.model.OpSingleline [F22_ValorName] [F22_ValorName]" />
+<list id="F22_ValorNameShortInkZuAbgaenge" entry-type="string" entry-expression="\com.ifactory.steuersgnp2015.model.OpMergeNameZuAbgaenge [F22_ValorNameShort] [F22_ValorInfoInkZuAbgaenge]" />
+<list id="F22_ValorInfo" entry-type="string" />
+<list id="F22_ValorInfoInkZuAbgaenge" entry-type="string" />
+<list id="F22_ValorKind" entry-type="string" />
+<list id="F22_KurslistenInfo" entry-type="text" />
+<list id="F22_Buy" entry-type="date" />
+<list id="F22_Sell" entry-type="date" />
+<list id="F22_UnitTaxable" entry-type="float" />
+<list id="F22_TaxableCHF" entry-type="dictionary" />
+<list id="F22_ReturnCHF" entry-type="dictionary" />
+<list id="F22_AmountOverrides" entry-type="dictionary" />
+<list id="F22_IsKurslistenValor" entry-type="boolean" />
+<list id="F22_MutationsForward" entry-type="boolean" />
+<list id="F22_Mutations" entry-type="list" entry-entry-type="dictionary" />
+<list id="F22_KLK" entry-type="string" entry-expression="?[F22_IsKurslistenValor] &apos;K&apos; &apos;&apos;" />
+<list id="F22_RubrikAKleiner200" entry-type="boolean" entry-expression="&amp; &amp; | == [F22_ValorKind] &apos;BP&apos; == [F22_ValorKind] &apos;UE&apos; &lt;= \get [F22_ReturnCHF] &apos;A&apos; 200 == [F22_MainTaxClass] &apos;A&apos;" />
+<list id="F22_IupCheckBox" entry-type="boolean" />
+<list id="F22_IupErtrag" entry-type="integer" />
+<list id="F22_ReturnCHFOhneIup" entry-type="integer" entry-expression="+ \sum [F22_ReturnCHF] [F22_IupErtrag]" />
+</table>
+<integer id="F22_WVTableSelectedIndex">0</integer>
+<view id="F22_WertschriftenAB" source="F22_Wertschriften">
+<view-column id="F22_CODE" source="F22_Code" entry-type="string" />
+<view-column id="F22_STK" source="F22_CurrencyAmount" entry-type="string" />
+<view-column id="F22_VAL" source="F22_ValorNumber" entry-type="string" />
+<view-column id="F22_VALNAME" source="F22_ValorNameShortInkZuAbgaenge" entry-type="text" />
+<view-column id="F22_VON" source="F22_Buy" entry-type="date" />
+<view-column id="F22_BIS" source="F22_Sell" entry-type="date" />
+<view-column id="F22_STPROZ" source="F22_UnitTaxable" entry-type="float" />
+<view-column id="F22_STWERT" source="F22_TaxableCHF" entry-type="integer" value-function="com.ifactory.steuersgnp2015.model.VFDictGetTotalSG" value-function-params="A B" />
+<view-column id="F22_BERTRAGA" source="F22_ReturnCHF" entry-type="integer" value-function="com.ifactory.dom.VFDictGet" value-function-params="A" />
+<view-column id="F22_BERTRAGB" source="F22_ReturnCHF" entry-type="integer" value-function="com.ifactory.steuersgnp2015.model.VFRubrikBMitVerrechnetemIup" value-function-params="B" />
+<view-column id="F22_KLSign" source="F22_KLK" entry-type="string" />
+</view>
+<view id="F22_WertschriftenAB_VRSG" source="F22_Wertschriften" filter-function="com.ifactory.dom.FFExpandList" filter-function-params="1 F22_Mutations">
+<view-column id="F22_Index_VRSG" entry-type="integer" value-function="com.ifactory.steuersgnp2015.model.VFIndex" code="100-20036" />
+<view-column id="F22_Rubrik_VRSG" entry-type="string" source="F22_TaxClasses" code="100-20033" />
+<view-column id="F22_MutationKind_VRSG" entry-type="string" value-function="com.ifactory.steuersgnp2015.model.VFMutationKind" value-function-params="F22_VON_VRSG F22_BIS_VRSG" code="100-20035" />
+<view-column id="F22_Kind_VRSG" entry-type="string" source="F22_ValorKind" code="100-20034" />
+<view-column id="F22_CODE_VRSG" source="F22_Code" entry-type="string" code="100-20020" />
+<view-column id="F22_CURRENCY_VRSG" source="F22_Currency" entry-type="string" code="100-20039" />
+<view-column id="F22_AMOUNT_VRSG" source="F22_Amount" value-function="com.ifactory.dom.VFDictListGet" value-function-params="F22_Mutations amount" entry-type="string" code="100-20021" />
+<view-column id="F22_VALORNR_VRSG" source="F22_ValorNumber" entry-type="string" code="100-20022" />
+<view-column id="F22_BEZ_VRSG" source="F22_ValorNameShort" entry-type="text" code="100-20023" />
+<view-column id="F22_VON_VRSG" source="F22_Buy" entry-type="date" value-function="com.ifactory.steuer.wv.VFBuy" value-function-params="F22_Mutations date" code="100-20024" />
+<view-column id="F22_BIS_VRSG" source="F22_Sell" entry-type="date" value-function="com.ifactory.steuer.wv.VFSell" value-function-params="F22_Mutations date" code="100-20025" />
+<view-column id="F22_STPROZ_VRSG" source="F22_UnitTaxable" entry-type="float" code="100-20026" />
+<view-column id="F22_STWERT_VRSG" source="F22_TaxableCHF" entry-type="integer" value-function="com.ifactory.steuersgnp2015.model.VFDictGetTotalSG" value-function-params="A B" code="100-20027" />
+<view-column id="F22_BERTRAGA_VRSG" source="F22_ReturnCHF" entry-type="integer" value-function="com.ifactory.dom.VFDictGet" value-function-params="A" code="100-20028" />
+<view-column id="F22_BERTRAGB_VRSG" source="F22_ReturnCHF" entry-type="integer" value-function="com.ifactory.steuersgnp2015.model.VFRubrikBMitVerrechnetemIup" value-function-params="B" code="100-20048" />
+<view-column id="F22_KLSign_VRSG" source="F22_KLK" entry-type="string" code="100-20029" />
+</view>
+<list id="F22_SteuerwertG" entry-type="integer" source="F22_STWERT" filter="|| ==[F22_CODE] &apos;G&apos; ==[F22_CODE] &apos;g&apos; ==[F22_CODE] &apos;BG&apos;" />
+<list id="F22_ErtragGA" entry-type="float" source="F22_BERTRAGA" filter="|| ==[F22_CODE] &apos;G&apos; ==[F22_CODE] &apos;g&apos; ==[F22_CODE] &apos;BG&apos;" />
+<list id="F22_ErtragGB" entry-type="float" source="F22_BERTRAGB" filter="|| ==[F22_CODE] &apos;G&apos; ==[F22_CODE] &apos;g&apos; ==[F22_CODE] &apos;BG&apos;" />
+<integer id="F23_BSWA" expression="@F22_SteuerwertG" code="100-20054" />
+<integer id="F23_BERA" code="100-20055" expression="+@F22_ErtragGA @F22_ErtragGB" over-ridable="yes" overridden="no" />
+<list id="F22_StWertBeteiligungP" entry-type="float" source="F22_STWERT" filter="==[F22_CODE] &apos;BP&apos;" />
+<list id="F22_StWertBeteiligungG" entry-type="float" source="F22_STWERT" filter="==[F22_CODE] &apos;BG&apos;" />
+<list id="F22_ErtragBeteiligungPA" entry-type="float" source="F22_BERTRAGA" filter="==[F22_CODE] &apos;BP&apos;" />
+<list id="F22_ErtragBeteiligungPB" entry-type="float" source="F22_BERTRAGB" filter="==[F22_CODE] &apos;BP&apos;" />
+<list id="F22_ErtragBeteiligungGA" entry-type="float" source="F22_BERTRAGA" filter="==[F22_CODE] &apos;BG&apos;" />
+<list id="F22_ErtragBeteiligungGB" entry-type="float" source="F22_BERTRAGB" filter="==[F22_CODE] &apos;BG&apos;" />
+<integer id="F23_AbzBeteiligungPrivat" expression="+ @F22_ErtragBeteiligungPA @F22_ErtragBeteiligungPB" code="100-20058" />
+<integer id="F23_AbzBeteiligungGesch" expression="+ @F22_ErtragBeteiligungGA @F22_ErtragBeteiligungGB" over-ridable="yes" code="100-20059" overridden="no" />
+<integer id="F22_ASWE" expression="^F22_STWERT" />
+<integer id="F22_ASW" expression="@F22_STWERT" code="100-20030" />
+<integer id="F23_BSWT" expression="-F22_ASW F23_BSWA" code="010-300" />
+<integer id="F23_BSWT2" expression="F23_BSWT" code="100-20056" />
+<integer id="F22_AERE" expression="^F22_BERTRAGA" />
+<integer id="F22_AERRAW" expression="@F22_BERTRAGA" code="100-20031" />
+<integer id="F22_AER" expression="\max 0 F22_AERRAW" />
+<integer id="F22_BERE" expression="^F22_BERTRAGB" />
+<integer id="F22_BER" expression="@F22_BERTRAGB" code="100-20051" />
+<integer id="F22_BERB" expression="+F22_BER,F22_AER" />
+<integer id="F22_AbzVermVerKost" code="100-220" />
+<integer id="F23_BERT" expression="----F22_BERB F23_BERA F23_AbzBeteiligungPrivat F23_AbzBeteiligungGesch F22_AbzVermVerKost" code="100-20057" />
+<float id="F22_AVS" expression="\commercial *(0.35, F22_AER)" code="100-999" />
+<float id="F22_AVSKopie" expression="F22_AVS" code="100-20032" />
+</form>
+</formset>
+<formset id="F4">
+<form id="F41" instantiation="once" print-condition="!= F41_TOT &apos;&apos;">
+<table id="F41TAB21">
+<list id="F41_21VON" entry-type="date" min-entries="2" code="106-404001">
+<date enable="== #F41_21VON 2" disabled="&apos;&apos;">15.9.2015</date>
+<date enable="== #F41_21VON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_21BIS" entry-type="date" min-entries="2" code="106-404002">
+<date enable="== #F41_21BIS 2" disabled="&apos;&apos;">31.12.2015</date>
+<date enable="== #F41_21BIS 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_21WVON" entry-type="string" min-entries="2" code="106-404003">
+<string enable="== #F41_21WVON 2" disabled="&apos;&apos;">Rebstein-Marbach</string>
+<string enable="== #F41_21WVON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_21WNACH" entry-type="string" min-entries="2" code="106-404004">
+<string enable="== #F41_21WNACH 2" disabled="&apos;&apos;">Zürich HB</string>
+<string enable="== #F41_21WNACH 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_21OEV" entry-type="integer" min-entries="2" code="106-400">
+<integer enable="==#F41_21OEV 2" disabled="F41_21ABZ">1200</integer>
+<integer enable="== #F41_21OEV 2" disabled="&apos;&apos;" />
+</list>
+</table>
+<integer id="F41_21ANZ" expression="!= F41_21OEV &apos;&apos;">1</integer>
+<string id="F41_21SIEHE" expression="? &gt; #F41_21OEV 2 SIEHE &apos;&apos;" />
+<integer id="F41_21ABZ" expression="@F41_21OEV">1200</integer>
+<integer id="F41_22ABZ" code="106-402" />
+<boolean id="F41_23OEV" code="106-40004" />
+<boolean id="F41_23ZEI" code="106-40005" />
+<boolean id="F41_23FIR" code="106-40006" />
+<boolean id="F41_23KRA" code="106-40007" />
+<boolean id="F41_23WEI" code="106-40008" />
+<string id="F41_23GRU" code="106-40009" />
+<table id="F41TAB23">
+<list id="F41_23VON" entry-type="date" min-entries="2" code="106-404041">
+<date enable="== #F41_23VON 2" disabled="&apos;&apos;" />
+<date enable="== #F41_23VON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23BIS" entry-type="date" min-entries="2" code="106-404042">
+<date enable="== #F41_23BIS 2" disabled="&apos;&apos;" />
+<date enable="== #F41_23BIS 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23WVON" entry-type="string" min-entries="2" code="106-404043">
+<string enable="== #F41_23WVON 2" disabled="&apos;&apos;" />
+<string enable="== #F41_23WVON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23WNACH" entry-type="string" min-entries="2" code="106-404044">
+<string enable="== #F41_23WNACH 2" disabled="&apos;&apos;" />
+<string enable="== #F41_23WNACH 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23KMWEG" entry-type="integer" min-entries="2" code="106-404045">
+<integer enable="== #F41_23KMWEG 2" disabled="&apos;&apos;" />
+<integer enable="== #F41_23KMWEG 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23KMTAG" entry-type="integer" min-entries="2" code="106-404046">
+<integer enable="== #F41_23KMTAG 2" disabled="&apos;&apos;" />
+<integer enable="== #F41_23KMTAG 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23TAGE" entry-type="integer" min-entries="2" code="106-404047">
+<integer enable="== #F41_23TAGE 2" disabled="&apos;&apos;" />
+<integer enable="== #F41_23TAGE 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_23TOTKM" entry-type="integer" min-entries="2" code="106-404048" entry-expression="*[F41_23KMTAG][F41_23TAGE]">
+<integer expression="*F41_23KMTAG.0,F41_23TAGE.0" />
+<integer expression="*F41_23KMTAG.1,F41_23TAGE.1" />
+</list>
+</table>
+<integer id="F41_23ANZ" expression="!= F41_23TOTKM &apos;&apos;">0</integer>
+<integer id="F41_23TOTKM0" expression="? == #F41_23TOTKM 2 F41_23TOTKM.0 &apos;&apos;" />
+<integer id="F41_23TOTKM1" expression="? == #F41_23TOTKM 2 F41_23TOTKM.1 &apos;&apos;" />
+<string id="F41_23SIEHE" expression="? &gt; #F41_23TOTKM 2 &apos;Details siehe Zusatzblätter&apos; &apos;&apos;" />
+<integer id="F41_23KIL" expression="@F41_23TOTKM" code="106-404049" />
+<integer id="F41_23KostenBerechnet" expression="\com.ifactory.steuersgnp2015.model.BKPrivatAutoKosten F41_23KIL F11_Beendigung" />
+<integer id="F41_23AnsatzBerechnet" expression="/*F41_23KostenBerechnet 100 F41_23KIL" code="106-4040413" />
+<integer id="F41_23AnsatzManuell" code="106-4040410" />
+<integer id="F41_23KostenManuell" expression="\ceil /*F41_23KIL F41_23AnsatzManuell 100" />
+<integer id="F41_23Ansatz" expression="?!= F41_23AnsatzManuell &apos;&apos; F41_23AnsatzManuell F41_23AnsatzBerechnet" />
+<integer id="F41_23ABZ" expression="?!= F41_23AnsatzManuell &apos;&apos; F41_23KostenManuell F41_23KostenBerechnet" code="106-404" />
+<integer id="F41_31TAG" code="106-404408">153</integer>
+<integer id="F41_31ABZ" expression="\min 3200 *F41_31TAG 15" code="106-408">2295</integer>
+<integer id="F41_32TAG" code="106-404410" />
+<integer id="F41_32ABZ" expression="\min 1600 \ceil *F41_32TAG 7.5" code="106-410" />
+<integer id="F41_33TAG" code="106-404412" />
+<integer id="F41_33ABZ" expression="\min 3200 *F41_33TAG 15" code="106-412" />
+<boolean id="F41_4EFF">false</boolean>
+<integer id="F41_41Einkommen" expression="\ceil /+F12_1HBEMTOT F12_3ATEM F11_SteuerScale">21474</integer>
+<integer id="F41_41AbzugVoll" expression="?&gt;F41_41Einkommen 0 (\min 2400 +700 \ceil *F41_41Einkommen 0.1) &apos;&apos;">2400</integer>
+<integer id="F41_41Abzug" expression="\ceil *F11_SteuerScale F41_41AbzugVoll">2400</integer>
+<integer id="F41_41ABZ" expression="? !F41_4EFF F41_41Abzug &apos;&apos;" code="106-416">2400</integer>
+<integer id="F41_dBSt_41ABZ" expression="? !F41_4EFF (? (&gt; F41_41Einkommen 0) (\ceil *F11_SteuerScale (\max\min (* F41_41Einkommen 0.03) 4000 2000) &apos;&apos;)) &apos;&apos;">2000</integer>
+<string id="F41_42Siehe" expression="?F41_4EFF SIEHE &apos;&apos;" />
+<table id="F41TAB42">
+<list id="F41_42BEZ" entry-type="string" min-entries="1" code="106-404181" emit-code="F41_4EFF">
+<string enable="&amp;F41_4EFF,&lt;#F41_42BEZ,2" disabled="F41_42Siehe" />
+</list>
+<list id="F41_42BETR" entry-type="integer" min-entries="1" code="106-404180" emit-code="F41_4EFF">
+<integer enable="&amp;F41_4EFF,&lt;#F41_42BETR,2" disabled="F41_42ABZ" />
+</list>
+</table>
+<integer id="F41_42ABZ" expression="?F41_4EFF,@F41_42BETR,&apos;&apos;" code="106-418" />
+<boolean id="F41_PrintEffUEKosten" expression="&amp; F41_4EFF &gt; #F41_42BETR 1">false</boolean>
+<table id="F41TAB51">
+<list id="F41_51ABZART" entry-type="string" min-entries="2" code="106-404221">
+<string enable="&lt;= #F41_51ABZART 2" disabled="SIEHE" />
+<string enable="&lt;= #F41_51ABZART 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_51ABZDat" entry-type="date" min-entries="2" code="106-404220">
+<date enable="&lt;= #F41_51ABZDat 2" disabled="&apos;&apos;" />
+<date enable="&lt;= #F41_51ABZDat 2" disabled="&apos;&apos;" />
+</list>
+<list id="F41_51ABZ" entry-type="integer" min-entries="2" code="106-422">
+<integer enable="&lt;= #F41_51ABZ 2" disabled="@F41_51ABZ" />
+<integer enable="&lt;= #F41_51ABZ 2" disabled="&apos;&apos;" />
+</list>
+</table>
+<integer id="F41_51ABZTOT" expression="@F41_51ABZ" />
+<table id="F41_51WeiterbildungZukunftTable">
+<list id="F41_51WeiterbildungZukunftArt" entry-type="string" />
+<list id="F41_51WeiterbildungZukunftDatum" entry-type="date" />
+<list id="F41_51WeiterbildungZukunftBetrag" entry-type="integer" />
+</table>
+<integer id="F41_51WeiterbildungZukunft" expression="@F41_51WeiterbildungZukunftBetrag" />
+<table id="F41TAB61">
+<list id="F41_61ANZMON" entry-type="integer" min-entries="1" code="106-404261">
+<integer enable="&lt;=#F41_61ANZMON,1" disabled="&apos;&apos;" />
+</list>
+<list id="F41_61KOSTMON" entry-type="integer" min-entries="1" code="106-404262">
+<integer enable="&lt;=#F41_61KOSTMON,1" disabled="&apos;&apos;" />
+</list>
+<list id="F41_61KOST" entry-type="integer" entry-expression="*[F41_61ANZMON],[F41_61KOSTMON]" min-entries="1" code="106-404263">
+<integer expression="*[F41_61ANZMON],[F41_61KOSTMON]" />
+</list>
+</table>
+<integer id="F41_61ABZ" expression="@F41_61KOST" code="106-426" />
+<boolean id="F41_WochenAufentKuecheJa">false</boolean>
+<integer id="F41_621TAG" code="106-404271" />
+<integer id="F41_622TAG" code="106-404272" />
+<integer id="F41_62MAX" expression="?&gt;F41_621TAG, 0, ?F41_WochenAufentKuecheJa 3200 6400, ?F41_WochenAufentKuecheJa 1600 4800">4800</integer>
+<integer id="F41_62ABZROH" expression="+(*F41_621TAG, ?F41_WochenAufentKuecheJa 15 30),(\ceil *F41_622TAG, ?F41_WochenAufentKuecheJa 7.50 22.5))" />
+<integer id="F41_62ABZ" expression="\min F41_62MAX,F41_62ABZROH" code="106-428" />
+<boolean id="F41_7EFF">false</boolean>
+<integer id="F41_71Einkommen" expression="\ceil /F12_1NBEMTOT F11_SteuerScale" />
+<integer id="F41_71AbzugVoll" expression="?&gt;F41_71Einkommen 0 (\min 2400 \max 800 \ceil *F41_71Einkommen 0.2),&apos;&apos;" />
+<integer id="F41_71Abzug" expression="\min F12_1NBEMTOT \ceil *F11_SteuerScale F41_71AbzugVoll" />
+<integer id="F41_71ABZ" expression="? !F41_7EFF F41_71Abzug &apos;&apos;" code="106-432" />
+<string id="F41_72Siehe" expression="?F41_7EFF SIEHE &apos;&apos;" />
+<table id="F41TAB72">
+<list id="F41_72BEZ" entry-type="string" min-entries="1" code="106-404341" emit-code="F41_7EFF">
+<string enable="&amp;F41_7EFF,&lt;#F41_72BEZ,2" disabled="F41_72Siehe" />
+</list>
+<list id="F41_72BETR" entry-type="integer" min-entries="1" code="106-404340" emit-code="F41_7EFF">
+<integer enable="&amp;F41_7EFF,&lt;#F41_72BETR,2" disabled="F41_72ABZ" />
+</list>
+</table>
+<boolean id="F41_PrintEffNEKosten" expression="&amp; F41_7EFF &gt; #F41_72BETR 1">false</boolean>
+<integer id="F41_72ABZ" expression="?F41_7EFF,@F41_72BETR,&apos;&apos;" code="106-434" />
+<integer id="F41_7ABZROH" expression="?F41_7EFF,F41_72ABZ,F41_71ABZ" />
+<boolean id="F41_7ABZCUT" expression="&amp; (&gt; F41_7ABZROH) 0) !(&gt;= F12_1NBEMTOT F41_7ABZROH)">false</boolean>
+<integer id="F41_7ABZ" expression="?F41_7ABZCUT,F12_1NBEMTOT,F41_7ABZROH" />
+<integer id="F41_ABZROH" expression="++++++++++F41_21ABZ F41_22ABZ F41_23ABZ F41_31ABZ F41_32ABZ F41_33ABZ F41_41ABZ F41_42ABZ F41_51ABZTOT F41_61ABZ F41_62ABZ">5895</integer>
+<integer id="F41_dBSt_ABZROH" expression="+- F41_ABZROH F41_41ABZ F41_dBSt_41ABZ">5495</integer>
+<boolean id="F41_ABZCUT" expression="&amp; (&gt; F41_ABZROH 0) !(&gt;= F41_41Einkommen F41_ABZROH)">false</boolean>
+<integer id="F41_ABZ" expression="?F41_ABZCUT F41_41Einkommen F41_ABZROH">5895</integer>
+<integer id="F41_dBSt_ABZ" expression="? F41_ABZCUT F41_41Einkommen F41_dBSt_ABZROH">5495</integer>
+<integer id="F41_TOT" expression="+F41_ABZ F41_7ABZ" code="106-438">5895</integer>
+<integer id="F41_dBSt_TOT" expression="+ F41_dBSt_ABZ F41_7ABZ">5495</integer>
+<string id="F41_CUTWARN" expression="?|F41_7ABZCUT,F41_ABZCUT,&apos;Die Summe der Abzüge wurde gekürzt, weil sie das Einkommen übersteigt&apos;,&apos;&apos;" />
+</form>
+<form id="F42" instantiation="once" print-condition="!= F42_TOT &apos;&apos;">
+<table id="F42TAB21">
+<list id="F42_21VON" entry-type="date" min-entries="2" code="107-404501">
+<date enable="== #F42_21VON 2" disabled="&apos;&apos;" />
+<date enable="== #F42_21VON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_21BIS" entry-type="date" min-entries="2" code="107-404502">
+<date enable="== #F42_21BIS 2" disabled="&apos;&apos;" />
+<date enable="== #F42_21BIS 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_21WVON" entry-type="string" min-entries="2" code="107-404503">
+<string enable="== #F42_21WVON 2" disabled="&apos;&apos;" />
+<string enable="== #F42_21WVON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_21WNACH" entry-type="string" min-entries="2" code="107-404504">
+<string enable="== #F42_21WNACH 2" disabled="&apos;&apos;" />
+<string enable="== #F42_21WNACH 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_21OEV" entry-type="integer" min-entries="2" code="107-450">
+<integer enable="== #F42_21OEV 2" disabled="F42_21ABZ" />
+<integer enable="== #F42_21OEV 2" disabled="&apos;&apos;" />
+</list>
+</table>
+<integer id="F42_21ANZ" expression="!= F42_21OEV &apos;&apos;">0</integer>
+<string id="F42_21SIEHE" expression="? &gt; #F42_21OEV 2 SIEHE &apos;&apos;" />
+<integer id="F42_21ABZ" expression="@F42_21OEV" />
+<integer id="F42_22ABZ" code="107-452" />
+<boolean id="F42_23OEV" code="107-40013" />
+<boolean id="F42_23ZEI" code="107-40014" />
+<boolean id="F42_23FIR" code="107-40015" />
+<boolean id="F42_23KRA" code="107-40016" />
+<boolean id="F42_23WEI" code="107-40017" />
+<string id="F42_23GRU" code="107-40018" />
+<table id="F42TAB23">
+<list id="F42_23VON" entry-type="date" min-entries="2" code="107-404541">
+<date enable="== #F42_23VON 2" disabled="&apos;&apos;" />
+<date enable="== #F42_23VON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23BIS" entry-type="date" min-entries="2" code="107-404542">
+<date enable="== #F42_23BIS 2" disabled="&apos;&apos;" />
+<date enable="== #F42_23BIS 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23WVON" entry-type="string" min-entries="2" code="107-404543">
+<string enable="== #F42_23WVON 2" disabled="&apos;&apos;" />
+<string enable="== #F42_23WVON 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23WNACH" entry-type="string" min-entries="2" code="107-404544">
+<string enable="== #F42_23WNACH 2" disabled="&apos;&apos;" />
+<string enable="== #F42_23WNACH 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23KMWEG" entry-type="integer" min-entries="2" code="107-404545">
+<integer enable="== #F42_23KMWEG 2" disabled="&apos;&apos;" />
+<integer enable="== #F42_23KMWEG 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23KMTAG" entry-type="integer" min-entries="2" code="107-404546">
+<integer enable="== #F42_23KMTAG 2" disabled="&apos;&apos;" />
+<integer enable="== #F42_23KMTAG 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23TAGE" entry-type="integer" min-entries="2" code="107-404547">
+<integer enable="== #F42_23TAGE 2" disabled="&apos;&apos;" />
+<integer enable="== #F42_23TAGE 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_23TOTKM" entry-type="integer" min-entries="2" code="107-404548" entry-expression="*[F42_23KMTAG][F42_23TAGE]">
+<integer expression="*F42_23KMTAG.0,F42_23TAGE.0" />
+<integer expression="*F42_23KMTAG.1,F42_23TAGE.1" />
+</list>
+</table>
+<integer id="F42_23ANZ" expression="!= F42_23TOTKM &apos;&apos;">0</integer>
+<integer id="F42_23TOTKM0" expression="? == #F42_23TOTKM 2 F42_23TOTKM.0 &apos;&apos;" />
+<integer id="F42_23TOTKM1" expression="? == #F42_23TOTKM 2 F42_23TOTKM.1 &apos;&apos;" />
+<string id="F42_23SIEHE" expression="? &gt; #F42_23TOTKM 2 &apos;Details siehe Zusatzblätter&apos; &apos;&apos;" />
+<integer id="F42_23KIL" expression="@F42_23TOTKM" code="107-404549" />
+<integer id="F42_23KostenBerechnet" expression="\com.ifactory.steuersgnp2015.model.BKPrivatAutoKosten F42_23KIL F11_Beendigung" />
+<integer id="F42_23AnsatzBerechnet" expression="/*F42_23KostenBerechnet 100 F42_23KIL" code="107-4045413" />
+<integer id="F42_23AnsatzManuell" code="107-4045410" />
+<integer id="F42_23KostenManuell" expression="\ceil /*F42_23KIL F42_23AnsatzManuell 100" />
+<integer id="F42_23Ansatz" expression="?!= F42_23AnsatzManuell &apos;&apos; F42_23AnsatzManuell F42_23AnsatzBerechnet" />
+<integer id="F42_23ABZ" expression="?!= F42_23AnsatzManuell &apos;&apos; F42_23KostenManuell F42_23KostenBerechnet" code="107-454" />
+<integer id="F42_31TAG" code="107-404458" />
+<integer id="F42_31ABZ" expression="\min 3200 *F42_31TAG 15" code="107-458" />
+<integer id="F42_32TAG" code="107-404460" />
+<integer id="F42_32ABZ" expression="\min 1600 \ceil *F42_32TAG 7.5" code="107-460" />
+<integer id="F42_33TAG" code="107-404462" />
+<integer id="F42_33ABZ" expression="\min 3200 *F42_33TAG 15" code="107-462" />
+<boolean id="F42_4EFF">false</boolean>
+<integer id="F42_41Einkommen" expression="\ceil /+F12_1HBEFTOT F12_3ATEF F11_SteuerScale" />
+<integer id="F42_41AbzugVoll" expression="?&gt; F42_41Einkommen 0 (\min 2400 +700 \ceil *F42_41Einkommen 0.1) &apos;&apos;" />
+<integer id="F42_41Abzug" expression="\ceil *F11_SteuerScale F42_41AbzugVoll" />
+<integer id="F42_41ABZ" expression="? !F42_4EFF F42_41Abzug &apos;&apos;" code="107-466" />
+<integer id="F42_dBSt_41ABZ" expression="? !F42_4EFF (? (&gt; F42_41Einkommen 0) (\ceil *F11_SteuerScale (\max\min (* F42_41Einkommen 0.03) 4000 2000) &apos;&apos;)) &apos;&apos;" />
+<string id="F42_42Siehe" expression="?F42_4EFF SIEHE &apos;&apos;" />
+<table id="F42TAB42">
+<list id="F42_42BEZ" entry-type="string" min-entries="1" code="107-404681" emit-code="F42_4EFF">
+<string enable="&amp;F42_4EFF,&lt;#F42_42BEZ,2" disabled="F42_42Siehe" />
+</list>
+<list id="F42_42BETR" entry-type="integer" min-entries="1" code="107-404680" emit-code="F42_4EFF">
+<integer enable="&amp;F42_4EFF,&lt;#F42_42BETR,2" disabled="F42_42ABZ" />
+</list>
+</table>
+<integer id="F42_42ABZ" expression="?F42_4EFF,@F42_42BETR,&apos;&apos;" code="107-468" />
+<boolean id="F42_PrintEffUEKosten" expression="&amp; F42_4EFF &gt; #F42_42BETR 1">false</boolean>
+<table id="F42TAB51">
+<list id="F42_51ABZART" entry-type="string" min-entries="2" code="107-404721">
+<string enable="&lt;= #F42_51ABZART 2" disabled="SIEHE" />
+<string enable="&lt;= #F42_51ABZART 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_51ABZDat" entry-type="date" min-entries="2" code="107-404720">
+<date enable="&lt;= #F42_51ABZDat 2" disabled="&apos;&apos;" />
+<date enable="&lt;= #F42_51ABZDat 2" disabled="&apos;&apos;" />
+</list>
+<list id="F42_51ABZ" entry-type="integer" min-entries="2" code="107-472">
+<integer enable="&lt;= #F42_51ABZ 2" disabled="@F42_51ABZ" />
+<integer enable="&lt;= #F42_51ABZ 2" disabled="&apos;&apos;" />
+</list>
+</table>
+<integer id="F42_51ABZWEI" expression="^F42_51ABZ" />
+<integer id="F42_51ABZTOT" expression="@F42_51ABZ" />
+<table id="F42_51WeiterbildungZukunftTable">
+<list id="F42_51WeiterbildungZukunftArt" entry-type="string" />
+<list id="F42_51WeiterbildungZukunftDatum" entry-type="date" />
+<list id="F42_51WeiterbildungZukunftBetrag" entry-type="integer" />
+</table>
+<integer id="F42_51WeiterbildungZukunft" expression="@F42_51WeiterbildungZukunftBetrag" />
+<table id="F42TAB61">
+<list id="F42_61ANZMON" entry-type="integer" min-entries="1" code="107-404761">
+<integer enable="&lt;=#F42_61ANZMON,1" disabled="&apos;&apos;" />
+</list>
+<list id="F42_61KOSTMON" entry-type="integer" min-entries="1" code="107-404762">
+<integer enable="&lt;=#F42_61KOSTMON,1" disabled="&apos;&apos;" />
+</list>
+<list id="F42_61KOST" entry-type="integer" entry-expression="*[F42_61ANZMON],[F42_61KOSTMON]" min-entries="1" code="107-404763">
+<integer expression="*[F42_61ANZMON],[F42_61KOSTMON]" />
+</list>
+</table>
+<integer id="F42_61ABZ" expression="@F42_61KOST" code="107-476" />
+<boolean id="F42_WochenAufentKuecheJa">false</boolean>
+<integer id="F42_621TAG" code="107-404771" />
+<integer id="F42_622TAG" code="107-404772" />
+<integer id="F42_62MAX" expression="?&gt;F42_621TAG,0, ?F42_WochenAufentKuecheJa 3200 6400, ?F42_WochenAufentKuecheJa 1600 4800">4800</integer>
+<integer id="F42_62ABZROH" expression="+(*F42_621TAG, ?F42_WochenAufentKuecheJa 15 30),(\ceil *F42_622TAG, ?F42_WochenAufentKuecheJa 7.50 22.50))" />
+<integer id="F42_62ABZ" expression="\min F42_62MAX,F42_62ABZROH" code="107-478" />
+<boolean id="F42_7EFF">false</boolean>
+<integer id="F42_71Einkommen" expression="\ceil /F12_1NBEFTOT F11_SteuerScale" />
+<integer id="F42_71AbzugVoll" expression="?&gt;F42_71Einkommen 0 (\min 2400 \max 800 \ceil *F42_71Einkommen,0.2) &apos;&apos;" />
+<integer id="F42_71Abzug" expression="\min F12_1NBEFTOT \ceil *F11_SteuerScale F42_71AbzugVoll" />
+<integer id="F42_71ABZ" expression="? !F42_7EFF F42_71Abzug &apos;&apos;" code="107-482" />
+<string id="F42_72Siehe" expression="?F42_7EFF SIEHE &apos;&apos;" />
+<table id="F42TAB72">
+<list id="F42_72BEZ" entry-type="string" min-entries="1" code="107-404841" emit-code="F42_7EFF">
+<string enable="&amp;F42_7EFF,&lt;#F42_72BEZ,2" disabled="F42_72Siehe" />
+</list>
+<list id="F42_72BETR" entry-type="integer" min-entries="1" code="107-404840" emit-code="F42_7EFF">
+<integer enable="&amp;F42_7EFF,&lt;#F42_72BETR,2" disabled="F42_72ABZ" />
+</list>
+</table>
+<boolean id="F42_PrintEffNEKosten" expression="&amp; F42_7EFF &gt; #F42_72BETR 1">false</boolean>
+<integer id="F42_72ABZ" expression="?F42_7EFF,@F42_72BETR,&apos;&apos;" code="107-484" />
+<integer id="F42_7ABZROH" expression="?F42_7EFF,F42_72ABZ,F42_71ABZ" />
+<boolean id="F42_7ABZCUT" expression="&amp; (&gt; F42_7ABZROH) 0) !(&gt;= F12_1NBEFTOT F42_7ABZROH)">false</boolean>
+<integer id="F42_7ABZ" expression="?F42_7ABZCUT,F12_1NBEFTOT,F42_7ABZROH" />
+<integer id="F42_ABZROH" expression="++++++++++F42_21ABZ F42_22ABZ F42_23ABZ F42_31ABZ F42_32ABZ F42_33ABZ F42_41ABZ F42_42ABZ F42_51ABZTOT F42_61ABZ F42_62ABZ" />
+<integer id="F42_dBSt_ABZROH" expression="+- F42_ABZROH F42_41ABZ F42_dBSt_41ABZ" />
+<boolean id="F42_ABZCUT" expression="&amp; (&gt; F42_ABZROH 0) !(&gt;= F42_41Einkommen F42_ABZROH)">false</boolean>
+<integer id="F42_ABZ" expression="?F42_ABZCUT F42_41Einkommen F42_ABZROH" />
+<integer id="F42_dBSt_ABZ" expression="? F42_ABZCUT F42_41Einkommen F42_dBSt_ABZROH" />
+<integer id="F42_TOT" expression="?X_MARRIED(+F42_ABZ,F42_7ABZ) &apos;&apos;" code="107-488" />
+<integer id="F42_dBSt_TOT" expression="+ F42_dBSt_ABZ F42_7ABZ" />
+<string id="F42_CUTWARN" expression="?|F42_7ABZCUT,F42_ABZCUT,&apos;Die Summe der Abzüge wurde gekürzt, weil sie das Einkommen übersteigt&apos; &apos;&apos;" />
+</form>
+</formset>
+<formset id="F5">
+<form id="F51" instantiation="once" print-condition="| &gt; #F51_PNAMADR 0 &gt; #F51_GNAMADR 0">
+<table id="F51TAB1">
+<list id="F51_PNAMADR" entry-type="string" entry-mandatory="$T" code="200-50001" />
+<list id="F51_PGPSCHU" entry-type="integer" entry-mandatory="$T" code="200-50002" />
+<list id="F51_PSCHZINS" entry-type="integer" mandatory="$T" code="200-50005" />
+</table>
+<integer id="F51_PHG" expression="^F51_PGPSCHU" />
+<integer id="F51_PSTOT" expression="@F51_PGPSCHU" code="200-50006" />
+<integer id="F51_PSTOTETAX" expression="F51_PSTOT" code="200-504" />
+<integer id="F51_PHZ" expression="^F51_PSCHZINS" />
+<integer id="F51_PZTOT" expression="@F51_PSCHZINS" />
+<integer id="F51_PZTOTETAX" expression="F51_PZTOT" code="200-500" />
+<table id="F51TAB2">
+<list id="F51_GNAMADR" entry-type="string" entry-mandatory="$T" code="200-50011" />
+<list id="F51_GGPSCHU" entry-type="integer" entry-mandatory="$T" code="200-50012" />
+</table>
+<integer id="F51_GHG" expression="^F51_GGPSCHU" />
+<integer id="F51_GSTOT" expression="@F51_GGPSCHU" code="200-50016" />
+<integer id="F51_GSTOTETAX" expression="F51_GSTOT" code="200-506" />
+<integer id="F51_TotalZinsen" expression="F51_PZTOT" />
+</form>
+<form id="F52" instantiation="once" print-condition="&gt; #F52_DAT 0">
+<table id="F52_TAB">
+<list id="F52_DAT" entry-type="date" code="170-50021" />
+<list id="F52_NAMADR" entry-type="string" code="170-50022" />
+<list id="F52_BETR" entry-type="integer" code="170-50023" />
+</table>
+<integer id="F52_HER" expression="^F52_BETR" />
+<integer id="F52_TOT" expression="@F52_BETR" code="010-550" />
+<integer id="F52_TOTETAX" expression="F52_TOT" code="170-50024" />
+<table id="F52_ZukunftTable">
+<list id="F52_ZukunftDatum" entry-type="date" />
+<list id="F52_ZukunftBezeichnung" entry-type="string" />
+<list id="F52_ZukunftBetrag" entry-type="integer" />
+</table>
+<integer id="F52_ZukunftTotal" expression="@F52_ZukunftBetrag" />
+<table id="F52_ParteiTAB">
+<list id="F52_ParteiDAT" entry-type="date" code="170-55521" />
+<list id="F52_ParteiNAMADR" entry-type="string" code="170-55522" />
+<list id="F52_ParteiBETR" entry-type="integer" code="170-55523" />
+</table>
+<integer id="F52_ParteiHER" expression="^F52_ParteiBETR" />
+<integer id="F52_ParteiTOT" expression="\min ?X_MARRIED 20000 10000 @F52_ParteiBETR" code="010-555" />
+<integer id="F52_dBSt_ParteiTOT" expression="\min @F52_ParteiBETR 10100" />
+<integer id="F52_ParteiTOTETAX" expression="F52_ParteiTOT" code="170-55524" />
+<table id="F52_ParteiZukunftTable">
+<list id="F52_ParteiZukunftDatum" entry-type="date" />
+<list id="F52_ParteiZukunftBezeichnung" entry-type="string" />
+<list id="F52_ParteiZukunftBetrag" entry-type="integer" />
+</table>
+<integer id="F52_ParteiZukunftTotal" expression="@F52_ParteiZukunftBetrag" />
+</form>
+</formset>
+<formset id="F6">
+<form id="F61" instantiation="once" print-condition="!= F61_TOT &apos;&apos;">
+<integer id="F61_EhePausch" expression="4800">4800</integer>
+<integer id="F61_EzuPausch" expression="1000">1000</integer>
+<integer id="F61_AllPausch" expression="2400">2400</integer>
+<integer id="F61_AzuPausch" expression="500">500</integer>
+<integer id="F61_KinPausch" expression="600">600</integer>
+<integer id="F61_KRA" code="163-60001" mandatory="yes">2880</integer>
+<integer id="F61_UNFA" code="163-60002" />
+<integer id="F61_REN" code="163-60003" />
+<integer id="F61_WVEinkommen" expression="\max 0 ++F23_BERT F12_BeteiligungenGesch F22_AbzVermVerKost" />
+<integer id="F61_XSPA" expression="F61_WVEinkommen" over-ridable="yes" code="163-60004" overridden="no" />
+<integer id="F61_XZWI" expression="+++F61_KRA,F61_UNFA,F61_REN,F61_XSPA" code="163-60005">2880</integer>
+<integer id="F61_VER" code="163-60006" />
+<integer id="F61_PRA" expression="\max (-F61_XZWI,F61_VER) 0" code="163-60010">2880</integer>
+<boolean id="F61_KeineBeitraegeVorsorgeAbgezogen">false</boolean>
+<integer id="F61_EHE" expression="?X_MARRIED, \ceil *F11_SteuerScale F61_EhePausch,&apos;&apos;" code="163-60011" />
+<integer id="F61_dBSt_EHE" expression="? X_MARRIED ?F61_KeineBeitraegeVorsorgeAbgezogen 5250 3500 &apos;&apos;" />
+<integer id="F61_EZU" expression="? (&amp; X_MARRIED F61_KeineBeitraegeVorsorgeAbgezogen) \ceil *F11_SteuerScale F61_EzuPausch &apos;&apos;" code="163-60012" />
+<integer id="F61_VersAbzugMarried" expression="+F61_EHE F61_EZU" />
+<integer id="F61_ALL" expression="?X_MARRIED,&apos;&apos;,\ceil *F11_SteuerScale F61_AllPausch" code="163-60013">2400</integer>
+<integer id="F61_dBSt_ALL" expression="? X_MARRIED &apos;&apos; ?F61_KeineBeitraegeVorsorgeAbgezogen 2550 1700">1700</integer>
+<integer id="F61_AZU" expression="? (&amp; !X_MARRIED F61_KeineBeitraegeVorsorgeAbgezogen) \ceil *F11_SteuerScale F61_AzuPausch &apos;&apos;" code="163-60014" />
+<integer id="F61_VersAbzugAll" expression="+F61_ALL F61_AZU">2400</integer>
+<integer id="F61_NUMKI" expression="!= F11_KindVorname &apos;&apos;">0</integer>
+<integer id="F61_KIN" expression="\ceil *F11_SteuerScale *F61_NUMKI,F61_KinPausch" code="163-60015">0</integer>
+<integer id="F61_dBSt_KIN" expression="* (+ F13_13UPANZ F61_NUMKI) 700">0</integer>
+<integer id="F61_ABZ" expression="\ceil *F11_SteuerScale (++          + (?X_MARRIED, F61_EhePausch, 0) (? (&amp; X_MARRIED F61_KeineBeitraegeVorsorgeAbgezogen), F61_EzuPausch, 0)          + (?X_MARRIED, 0, F61_AllPausch) (? (&amp; !X_MARRIED F61_KeineBeitraegeVorsorgeAbgezogen), F61_AzuPausch, 0)          * F61_NUMKI F61_KinPausch)" code="163-60020">2400</integer>
+<integer id="F61_dBSt_ABZ" expression="\ceil *F11_SteuerScale ++F61_dBSt_EHE F61_dBSt_ALL F61_dBSt_KIN">1700</integer>
+<integer id="F61_TOT" expression="?(&gt;F61_PRA,F61_ABZ),F61_ABZ,F61_PRA" code="010-600">2400</integer>
+<integer id="F61_dBSt_TOT" expression="? (&gt; F61_PRA F61_dBSt_ABZ) F61_dBSt_ABZ F61_PRA">1700</integer>
+<integer id="F61_TOTETAX" expression="F61_TOT" code="163-60021">2400</integer>
+</form>
+<form id="F62" instantiation="once" print-condition="| &gt;#F62_RDAT 0 &gt;#F62_BehinderungDatum 0">
+<table id="F62_TAB">
+<list id="F62_RDAT" entry-type="date" code="180-60030" />
+<list id="F62_NAMADR" entry-type="string" code="180-60031" />
+<list id="F62_BRUTTO" entry-type="integer" code="180-60032" />
+<list id="F62_KASSE" entry-type="integer" code="180-60033" />
+<list id="F62_NETTO" entry-type="integer" entry-expression="- [F62_BRUTTO] [F62_KASSE]" code="180-60034" />
+</table>
+<integer id="F62_ANZ" expression="#F62_NETTO">0</integer>
+<integer id="F62_UEB" expression="^F62_NETTO" />
+<integer id="F62_KOS" expression="@F62_NETTO" code="180-60035" />
+<integer id="F62_TOT" expression="F62_KOS" code="010-650" />
+<table id="F62_BehinderungTable">
+<list id="F62_BehinderungDatum" entry-type="date" code="180-60100" />
+<list id="F62_BehinderungArt" entry-type="string" code="180-60101" />
+<list id="F62_BehinderungBrutto" entry-type="integer" code="180-60102" />
+<list id="F62_BehinderungKasse" entry-type="integer" code="180-60103" />
+<list id="F62_BehinderungNetto" entry-type="integer" code="180-60104" entry-expression="- [F62_BehinderungBrutto] [F62_BehinderungKasse]" />
+</table>
+<integer id="F62_BehinderungUebertrag" expression="^F62_BehinderungNetto" />
+<integer id="F62_BehinderungTotal" expression="@F62_BehinderungNetto" />
+<table id="F62_KrankZukunftTable">
+<list id="F62_KrankZukunftDatum" entry-type="date" />
+<list id="F62_KrankZukunftBezeichnung" entry-type="string" />
+<list id="F62_KrankZukunftBrutto" entry-type="integer" />
+<list id="F62_KrankZukunftKasse" entry-type="integer" />
+<list id="F62_KrankZukunftNetto" entry-expression="- [F62_KrankZukunftBrutto] [F62_KrankZukunftKasse]" entry-type="integer" />
+</table>
+<integer id="F62_ZukunftTotal" expression="@F62_KrankZukunftNetto" />
+<table id="F62_BehinderungZukunftTable">
+<list id="F62_BehinderungZukunftDatum" entry-type="date" />
+<list id="F62_BehinderungZukunftArt" entry-type="string" />
+<list id="F62_BehinderungZukunftBrutto" entry-type="integer" />
+<list id="F62_BehinderungZukunftKasse" entry-type="integer" />
+<list id="F62_BehinderungZukunftNetto" entry-type="integer" entry-expression="- [F62_BehinderungZukunftBrutto] [F62_BehinderungZukunftKasse]" />
+</table>
+<integer id="F62_BehinderungZukunftTotal" expression="@F62_BehinderungZukunftNetto" />
+</form>
+</formset>
+<formset id="F7">
+<form id="F71" instantiation="list">
+<instance-part>
+<instance-index id="F71.._Index" offset="1" code="110-70011" />
+<boolean id="F71.._NotEmpty" expression="||||| !=F71.._StaatCode &apos;&apos; !=F71.._Grundstk &apos;&apos; !=F71.._Art &apos;&apos; !=F71.._Nutzung &apos;&apos; !=F71.._Anteil &apos;&apos;  &gt; #F72.._Betrag 0" />
+<string id="F71.._BfSNummer" enable="$F" code="110-775" />
+<string id="F71.._KantonCode" enable="$F" code="110-723" />
+<string id="F71.._StaatCode" enable="$F" code="110-722" />
+<string id="F71.._Staat" enable="$F" code="110-70003" />
+<string id="F71.._Gemeinde" enable="$F" code="110-70001" />
+<string id="F71.._Kanton" enable="$F" code="110-70002" />
+<string id="F71.._KantonStaat" expression="? != F71.._Kanton &apos;&apos; F71.._Kanton F71.._Staat" />
+<string id="F71.._Strasse" code="110-732" />
+<string id="F71.._Hausnr" code="110-733" />
+<string id="F71.._Adresse" expression="++F71.._Strasse &apos; &apos; F71.._Hausnr" code="110-699" />
+<string id="F71.._Standort" expression="? != F71.._Kanton &apos;&apos; (++F71.._Gemeinde &apos;, &apos; F71.._Adresse) F71.._Staat" />
+<string id="F71.._Grundstk" code="110-721" />
+<float id="F71.._AnteilEM" code="110-70005" />
+<float id="F71.._AnteilEF" enable="X_MARRIED" disabled="&apos;&apos;" code="110-70006" />
+<float id="F71.._Anteil" expression="?X_MARRIED (+ F71.._AnteilEM F71.._AnteilEF) F71.._AnteilEM" />
+<string id="F71.._Nutzung" code="110-70007" />
+<string id="F71.._Art" code="110-729" />
+<date id="F71.._Schaetzungsdatum" />
+<integer id="F71.._Steuerwert" code="110-700" />
+<integer id="F71.._A" expression="? (!= F71.._Abgang &apos;&apos;) 0 F71.._Steuerwert" code="110-707001" />
+<date id="F71.._Zugang" mandatory="!=F71.._ZugangGrund &apos;&apos;" code="110-725" />
+<string id="F71.._ZugangGrund" mandatory="!=F71.._Zugang &apos;&apos;" code="110-727" />
+<date id="F71.._Abgang" mandatory="!=F71.._AbgangGrund &apos;&apos;" code="110-726" />
+<string id="F71.._AbgangGrund" mandatory="!=F71.._Abgang &apos;&apos;" code="110-728" />
+<boolean id="F71.._EMAbziehen" code="110-707030">false</boolean>
+<integer id="F71.._Eigenmietwert" code="110-707023" />
+<integer id="F71.._EMAbzug" expression="? F71.._EMAbziehen \ceil *F71.._Eigenmietwert 0.3 &apos;&apos;" code="110-707024" />
+<integer id="F71.._Mietwert" expression="-(F71.._Eigenmietwert,F71.._EMAbzug)" code="110-702" />
+<integer id="F71.._Wohnungen" code="110-707021" />
+<integer id="F71.._Garagen" code="110-707066" />
+<integer id="F71.._Buero" code="110-707022" />
+<string id="F71.._DritteArt" code="110-707027" />
+<integer id="F71.._Dritte" code="110-707028" />
+<integer id="F71.._Fremd" expression="+++ F71.._Wohnungen F71.._Garagen F71.._Buero F71.._Dritte" code="110-703" />
+<integer id="F71.._B" expression="+F71.._Mietwert F71.._Fremd" code="110-707067" />
+<boolean id="F71.._CPauschal">true</boolean>
+<boolean id="F71.._CEffektiv" expression="!F71.._CPauschal">false</boolean>
+<boolean id="F71.._PauschalAbzugCode" expression="==F71.._CPauschal $T" code="110-707041" />
+<integer id="F71.._Pauschalunterhalt" expression="\ceil *F71.._B 0.2" />
+<integer id="F71.._C1" expression="?F71.._CPauschal F71.._Pauschalunterhalt &apos;&apos;" code="110-704" />
+<integer id="F71.._AnzKosten" expression="#F72.._Betrag" />
+<integer id="F71.._Hertrag" expression="^F72.._BetragUnterhalt" />
+<integer id="F72.._BetragUnterhaltSumme" expression="@F72.._BetragUnterhalt" code="110-707079" emit-code="F71.._CEffektiv" />
+<string id="F72.._BeitragDritterText" enable="F71.._CEffektiv" code="110-707071" emit-code="F71.._CEffektiv" />
+<integer id="F72.._BeitraegeDritter" enable="F71.._CEffektiv" code="110-707070" emit-code="F71.._CEffektiv" />
+<integer id="F72.._KostenTotal" expression="- F72.._BetragUnterhaltSumme F72.._BeitraegeDritter" />
+<integer id="F71.._C2" expression="? !F71.._CPauschal F72.._KostenTotal &apos;&apos;" />
+<integer id="F71.._C2Code" expression="? !=F71.._CPauschal $T ?==F72.._KostenTotal &apos;&apos; 0 F72.._KostenTotal &apos;&apos;" code="110-706" />
+<integer id="F71.._C" expression="+F71.._C1 F71.._C2" />
+<table id="F71.._UnterhaltZukunftTable">
+<list id="F71.._UnterhaltZukunftDatum" entry-type="date" />
+<list id="F71.._UnterhaltZukunftName" entry-type="string" />
+<list id="F71.._UnterhaltZukunftBezeichnung" entry-type="string" />
+<list id="F71.._UnterhaltZukunftBetrag" entry-type="integer" />
+<list id="F71.._UnterhaltZukunfBetragAnlagekosten" entry-type="integer" />
+<list id="F71.._UnterhaltZukunfBetragUnterhalt" entry-type="integer" />
+</table>
+<integer id="F71.._D" expression="-F71.._B F71.._C" code="110-707712" />
+</instance-part>
+</form>
+<form id="F72" instantiation="list" master="F71" print-condition="F71.._CEffektiv">
+<instance-part>
+<instance-index id="F72.._Index" offset="1" />
+<table id="F72.._Tabelle" enable="==F71.._CPauschal $F">
+<list id="F72.._Datum" entry-type="date" enable="==F71.._CPauschal $F" code="110-707062" emit-code="F71.._CEffektiv" />
+<list id="F72.._Name" entry-type="string" enable="==F71.._CPauschal $F" code="110-707063" emit-code="F71.._CEffektiv" />
+<list id="F72.._Bezeichnung" entry-type="string" enable="==F71.._CPauschal $F" code="110-707064" emit-code="F71.._CEffektiv" />
+<list id="F72.._Betrag" entry-type="integer" enable="==F71.._CPauschal $F" code="110-707065" emit-code="F71.._CEffektiv" />
+<list id="F72.._BetragAnlagekosten" entry-type="integer" enable="==F71.._CPauschal $F" code="110-707068" emit-code="F71.._CEffektiv" />
+<list id="F72.._BetragUnterhalt" entry-type="integer" entry-expression="-[F72.._Betrag] [F72.._BetragAnlagekosten]" code="110-707069" emit-code="F71.._CEffektiv" />
+</table>
+</instance-part>
+</form>
+</formset>
+<formset id="F7Z">
+<form id="F7Z1" instantiation="once" print-condition="&gt; #F7Z1_Index 1">
+<instance-list id="F7Z1_StaatCode" form="F71" node-id="F71.._StaatCode" />
+<instance-list id="F7Z1_Art" form="F71" node-id="F71.._Art" />
+<instance-list id="F7Z1_Nutzung" form="F71" node-id="F71.._Nutzung" />
+<instance-list id="F7Z1_Anteil" form="F71" node-id="F71.._Anteil" />
+<integer id="F7Z1_AHertrag" expression="^F7Z1_A" />
+<integer id="F7Z1_DHertrag" expression="^F7Z1_D" />
+<integer id="F7Z1_Steuerwert" expression="@F7Z1_A" code="010-710" />
+<integer id="F7Z1_SteuerwertETax" expression="F7Z1_Steuerwert" code="114-100710" />
+<integer id="F7Z1_Ertrag" expression="@F7Z1_D" code="010-712" />
+<integer id="F7Z1_ErtragETax" expression="F7Z1_Ertrag" code="114-100712" />
+<table id="F7Z1_Liegenschaften">
+<instance-list id="F7Z1_Index" form="F71" node-id="F71.._Index" />
+<instance-list id="F7Z1_Gemeinde" form="F71" node-id="F71.._Gemeinde" />
+<instance-list id="F7Z1_Kanton" form="F71" node-id="F71.._KantonStaat" />
+<instance-list id="F7Z1_Grundstk" form="F71" node-id="F71.._Grundstk" />
+<instance-list id="F7Z1_A" form="F71" node-id="F71.._A" />
+<instance-list id="F7Z1_D" form="F71" node-id="F71.._D" />
+<instance-list id="F7Z1_NotEmpty" form="F71" node-id="F71.._NotEmpty" />
+</table>
+</form>
+</formset>
+<formset id="F10a">
+<form id="F101" instantiation="list" print-condition="F101.._AusbildHasKosten">
+<instance-list id="F101_AusbildTotal" form="F101" node-id="F101.._AusbildTotal" />
+<integer id="F101_TotalAusbildungskosten" expression="@F101_AusbildTotal" />
+<string id="F101_AusbildEM" expression="X_MANNNAME" code="210-1000901" emit-code="&gt; F101_TotalAusbildungskosten 0">Tomasic Valentino</string>
+<string id="F101_AusbildEF" expression="X_FRAUNAME" code="210-1001601" emit-code="&gt; F101_TotalAusbildungskosten 0" />
+<string id="F101_AusbildRegNr" expression="X_REGNUM" code="210-1000101" emit-code="&gt; F101_TotalAusbildungskosten 0">4330856</string>
+<instance-part>
+<boolean id="F101.._AusbildHasKosten" expression="&gt; #F101.._AusbildKosten 0" />
+<string id="F101.._AusbildungUniqueId" />
+<string id="F101.._AusbildNameVorname" code="210-100001" emit-code="F101.._AusbildHasKosten" />
+<integer id="F101.._AusbildStipendien" code="210-100014" emit-code="F101.._AusbildHasKosten" />
+<integer id="F101.._AusbildSelbstbehalt" expression="\floor *F11_SteuerScale 3000" code="210-100015" emit-code="F101.._AusbildHasKosten" />
+<integer id="F101.._AusbildTotal" expression="\min \ceil *F11_SteuerScale 13000 \max 0 --@F101.._AusbildKosten F101.._AusbildStipendien F101.._AusbildSelbstbehalt" code="210-100016" emit-code="F101.._AusbildHasKosten" />
+<table id="F101.._Ausbildungs">
+<list id="F101.._AusbildDatum" entry-type="date" code="210-100010" emit-code="F101.._AusbildHasKosten" />
+<list id="F101.._AusbildName" entry-type="string" code="210-100011" emit-code="F101.._AusbildHasKosten" />
+<list id="F101.._AusbildBeschreibung" entry-type="string" code="210-100012" emit-code="F101.._AusbildHasKosten" />
+<list id="F101.._AusbildKosten" entry-type="integer" code="210-100013" emit-code="F101.._AusbildHasKosten" />
+</table>
+<integer id="F101.._AusbildKostenTotalRoh" expression="@F101.._AusbildKosten" code="210-100017" emit-code="F101.._AusbildHasKosten" />
+</instance-part>
+</form>
+</formset>
+<formset id="F10b">
+<form id="F102" instantiation="list" print-condition="F102.._KindBetHasKosten">
+<instance-list id="F102_KindBetTotal" form="F102" node-id="F102.._KindBetTotal" />
+<instance-list id="F102_dBSt_KindBetTotal" form="F102" node-id="F102.._dBSt_KindBetTotal" />
+<integer id="F102_TotalKinderbetreuungskosten" expression="@F102_KindBetTotal" />
+<integer id="F102_dBSt_TotalKinderbetreuungskosten" expression="@F102_dBSt_KindBetTotal" />
+<string id="F102_KindBetEM" expression="X_MANNNAME" code="220-1000902" emit-code="&gt; F102_TotalKinderbetreuungskosten 0">Tomasic Valentino</string>
+<string id="F102_KindBetEF" expression="X_FRAUNAME" code="220-1001602" emit-code="&gt; F102_TotalKinderbetreuungskosten 0" />
+<string id="F102_KindBetRegNr" expression="X_REGNUM" code="220-1000102" emit-code="&gt; F102_TotalKinderbetreuungskosten 0">4330856</string>
+<instance-part>
+<boolean id="F102.._KindBetHasKosten" expression="&gt; #F102.._KindBetKosten 0" />
+<string id="F102.._KindBetUniqueId" />
+<string id="F102.._KindBetNameVorname" code="220-100051" emit-code="F102.._KindBetHasKosten" />
+<integer id="F102.._KindBetTotal" expression="\max 0 \min \ceil *F11_SteuerScale 7500 @F102.._KindBetKosten" code="220-100063" emit-code="F102.._KindBetHasKosten" />
+<integer id="F102.._dBSt_KindBetTotal" expression="\max 0 \min \ceil *F11_SteuerScale 10100 @F102.._KindBetKosten" code="220-100064" emit-code="F102.._KindBetHasKosten" />
+<table id="F102.._KindBetreuung">
+<list id="F102.._KindBetDatum" entry-type="date" code="220-100060" emit-code="F102.._KindBetHasKosten" />
+<list id="F102.._KindBetName" entry-type="string" code="220-100061" emit-code="F102.._KindBetHasKosten" />
+<list id="F102.._KindBetKosten" entry-type="integer" code="220-100062" emit-code="F102.._KindBetHasKosten" />
+</table>
+</instance-part>
+</form>
+</formset>
+<formset id="V">
+<form id="V1" instantiation="once" print-condition="filled">
+<string id="V1_ANST" />
+<string id="V1_NAME" />
+<string id="V1_ADR1" />
+<string id="V1_ADR2" />
+<string id="V1_TEL" />
+<string id="V1_EMAIL" />
+<string id="V1_FAX" />
+<string id="V1_SIGN" />
+<integer id="PANEL_COL1" />
+<string id="PANEL_COL2" />
+<string id="PANEL_COL3" />
+<string id="PANEL_COL4" />
+<boolean id="PANEL_COL5" />
+<integer id="PANEL_COL7" />
+<integer id="PANEL_COL6" />
+</form>
+</formset>
+<formset id="Q">
+<form id="Q1" instantiation="once">
+<string id="Q1_NAME" enable="$F">Tomasic Valentino</string>
+<string id="Q1_NAMEEF" enable="$F" />
+<string id="Q1_NUMBER" enable="$F">14339851700</string>
+<string id="Q1_TIMESTAMP" enable="$F">27.05.16 17:34</string>
+<string id="Q1_REGNO" enable="$F">4330856</string>
+<string id="Q1_PERIOD" enable="$F">2015</string>
+<string id="Q1_Gemeinde">Rebstein</string>
+<integer id="Q1_EINKOMMEN" enable="$F">13100</integer>
+<integer id="Q1_VERMOEGEN" enable="$F">0</integer>
+<string id="Q1_Personennr" enable="$F">888.91.482.000</string>
+<string id="Q1_Barcode" expression="\com.ifactory.steuersgnp2015.model.ReceiptCode Q1_PERIOD Q1_REGNO Q1_NUMBER">SG-2015-4330856-14339851700</string>
+<string id="Q1_RUCKFRGName">Tomasic</string>
+<string id="Q1_RUCKFRGVorname">Valentino</string>
+<string id="Q1_TELP">078 778 9106</string>
+<string id="Q1_TELG" />
+<string id="Q1_EMAIL">valentino.tomasic@ntb.ch</string>
+<string id="Q1_PersonenUnterstuetzung" enable="$F" />
+<string id="Q1_KapitalleistungenInfo" enable="$F" />
+<string id="Q1_RueckKontoAenderung1" enable="$F">Raiffeisenbank Rebstein-Marbach</string>
+<string id="Q1_RueckKontoAenderung2" enable="$F">CH77 8132 4000 0038 1770 7</string>
+<string id="Q1_RueckKontoAenderung3" enable="$F" />
+<float id="Q1_VERRECH" enable="$F" />
+<string id="Q1_OriginalFormular">- Original nicht ausgefülltes Steuererklärungsformular</string>
+<string id="Q1_BELEG1" enable="$F">- Lohnausweis Person 1, pro Arbeitgeber (Ziffer 1)</string>
+<string id="Q1_BELEG2" enable="$F" />
+<string id="Q1_BELEG3" enable="$F" />
+<string id="Q1_BELEG4" enable="$F" />
+<string id="Q1_BELEG5" enable="$F" />
+<string id="Q1_BELEG6" enable="$F" />
+<string id="Q1_BELEG7" enable="$F" />
+<string id="Q1_BELEG8" enable="$F" />
+<string id="Q1_BELEG9" enable="$F" />
+<string id="Q1_BELEG10" enable="$F" />
+<string id="Q1_BELEG11" enable="$F" />
+<string id="Q1_BELEG12" enable="$F" />
+<string id="Q1_BELEG13" enable="$F" />
+<string id="Q1_BELEG14" enable="$F" />
+<string id="Q1_BELEG15" enable="$F" />
+<string id="Q1_BELEG16" enable="$F" />
+<string id="Q1_BELEG17" enable="$F" />
+<string id="Q1_BELEG18" enable="$F" />
+<string id="Q1_BELEG19" enable="$F" />
+<string id="Q1_BELEG20" enable="$F" />
+<text id="Q1_Mitteilungen" enable="$F" />
+<string id="Q1_FooterText" enable="$F" expression="~~&apos;Quittung und aufgelistete Belege sind per Post dem Gemeindesteueramt &apos; X_GEMEINDE &apos; einzureichen.&apos;">Quittung und aufgelistete Belege sind per Post dem Gemeindesteueramt Rebstein einzureichen.</string>
+</form>
+</formset>
+<formset id="Ca" enable="!= F11_Beendigung $T">
+<form id="C1" instantiation="once" print-condition="C1_VALID">
+<string id="C1_GEMEINDE" enable="$F" />
+<string id="C1_ZIV" enable="$F" />
+<string id="C1_KONF" enable="$F" />
+<string id="C1_Steuertarif" enable="$F" />
+<string id="C1_KONFEF" enable="$F" />
+<integer id="C1_AbzBeteiligungPrivat" expression="\complete F23_AbzBeteiligungPrivat 100" />
+<integer id="C1_AbzBeteiligungGesch" expression="\complete F23_AbzBeteiligungGesch 100" />
+<integer id="C1_EinkommenSteuerbarK" expression="F13_EinkommenSteuerbarK">13100</integer>
+<integer id="C1_EinkommenSteuerbarB" expression="F13_EinkommenSteuerbarB">14200</integer>
+<integer id="C1_VermoegenSteuerbar" expression="F14_VermoegenSteuerbar">0</integer>
+<integer id="C1_EINKOMMENK" enable="$F" />
+<integer id="C1_VERMOEGEN" enable="$F" />
+<integer id="C1_EINKOMMENB" enable="$F" />
+<float id="C1_EINKSTK" enable="$F" />
+<float id="C1_VERMST" enable="$F" />
+<float id="C1_EINKSTB" enable="$F" />
+<float id="C1_VSTEUER" enable="$F" />
+<float id="C1_TOTALSG" enable="$F" />
+<float id="C1_TOTAL" enable="$F" />
+<float id="C1_FinalesTotal" enable="$F" />
+<boolean id="C1_HASDATA">false</boolean>
+<boolean id="C1_VALID" expression="&amp; &amp; &amp; &amp; == C1_ZIV F11_ZIV == C1_KONF F11_KONEM | !X_MARRIED == C1_KONFEF F11_KONEF == C1_EINKOMMENK C1_EinkommenSteuerbarK == C1_VERMOEGEN C1_VermoegenSteuerbar">false</boolean>
+<string id="C1_WARNUNG" expression="? C1_HASDATA ? C1_VALID &apos;&apos; &apos;Die Berechnung ist ungültig, bitte rufen Sie den Steuerkalkulator erneut auf!&apos; &apos;Zum Aktualisieren der Berechnung rufen Sie bitte den Steuerkalkulator auf.&apos;">Zum Aktualisieren der Berechnung rufen Sie bitte den Steuerkalkulator auf.</string>
+<string id="C1_DATETIME" enable="$F" />
+</form>
+</formset>
+<formset id="Cb" enable="!= F11_Beendigung $T">
+<form id="C2" instantiation="once" print-condition="$F">
+</form>
+</formset>
+</forms>
