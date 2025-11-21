@@ -1,0 +1,4725 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data majorVersion="SGnP2024" minorVersion="4">
+<group>
+<context>{}</context>
+<boolean id="ac_showJobExpensesPartner2SidelineReveue" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_CHARITIES_MIN" calculated="true">
+<value>100</value>
+</integer>
+<string id="F11_NamePers2" calculated="true">
+<value>Person 2</value>
+</string>
+<integer id="listOfSecuritiesDA_TotalRevenueFlatRateTaxCharging" calculated="true">
+</integer>
+<string id="F11_NamePers1" calculated="true">
+<value>Valentino T.</value>
+</string>
+<integer id="diseaseAndAccidentExpensesTotalAmountExpenses" calculated="true">
+</integer>
+<integer id="revenueCalculationSocialDeductionChildCantonalTax" calculated="true">
+</integer>
+<boolean id="ac_showJobExpensesPartner2RemainingJobCost" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="pension1Partner2AmountFinal">
+<value>false</value>
+</boolean>
+<boolean id="donationsReceivedTableRelation0">
+<value>true</value>
+</boolean>
+<boolean id="donationsGivenTableAddress0">
+<value>true</value>
+</boolean>
+<integer id="socialDeductionSupportedPersonFederalTax" calculated="true">
+<value>0</value>
+</integer>
+<integer id="paymentPensionDeductionTotalAmount" calculated="true">
+</integer>
+<integer id="JOB_EXPENSES_TRANSPORTATION_CANTONAL_MAX" calculated="true">
+<value>4595</value>
+</integer>
+<dictionary id="eSubmissionWizard_wizardStates">
+<entry key="eSubmission_stateIsVisited">true</entry>
+<entry key="submitFinished_stateIsVisited">true</entry>
+</dictionary>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_MARRIED_FEDERAL_WITHOUT_PROVISIONS" calculated="true">
+<value>5400</value>
+</integer>
+<boolean id="furtherDeductionFinancialMangementDescription">
+<value>true</value>
+</boolean>
+<boolean id="heritageReceivedTableValue0">
+<value>true</value>
+</boolean>
+<integer id="ALLOWANCE_ASSETS_MARRIED" calculated="true">
+<value>150000</value>
+</integer>
+<integer id="jobExpensesPartner2WeekdayStayCateringDeductibleAmount" calculated="true">
+</integer>
+<boolean id="ac_showJobExpensesOtherP1TableValue0" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfSecuritiesDA_TotalRevenueTaxSecureUSA" calculated="true">
+</integer>
+<string id="personalData_bankAccountPostAccountNumber" enabled="false">
+</string>
+<boolean id="selfemployedCompanyRevenueP1Revenue">
+<value>true</value>
+</boolean>
+<boolean id="ac_showMovablePropertyVehicle" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showRevenuePropertyRevenueOtherProperty" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="receivedUndistributedInheritancesTotalAmount" calculated="true">
+</integer>
+<integer id="benefitPaymentAmountTotal" calculated="true">
+</integer>
+<string id="attachedDocumentsEconomicAffiliation_ticket">
+</string>
+<integer id="socialDeductionSupportedPersonTotalAmount" calculated="true">
+</integer>
+<integer id="selfemployedOneManCompanyRevenueDetailP2Revenue">
+</integer>
+<string id="jobExpensesPartner1TicketCostPublicTransportOverflowLabel" visible="false" calculated="true">
+<value>siehe Zusatzblätter</value>
+</string>
+<date id="securityDetail_Redemption">
+</date>
+<string id="jobExpensesPartner2PrivateMotorvehicleDetailWayTo">
+</string>
+<list id="selfemployedBusinessCapitalCompanyAssetDetail" uidMaxSeq="1">
+<entry>{selfemployedBusinessCapitalCompanyAssetDetail=0}</entry>
+</list>
+<boolean id="wizardHasDonations" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personDataPartner1Name" calculated="true">
+<value>Tomasic Valentino</value>
+</string>
+<string id="uploadAssistantFinishedProminentText" calculated="true">
+<value>&lt;b>Besten Dank für die Einreichung.&lt;br>Die Bestätigung ist für Ihre Ablage und muss &lt;u>nicht&lt;/u> dem Steueramt eingereicht&lt;br>werden.&lt;/b></value>
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableDays1">
+<value>true</value>
+</boolean>
+<string id="personDataPartner1Town" enabled="false">
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableDays0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesWeekdayStayP2TableValue0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showListOfLiabilitiesTotalPrivateLiabilities" calculated="true">
+<value>false</value>
+</boolean>
+<list id="receivedUndistributedInheritancesDetail" enabled="false" uidMaxSeq="1">
+<entry>{receivedUndistributedInheritancesDetail=0}</entry>
+</list>
+<boolean id="ac_showJobExpenses" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="furtherDeductionNonparentalSuperVisionFederalTax" calculated="true">
+</integer>
+<integer id="jobExpensesPartner2WeekdayStayAccommodationTotalAmount" calculated="true">
+</integer>
+<boolean id="securityDetail_SecuritiesNumberInfo">
+</boolean>
+<boolean id="ac_showAssetAllowanceMarried" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personData_accessCode" calculated="true">
+<value>C4VKLUV2YG</value>
+</string>
+<string id="RowContext">
+<value>{"listOfSecurities":1}</value>
+</string>
+<list id="movablePropertyLifeInsurancesDetail" uidMaxSeq="3">
+<entry>{movablePropertyLifeInsurancesDetail=0}</entry>
+<entry>{movablePropertyLifeInsurancesDetail=1}</entry>
+<entry>{movablePropertyLifeInsurancesDetail=2}</entry>
+</list>
+<boolean id="wizardHasReceivedInheritances">
+<value>false</value>
+</boolean>
+<integer id="handicapExpensesTotalAmountDeduction" calculated="true">
+</integer>
+<string id="securityDetail_securityAdditionDivestitureDetailQuantityTitle" calculated="true">
+<value>balance</value>
+</string>
+<boolean id="securityList_HasRubricA">
+<value>false</value>
+</boolean>
+<integer id="assetMovablePropertyFreeTextTotalFiscalValue" calculated="true">
+</integer>
+<boolean id="securityList_HasRubricC">
+<value>false</value>
+</boolean>
+<boolean id="securityList_HasRubricB">
+<value>false</value>
+</boolean>
+<integer id="childDataNonparentalSuperVisionTotalAmount" calculated="true">
+</integer>
+<integer id="DEDUCTION_POLITICAL_PARTIES_CANTONAL_MAX_MARRIED" calculated="true">
+<value>21100</value>
+</integer>
+<string id="securityDetail_Currency">
+</string>
+<string id="masterData_addressline5" enabled="false">
+</string>
+<string id="masterData_addressline6" enabled="false">
+</string>
+<string id="masterData_addressline7" enabled="false">
+</string>
+<float id="taxCalculator_cantonalAssetsTax" enabled="false">
+<value>0.0</value>
+</float>
+<integer id="jobExpensesPartner2PrivateMotorvehicleCostPerKm_Manual" enabled="false">
+</integer>
+<float id="taxCalculator_cantonalTotalTax" calculated="true">
+<value>20714.1</value>
+</float>
+<integer id="jobExpensesPartner1CateringShiftWorkRaw" calculated="true">
+</integer>
+<string id="uploadAssistantFinishedLowerText" calculated="true">
+<value>Möchten Sie die Bestätigung jetzt drucken?&lt;br>&lt;br>Sie können die Bestätigung auch zu einem späteren Zeitpunkt über die Menüleiste "eTaxes"&lt;br>ausdrucken oder als PDF abrufen.</value>
+</string>
+<integer id="listOfPropertiesDetailIndex">
+<value>0</value>
+</integer>
+<float id="securityDetail_securitiesRevenueDetailNumber" enabled="false">
+</float>
+<boolean id="paymentPensionDeductionDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<list id="sourceSystemDetail" uidMaxSeq="5">
+<entry>{sourceSystemDetail=4}</entry>
+</list>
+<float id="securityDetail_FaceValueQuantity" visible="false" calculated="true">
+</float>
+<boolean id="ac_showJobExpensesPartner1SidelineFlatrate" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personDataPartner1OfficialName">
+<value>Tomasic</value>
+</string>
+<float id="taxCalculator_withholdingTax" calculated="true">
+</float>
+<integer id="insurancePremiumsDeductionInsuranceAndInterestSingleCantonalTax" calculated="true">
+<value>3400</value>
+</integer>
+<string id="masterData_addressline1" enabled="false">
+<value>Herr</value>
+</string>
+<string id="masterData_addressline2" enabled="false">
+<value>Valentino Tomasic</value>
+</string>
+<integer id="jobExpensesPartner2RemainingJobCostFlatrateAmount" calculated="true">
+</integer>
+<string id="masterData_addressline3" enabled="false">
+<value>Stadtergasse 20</value>
+</string>
+<integer id="CHILD_EDUCATION_MAX_COST" calculated="true">
+<value>13600</value>
+</integer>
+<string id="masterData_addressline4" enabled="false">
+<value>8887 Mels</value>
+</string>
+<integer id="securitiesRevenueQualifiedBusiness" calculated="true">
+</integer>
+<boolean id="ac_showDetailsTitel" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner1CateringNonSubsidized" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="socialDeductionSupportedPerson" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfPropertiesTotalFiscalValue" calculated="true">
+<value>50000</value>
+</integer>
+<boolean id="heritageUnrepartitionedTableCanton0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPartner2ReasonPrivateMotorvehicleTimeSaving" enabled="false">
+</boolean>
+<boolean id="ac_showChildAllowances" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsDepts_count">
+<value>0</value>
+</integer>
+<string id="securityDetail_EnteredDescriptionText" calculated="true">
+<value>typeDebtorBank</value>
+</string>
+<string id="personData_inquiriesToEMail">
+<value>valentino.tomasic@bluewin.ch</value>
+</string>
+<integer id="employmentPartner1TotalAmountCantonal" calculated="true">
+<value>116765</value>
+</integer>
+<boolean id="jobExpensesEffectiveBiggerThanRevenueP2" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesEffectiveBiggerThanRevenueP1" calculated="true">
+<value>false</value>
+</boolean>
+<string id="attachedDocumentsBalance_ticket">
+</string>
+<integer id="listOfSecuritiesTotalGrossRevenue" calculated="true">
+<value>10</value>
+</integer>
+<boolean id="taxCalculator_isValid" calculated="true">
+<value>true</value>
+</boolean>
+<list id="restRevenueAlimonyChildDetail" uidMaxSeq="1">
+<entry>{restRevenueAlimonyChildDetail=0}</entry>
+</list>
+<integer id="prerecording_charitiesTotalAmount" calculated="true">
+</integer>
+<boolean id="ac_showSelfemployedRevenue" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostP2TotalAmount" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1FederalTax" calculated="true">
+<value>3575</value>
+</integer>
+<integer id="deductionFurtherDeductionFreeTextTotalAmount" calculated="true">
+</integer>
+<integer id="provision2Partner2Deduction" enabled="false">
+</integer>
+<boolean id="ac_showIncomeMovableProperty" calculated="true">
+<value>true</value>
+</boolean>
+<list id="involvedLimitedPartnershipDetail" enabled="false" uidMaxSeq="1">
+<entry>{involvedLimitedPartnershipDetail=0}</entry>
+</list>
+<string id="securityDetail_SecuritiesNumberText" calculated="true">
+<value>iban</value>
+</string>
+<integer id="insuranceAndInterestFederalTax" calculated="true">
+<value>1800</value>
+</integer>
+<integer id="CHILD_CARE_FEDERAL_MAX" calculated="true">
+<value>25500</value>
+</integer>
+<boolean id="ac_showJobExpensesPartner1Catering" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_maritalStatus" enabled="false">
+<value>single</value>
+</string>
+<integer id="paymentAlimonyTotalAmount" calculated="true">
+</integer>
+<boolean id="wizardHasProperties">
+<value>true</value>
+</boolean>
+<integer id="employedMainRevenueP1TotalRevenue" calculated="true">
+<value>119165</value>
+</integer>
+<integer id="deductionCharityCantonalTax" calculated="true">
+</integer>
+<boolean id="employedMainRevenueDetailP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="movablePropertyVehicleFiscalValue1">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyVehicleFiscalValue0">
+<value>true</value>
+</boolean>
+<float id="jobExpensesPartner1PrivateMotorvehicleTotalCost_Calculated" calculated="true">
+</float>
+<boolean id="securityDetail_IssueIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="listOfPropertiesTotalEffectiveMaintenanceCost" calculated="true">
+</integer>
+<integer id="jobExpensesPartner2SidelineRevenueAmount" calculated="true">
+</integer>
+<boolean id="generateInvalidEchXML" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personDataPartner2Name" calculated="true">
+</string>
+<string id="attachmentTabs">
+</string>
+<boolean id="ac_showJobExpensesPartner2AmountMotorvehicle" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_FaceValueQuantityIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<string id="wizard.mainWizardCurrentState">
+<value>completion</value>
+</string>
+<integer id="jobExpensesPartner2BicycleOrSmallMotorbike" enabled="false">
+</integer>
+<boolean id="employedOtherRevenueDetailP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="selfemployedBusinessCapitalCompanyAssetDate">
+<value>true</value>
+</boolean>
+<boolean id="selfemployedCompanyRevenueDetailP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<list id="selfemployedOneManCompanyRevenueDetailP1" uidMaxSeq="1">
+<entry>{selfemployedOneManCompanyRevenueDetailP1=0}</entry>
+</list>
+<list id="selfemployedOneManCompanyRevenueDetailP2" enabled="false" uidMaxSeq="1">
+<entry>{selfemployedOneManCompanyRevenueDetailP2=0}</entry>
+</list>
+<integer id="employedOtherRevenueP1TotalRevenue" calculated="true">
+</integer>
+<integer id="netIncomeFederalTax" calculated="true">
+<value>112567</value>
+</integer>
+<string id="personDataPartner1FirstName">
+<value>Valentino</value>
+</string>
+<string id="eSubmissionWizardWizardPreviousState">
+<value>eSubmission</value>
+</string>
+<date id="securityDetail_securityAdditionDivestitureDetailDate">
+</date>
+<integer id="employedOtherRevenueP2TotalRevenue" calculated="true">
+</integer>
+<boolean id="employedMainRevenueP1Employer">
+<value>true</value>
+</boolean>
+<boolean id="ac_showDeductionHandicap" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_RevenueTaxSecureUSAIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<list id="listOfSecuritiesWV" uidMaxSeq="2">
+<entry>{listOfSecuritiesWV=0}</entry>
+<entry>{listOfSecuritiesWV=1}</entry>
+</list>
+<string id="Q1_Barcode">
+<value>SG-2024-4330856-37324014640</value>
+</string>
+<boolean id="attachmentConditionProvisions" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personDataPartner1OtherPersonId_Copy" calculated="true">
+<value>4330856</value>
+</string>
+<string id="inETaxFU_LocalPath">
+<value>C:\Users\valen\Desktop\Steuern 2024\Tomasic_Valentino_2024.sgnp2024_RECEIPT_21-11-2025_08.43\</value>
+</string>
+<boolean id="ac_showNetIncomeDeductions" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesSidelineReveueP1TableValue0" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="F12_DoppelverEinkommen" calculated="true">
+</integer>
+<string id="Q1_KapitalleistungenInfo">
+</string>
+<integer id="jobExpensesPartner1CateringSubsidized" calculated="true">
+</integer>
+<boolean id="ac_showPaymentPensionDeduction" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_taxDeclarationRunningNumber" enabled="false">
+</string>
+<boolean id="ac_showOtherDeductions" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="securityDetail_securityAdditionDivestitureDetailTotalPanel">
+<value>0</value>
+</integer>
+<integer id="listOfSecuritiesSubtotalGrossRevenueABC" calculated="true">
+<value>10</value>
+</integer>
+<boolean id="ac_showJobExpensesPartner2WeekdayStayCatering" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showSocialDeductionChildrenEducationCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_openListOfTaxStatementsBtnIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2RemainingJobCostFlatrate" calculated="true">
+</integer>
+<boolean id="selfemployedBusinessCapitalCompanyDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="attachedFormsAttachedForms4Or5Or6OrEtc" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="ac_showListOfPropertiesTotalMaintenanceCost" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="ac_showMovablePropertyLifeInsurances" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="employedMainRevenueDetailP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="assetAllowanceMarried" calculated="true">
+</integer>
+<boolean id="jobExpensesPublicTransportP2TableEnd0">
+<value>true</value>
+</boolean>
+<string id="personDataPartner1MunicipalityCode" calculated="true">
+<value>3293</value>
+</string>
+<boolean id="jobExpensesPublicTransportP2TableEnd1">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2RemainingJobCostTotalAmount" calculated="true">
+</integer>
+<string id="personDataPartner1Street" enabled="false">
+</string>
+<string id="personDataPartner1SubMunicipality">
+<value>blank</value>
+</string>
+<boolean id="securityDetail_TaxValueEndOfYearIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="netIncomeCantonalTax" calculated="true">
+<value>112142</value>
+</integer>
+<integer id="jobExpensesPartner1MainRevenue" calculated="true">
+<value>119165</value>
+</integer>
+<integer id="pension1DetailP2Amount100">
+</integer>
+<float id="taxCalculator_totalTax" calculated="true">
+<value>24387.8</value>
+</float>
+<string id="personDataPartner1ZipCode" enabled="false">
+</string>
+<integer id="jobExpensesPartner2CateringShiftWorkNumberOfDays" enabled="false">
+</integer>
+<integer id="listOfSecuritiesSubtotalGrossQualifiedInvestmentsBusiness" enabled="false" calculated="true">
+</integer>
+<integer id="securityDetail_GrossRevenue_Calculated" enabled="false">
+</integer>
+<boolean id="securityDetail_IUPWithoutWithholdingTaxIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfSecuritiesSubTotalTaxValue" calculated="true">
+<value>23940</value>
+</integer>
+<boolean id="jobExpensesWeekdayStayP2TableAmountPerMonth0">
+<value>true</value>
+</boolean>
+<integer id="deductionDiseaseAndAccidentFederalTax" calculated="true">
+</integer>
+<date id="masterData_partner1DateOfBirth" enabled="false">
+<value>1991-12-20</value>
+</date>
+<integer id="securityList_FormTaxValueEndOfYearAB">
+</integer>
+<string id="securityDetail_TaxValueEndOfYearText" calculated="true">
+<value>valueAtYearEnd</value>
+</string>
+<boolean id="wizardHasRevenuesBenefitPayments">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP2TableFrom0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP2TableFrom1">
+<value>true</value>
+</boolean>
+<boolean id="wizardHasTaxStatement">
+<value>false</value>
+</boolean>
+<string id="jobExpensesPartner2RemainingJobCostDetailDescription">
+</string>
+<integer id="jobExpensesPartner2CateringShiftWorkRaw" calculated="true">
+</integer>
+<integer id="employmentBothPartnerCantonalTax" calculated="true">
+</integer>
+<text id="additionalInfoWithoutKind" enabled="false">
+</text>
+<boolean id="ac_showInsuranceAHVIV100AmountP2" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showInsuranceAHVIV100AmountP1" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityDetail_RedemptionText" calculated="true">
+<value>offsetting</value>
+</string>
+<list id="employedSidelineRevenueDetailP2" enabled="false" uidMaxSeq="1">
+<entry>{employedSidelineRevenueDetailP2=0}</entry>
+</list>
+<boolean id="hasDA1" calculated="true">
+<value>false</value>
+</boolean>
+<dictionary id="wizard.prerecording_wizardStates">
+<entry key="propertyMaintenanceCosts_stateHasContent">false</entry>
+<entry key="charities_stateHasContent">false</entry>
+<entry key="handicapCosts_stateHasContent">false</entry>
+<entry key="diseaseAndAccidentCosts_stateHasContent">false</entry>
+<entry key="propertyMaintenanceCosts_stateIsComplete">true</entry>
+<entry key="diseaseAndAccidentCosts_stateIsComplete">true</entry>
+<entry key="education_stateIsComplete">true</entry>
+<entry key="handicapCosts_stateIsComplete">true</entry>
+<entry key="charities_stateIsComplete">true</entry>
+<entry key="education_stateHasContent">false</entry>
+</dictionary>
+<list id="employedSidelineRevenueDetailP1" uidMaxSeq="1">
+<entry>{employedSidelineRevenueDetailP1=0}</entry>
+</list>
+<integer id="jobExpensesPartner2CateringShiftWork" enabled="false" calculated="true">
+</integer>
+<boolean id="preferencesDataHaveBeenUpdated">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailSchoolOrCompany0">
+<value>false</value>
+</boolean>
+<string id="personDataPartner2OfficialName" enabled="false">
+</string>
+<string id="personDataPartner1Job">
+<value>Optikingenieur</value>
+</string>
+<integer id="jobExpensesPartner2SidelineEffectiveTotalAmount" calculated="true">
+</integer>
+<boolean id="childDataDetailSchoolOrCompany2">
+<value>false</value>
+</boolean>
+<integer id="insurancePremiumsDeductionInsuranceAndInterestMarriedFederalTax" calculated="true">
+</integer>
+<boolean id="childDataDetailSchoolOrCompany1">
+<value>false</value>
+</boolean>
+<boolean id="ac_showSupplementBenefits" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailSchoolOrCompany4">
+<value>false</value>
+</boolean>
+<float id="securityCcyCalculator_AmountCHF" calculated="true">
+</float>
+<boolean id="childDataDetailSchoolOrCompany3">
+<value>false</value>
+</boolean>
+<string id="Q1_NAMEEF" enabled="false">
+</string>
+<boolean id="employedOtherRevenueP1Revenue">
+<value>true</value>
+</boolean>
+<string id="preferences_inquiriesToFirstName">
+</string>
+<integer id="totalAmountRevenueCantonalTax" calculated="true">
+<value>121675</value>
+</integer>
+<string id="submitBeschreibungText" calculated="true">
+<value>Die digitale Einreichung (einschliesslich der eingefügten bzw. hochgeladenen Dokumente)&lt;br>erfolgt über eine sichere und verschlüsselte Verbindung zum Server des Steueramts. Dazu&lt;br>müssen Sie mit dem Internet verbunden sein.&lt;br>&lt;br>Nach der erfolgreichen Übermittlung erhalten Sie eine &lt;b>Übermittlungsbestätigung&lt;/b>, welche für&lt;br>Ihre persönliche Ablage bestimmt ist.&lt;br>&lt;br>&lt;b>Alle Beilagen müssen digital übermittelt werden.&lt;/b> Bitte reichen Sie keine Belege auf&lt;br>Papier ein.&lt;br>&lt;br>Während &lt;b>drei Tagen (72 Stunden)&lt;/b> haben Sie die Möglichkeit, allfällige &lt;b>Korrekturen&lt;/b>&lt;br>vorzunehmen und die Steuererklärung nochmals zu übermitteln. Sie haben insgesamt &lt;b>fünf&lt;br>Versuche&lt;/b> für die digitale Einreichung. Falls die Anzahl Versuche nicht ausreichen,&lt;br>melden Sie sich bitte innerhalb der Wartefrist mittels Supportformular unter www.steuern.sg.ch&lt;br>beim Kantonalen Steueramt.&lt;br>&lt;br>Nach Ablauf der Wartefrist von drei Tagen gilt die Steuererklärung als eingereicht.&lt;br>&lt;br>Bei der digitalen Übermittlung wird eine Sicherheitskopie Ihrer Steuererklärung auf Ihrem &lt;br>Computer angelegt. Diese Kopie können Sie wie eine normale Steuererklärung öffnen, jedoch nicht &lt;br>mehr verändern.</value>
+</string>
+<boolean id="securityDetail_OriginalCurrencyIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<string id="masterData_personDataPartner1SwissZipCode" enabled="false">
+</string>
+<integer id="listOfPropertiesTotalMaintenanceCostFlatrate" calculated="true">
+<value>500</value>
+</integer>
+<boolean id="jobExpensesPartner1RemainingJobCostFlatrateOrEffective">
+<value>false</value>
+</boolean>
+<integer id="employedOtherRevenueDetailP2Revenue">
+</integer>
+<boolean id="ac_showJobExpensesPartner1SidelineReveue" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="selfemployedBusinessCapitalAgriculturalDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityDetail_Rubric">
+<value>withoutHoldingTax</value>
+</string>
+<list id="selfemployedBusinessCapitalCompanyDetail" uidMaxSeq="1">
+<entry>{selfemployedBusinessCapitalCompanyDetail=0}</entry>
+</list>
+<date id="personDataPartner1DateOfBirth">
+<value>1991-12-20</value>
+</date>
+<integer id="jobExpensesPartner2CateringNonSubsidizedNumberOfDays" enabled="false">
+</integer>
+<boolean id="wizardHasDeductionsFurtherEducation">
+<value>true</value>
+</boolean>
+<boolean id="ac_showEOCompensationP2" calculated="true">
+<value>false</value>
+</boolean>
+<list id="restRevenueDetail" uidMaxSeq="1">
+<entry>{restRevenueDetail=0}</entry>
+</list>
+<integer id="adjustedNetIncomeFederalTax" calculated="true">
+<value>112567</value>
+</integer>
+<integer id="totalAmountFiscalRevenueFederalTax" calculated="true">
+<value>112567</value>
+</integer>
+<boolean id="numberOfChildrenGreaterOrEqualThan1" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2TotalCatering" calculated="true">
+</integer>
+<boolean id="numberOfChildrenGreaterOrEqualThan2" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner1TotalCatering" calculated="true">
+</integer>
+<integer id="jobExpensesTicketCostPublicTransportP1TotalAmount" calculated="true">
+</integer>
+<string id="securityDetail_securitiesRevenueDetailCoupon" visibleInParent="false">
+</string>
+<boolean id="numberOfChildrenGreaterOrEqualThan5" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfSecuritiesTotalRefund" visible="false" calculated="true">
+</integer>
+<float id="securityCcyCalculator_CcyRate" enabled="false">
+</float>
+<boolean id="numberOfChildrenGreaterOrEqualThan3" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="skipWizardWhatsNew">
+<value>false</value>
+</boolean>
+<boolean id="numberOfChildrenGreaterOrEqualThan4" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="heritageUnrepartitionedTableDeathDate0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP1TableEnd0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showEmployedRevenue" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="listOfSecuritiesSubtotalGrossQualifiedInvestmentsBusiness_Calculated" calculated="true">
+</integer>
+<boolean id="jobExpensesMotorVehicleP1TableEnd1">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner1WeekdayStayCateringMaximumDeductibleAmount" calculated="true">
+<value>4800</value>
+</integer>
+<integer id="jobExpensesPartner2WeekdayStayCateringMaximumDeductibleAmount" calculated="true">
+<value>4800</value>
+</integer>
+<string id="pdfMacroFileId" calculated="true">
+<value>4330856202412313293</value>
+</string>
+<boolean id="selfemployedBusinessCapitalCompanyFiscalValue">
+<value>true</value>
+</boolean>
+<boolean id="ac_showProperties" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_TaxValueBaseIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2SidelineFlatrate" calculated="true">
+</integer>
+<list id="furtherDeductionFinancialMangementDetail" uidMaxSeq="1">
+<entry>{furtherDeductionFinancialMangementDetail=0}</entry>
+</list>
+<list id="employedOtherRevenueDetailP2" enabled="false" uidMaxSeq="1">
+<entry>{employedOtherRevenueDetailP2=0}</entry>
+</list>
+<integer id="jobExpensesPartner1TotalTransportationCost" calculated="true">
+</integer>
+<float id="jobExpensesPartner2PrivateMotorvehicleCostPerKmChf_Calculated" calculated="true">
+</float>
+<boolean id="selfemployedCompanyRevenueDetailP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="furtherDeductionFinancialMangement" calculated="true">
+</integer>
+<list id="employedOtherRevenueDetailP1" uidMaxSeq="1">
+<entry>{employedOtherRevenueDetailP1=0}</entry>
+</list>
+<string id="jobExpensesTicketCostPublicTransportDetailP2WayFrom">
+</string>
+<float id="jobExpensesPartner1PrivateMotorvehicleCostPerKmChf_Calculated" calculated="true">
+</float>
+<boolean id="wizardVisitableInvolvedLimitedPartnership" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="heritageUnrepartitionedTableName0">
+<value>true</value>
+</boolean>
+<date id="fiscalYearStartDate" calculated="true">
+<value>2024-01-01</value>
+</date>
+<string id="personDataPartner2Religion" enabled="false">
+</string>
+<boolean id="restRevenueInheritanceEtcAmount">
+<value>true</value>
+</boolean>
+<integer id="pension1P1TotalRevenue" calculated="true">
+</integer>
+<string id="securityDetail_AdditionalDetails">
+</string>
+<integer id="JOB_EXPENSES_REMAINING_COST_CANTONAL_MIN" calculated="true">
+<value>700</value>
+</integer>
+<integer id="securityList_FormTaxValueEndOfYearC">
+</integer>
+<list id="securityDetail_AdditionDivestitureDetail" enabled="false" uidMaxSeq="0">
+</list>
+<boolean id="childDataDetailOfficialName1">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailOfficialName2">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailOfficialName3">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesWeekdayStayP1TableValue0">
+<value>true</value>
+</boolean>
+<boolean id="childDataDetailOfficialName4">
+<value>false</value>
+</boolean>
+<boolean id="heritageReceivedTableName0">
+<value>true</value>
+</boolean>
+<boolean id="wizardHasChildData">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailOfficialName0">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_IsSold_Internal" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_EMPLOYMENT_BOTH_FEDERAL_MAX" calculated="true">
+<value>13900</value>
+</integer>
+<float id="securityDetail_TaxValueBase_Calculated" calculated="true">
+</float>
+<integer id="ALLOWANCE_ASSETS_SINGLE" calculated="true">
+<value>75000</value>
+</integer>
+<integer id="jobExpensesTicketCostPublicTransportP2TotalAmount" calculated="true">
+</integer>
+<string id="fullnamePers1" calculated="true">
+<value>Valentino Tomasic</value>
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableTotalDistance0">
+<value>true</value>
+</boolean>
+<string id="storageItemNameProvider" calculated="true">
+<value>Tomasic_Valentino_2024</value>
+</string>
+<string id="fullnamePers2" calculated="true">
+<value>Person 2</value>
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableTotalDistance1">
+<value>true</value>
+</boolean>
+<boolean id="hasMissingDocumentsPension" visible="false">
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_SINGLE_CANTONAL_BASEVALUE" calculated="true">
+<value>3400</value>
+</integer>
+<integer id="taxYear" calculated="true">
+<value>2024</value>
+</integer>
+<string id="overflowLabelShort" calculated="true">
+<value>Zusatzbl.</value>
+</string>
+<boolean id="ac_showJobExpensesPartner2TransportationCostCantonal" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedFormsAttachedAdditionalFormsNumber" enabled="false">
+</integer>
+<string id="attachedDocumentsDa1_ticket">
+</string>
+<integer id="CHILD_FEDERAL_DEDUCTION" calculated="true">
+<value>6700</value>
+</integer>
+<string id="securityDetail_Kind">
+<value>otherCredits</value>
+</string>
+<integer id="totalAmountRevenueFederalTax" calculated="true">
+<value>121675</value>
+</integer>
+<string id="applicationVersion" calculated="true">
+<value>2024-1.2.0</value>
+</string>
+<integer id="JOB_EXPENSES_CATERING_SHIFTWORK_MAX" calculated="true">
+<value>3200</value>
+</integer>
+<integer id="jobExpensesPartner2PrivateMotorvehicleDetailDistancePerDay">
+</integer>
+<integer id="listOfSecuritiesDA_TotalTaxValueEndOfYear" calculated="true">
+</integer>
+<integer id="JOB_EXPENSES_REMAINING_COST_FEDERAL_MAX" calculated="true">
+<value>4000</value>
+</integer>
+<boolean id="ac_showGrossWage" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_partner2Religion_display" calculated="true">
+</string>
+<integer id="employmentBothPartnerCantonalTaxSmallerRevenue" calculated="true">
+</integer>
+<float id="securityDetail_TaxValueEndOfYear_Calculated" calculated="true">
+</float>
+<integer id="jobExpensesPartner1TotalExpensesFederal" calculated="true">
+<value>3575</value>
+</integer>
+<boolean id="donationsGivenTableValue0">
+<value>true</value>
+</boolean>
+<float id="securityDetail_securityAdditionDivestitureDetailStartPeriodQuantity" visible="false">
+</float>
+<integer id="attachedDocumentsDa1_count">
+<value>0</value>
+</integer>
+<boolean id="ac_showListOfPoliticalPartiesTotal" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="attachmentConditionPension" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="skipWizardNavigationHint">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_MARRIED_CANTONAL_BONUSVALUE" calculated="true">
+<value>1000</value>
+</integer>
+<string id="jobExpensesPartner2PrivateMotorvehicleOverflowLabel" visible="false" calculated="true">
+<value>siehe Zusatzblätter</value>
+</string>
+<string id="taxCalculator_municipality_Copy" calculated="true">
+<value>Mels</value>
+</string>
+<boolean id="otherRevenueDetailsHaveEntries" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showEmployedSidelineRevenueP2" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2TotalExpensesCantonal" calculated="true">
+</integer>
+<list id="jobExpensesPartner2WeekdayStayAccommodationDetail" enabled="false" uidMaxSeq="1">
+<entry>{jobExpensesPartner2WeekdayStayAccommodationDetail=0}</entry>
+</list>
+<string id="pension1DetailP2Percentage">
+</string>
+<boolean id="ac_showEmployedSidelineRevenueP1" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="security_TotalAssetsFreeB" calculated="true">
+<value>10</value>
+</integer>
+<boolean id="ac_showEmployedOtherRevenueP2" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="security_TotalAssetsFreeC" calculated="true">
+</integer>
+<boolean id="ac_showEmployedOtherRevenueP1" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="movablePropertyHeritageEtcFiscalValue" calculated="true">
+</integer>
+<integer id="security_TotalAssetsFreeA" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1RemainingJobCostFlatrate" calculated="true">
+<value>2400</value>
+</integer>
+<integer id="jobExpensesPartner2WeekdayStayCateringSubsidizedNumberOfDays" enabled="false">
+</integer>
+<integer id="insurancePremiumsDeductionInsuranceAndInterestSingleFederalTax" calculated="true">
+<value>1800</value>
+</integer>
+<integer id="amountLiabilitiesInterest" calculated="true">
+</integer>
+<boolean id="jobExpensesPublicTransportP2TableTo1">
+<value>true</value>
+</boolean>
+<boolean id="wizardVisitableInheritances" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner1RemainingJobCostFlatrateFederal" calculated="true">
+<value>3575</value>
+</integer>
+<boolean id="jobExpensesPublicTransportP2TableTo0">
+<value>true</value>
+</boolean>
+<float id="securityDetail_ExchangeRate_EndYear_Internal">
+<value>1.0</value>
+</float>
+<boolean id="wizardHasNonWorking" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showDeductionCharityCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="taxCalculator_federalTaxableIncome" calculated="true">
+<value>112500</value>
+</integer>
+<boolean id="ac_showJobExpensesWeekdayStayP1TableValue0" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="ALLOWANCE_ASSETS_CHILDREN" calculated="true">
+<value>20000</value>
+</integer>
+<boolean id="ac_showEmploymentBothPartnerCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personalData_oldBankAccountLine1" calculated="true">
+<value>CH7781324000003817707</value>
+</string>
+<string id="personalData_oldBankAccountLine2" calculated="true">
+<value>Raiffeisenbank Marbach-Rebstei</value>
+</string>
+<integer id="totalAmountFiscalRevenueCantonalTax" calculated="true">
+<value>112142</value>
+</integer>
+<integer id="jobExpensesPartner2RemainingJobCostFlatrateFederal" calculated="true">
+</integer>
+<list id="paymentPensionDeductionDetail" uidMaxSeq="1">
+<entry>{paymentPensionDeductionDetail=0}</entry>
+</list>
+<integer id="jobExpensesPartner1TotalExpensesCantonal" calculated="true">
+<value>2400</value>
+</integer>
+<string id="attachedFormsLocationAndDate">
+<value>21.11.2025</value>
+</string>
+<boolean id="jobExpensesMotorVehicleP2TableTo1">
+<value>true</value>
+</boolean>
+<string id="Q1_PersonenUnterstuetzung">
+</string>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostP1TotalAmountFederal" calculated="true">
+<value>3233</value>
+</integer>
+<boolean id="jobExpensesMotorVehicleP2TableTo0">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2SidelineFlatrateMaxAmount" calculated="true">
+</integer>
+<string id="masterData_partner1OtherPersonId" enabled="false">
+<value>4330856</value>
+</string>
+<string id="taxYearMinus1Text" calculated="true">
+<value>2023</value>
+</string>
+<string id="personalData_bankAccountForeignBIC" enabled="false">
+</string>
+<string id="securityDetail_KindGroupFromDB_Internal">
+</string>
+<boolean id="personDataPartner2PaymentPension" enabled="false">
+</boolean>
+<integer id="jobExpensesPartner2WeekdayStayCateringTotalAmount" calculated="true">
+</integer>
+<string id="securityDetail_SecuritiesNumber" visible="false">
+</string>
+<integer id="jobExpensesPartner2CateringSubsidizedRaw" calculated="true">
+</integer>
+<string id="securityDetail_QuotationTypeFromDB_Internal">
+</string>
+<integer id="paymentAlimonyChildTotalAmount" calculated="true">
+</integer>
+<boolean id="jobExpensesPartner2WeekdayStayHasCatering" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personalData_bankAccountForeignBLZ" enabled="false">
+</string>
+<integer id="unemploymentInsurancePartnerAmount2" enabled="false">
+</integer>
+<string id="wizard.mainWizardPreviousState">
+<value>finalData</value>
+</string>
+<boolean id="attachmentConditionWageStatement" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="deductionDiseaseAndAccidentRetentionFederalTax" calculated="true">
+</integer>
+<integer id="insuranceAndInterestCantonalTax" calculated="true">
+<value>3400</value>
+</integer>
+<boolean id="jobExpensesPartner2RemainingJobCostDetailIsOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityDetail_OriginalCurrency">
+</string>
+<integer id="adjustedNetIncomeCantonalTax" calculated="true">
+<value>112142</value>
+</integer>
+<boolean id="jobExpensesMotorVehicleP1TableStart1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP1TableStart0">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_IsOnlineDBEntry">
+</boolean>
+<string id="jobExpensesTicketCostPublicTransportDetailP2WayTo">
+</string>
+<string id="personalData_oldBankAccountLine3" calculated="true">
+<value>Marbach SG</value>
+</string>
+<integer id="jobExpensesPartner1CateringSubsidizedRaw" calculated="true">
+</integer>
+<string id="securityDetail_valesForRubricCTitle" visible="false">
+</string>
+<boolean id="ac_showRestRevenueLumpSumSettlement" calculated="true">
+<value>false</value>
+</boolean>
+<list id="provision3aPartner2DeductionDetail" enabled="false" uidMaxSeq="0">
+</list>
+<boolean id="jobExpensesMotorVehicleP2TableDailyDistance0">
+<value>true</value>
+</boolean>
+<boolean id="termination" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfSecuritiesSubtotalGrossRevenueBC" calculated="true">
+<value>10</value>
+</integer>
+<string id="masterData_partner2Religion" enabled="false">
+</string>
+<integer id="attachedFormsAttachedTaxStatmentsNumber" enabled="false">
+</integer>
+<dictionary id="dialogStatusMap" valueType="BOOLEAN">
+<entry key="wizardNavigationHint.visited">true</entry>
+<entry key="eSubmissionInfo.visited">true</entry>
+<entry key="submitFinished.visited">true</entry>
+<entry key="deductionOther.visited">true</entry>
+<entry key="notes.visited">true</entry>
+<entry key="listOfSecurities.visited">true</entry>
+<entry key="jobExpensesPublicTransportP1.visited">true</entry>
+<entry key="prerecordingHandicapCosts.complete">true</entry>
+<entry key="deptData.visited">true</entry>
+<entry key="personalDataChildren.complete">true</entry>
+<entry key="finalData.visited">true</entry>
+<entry key="partnerships.complete">true</entry>
+<entry key="provision.visited">true</entry>
+<entry key="eSubmissionInfo.complete">true</entry>
+<entry key="prerecordingDiseaseAndAccidentCosts.complete">true</entry>
+<entry key="deductionOther.complete">true</entry>
+<entry key="listOfSecurities.complete">true</entry>
+<entry key="wizardProfile.complete">true</entry>
+<entry key="submitFinished.complete">true</entry>
+<entry key="personalDataPaybackAccount.visited">true</entry>
+<entry key="securitiesOverview.visited">true</entry>
+<entry key="revenueSocialInsurance2.complete">true</entry>
+<entry key="prerecordingEducation.complete">true</entry>
+<entry key="credentials.complete">true</entry>
+<entry key="notes.complete">true</entry>
+<entry key="revenueSelfemployment.complete">true</entry>
+<entry key="credentials.visited">true</entry>
+<entry key="deductionSocial.complete">true</entry>
+<entry key="listOfProperties.complete">true</entry>
+<entry key="deductionFurtherEducationP1.visited">true</entry>
+<entry key="jobExpensesPublicTransportP1.complete">true</entry>
+<entry key="wizardNavigationHint.complete">true</entry>
+<entry key="prerecordingCharities.complete">true</entry>
+<entry key="wizardWhatsNew.visited">true</entry>
+<entry key="listOfTaxStatements.complete">true</entry>
+<entry key="personalDataPaybackAccount.complete">true</entry>
+<entry key="deptData.complete">true</entry>
+<entry key="listOfProperties.visited">true</entry>
+<entry key="attachmentCollection.visited">true</entry>
+<entry key="sicknessDeduction.complete">true</entry>
+<entry key="securityDetailsDialog.visited">true</entry>
+<entry key="revenueSocialInsurance1.complete">true</entry>
+<entry key="personalData.visited">true</entry>
+<entry key="prerecordingPropertyMaintenanceCosts.complete">true</entry>
+<entry key="securityDetailsDialog.complete">true</entry>
+<entry key="insuranceRevenue.visited">true</entry>
+<entry key="personalData.complete">true</entry>
+<entry key="deductionAlimony.complete">true</entry>
+<entry key="movableAssetsInsurances.complete">true</entry>
+<entry key="securitiesOverview.complete">true</entry>
+<entry key="politicalDeduction.complete">true</entry>
+<entry key="deductionFurtherEducationP1.complete">true</entry>
+<entry key="attachmentCollection.complete">true</entry>
+<entry key="movableAssetsInsurances.visited">true</entry>
+<entry key="assetsSelfemployed.complete">true</entry>
+<entry key="completion.complete">true</entry>
+<entry key="insuranceRevenue.complete">true</entry>
+<entry key="otherRevenue.complete">true</entry>
+<entry key="benefitPayment.complete">true</entry>
+<entry key="revenueSupplementary.complete">true</entry>
+<entry key="inheritances.complete">false</entry>
+<entry key="completion.visited">true</entry>
+<entry key="provision.complete">true</entry>
+<entry key="deductionAlimony.visited">true</entry>
+<entry key="revenueEmployed.visited">true</entry>
+<entry key="wizardProfile.visited">true</entry>
+<entry key="donations.complete">false</entry>
+<entry key="wizardWhatsNew.complete">true</entry>
+<entry key="personalDataProcuration.complete">true</entry>
+<entry key="revenueEmployed.complete">true</entry>
+<entry key="finalData.complete">true</entry>
+</dictionary>
+<list id="jobExpensesPartner2RemainingJobCostDetail" enabled="false" uidMaxSeq="1">
+<entry>{jobExpensesPartner2RemainingJobCostDetail=0}</entry>
+</list>
+<float id="Q1_RUS" enabled="false" visible="false">
+</float>
+<boolean id="donationsGivenTableDate0">
+<value>true</value>
+</boolean>
+<string id="Q1_RueckKontoAenderung2">
+<value>CH8480808002056616648</value>
+</string>
+<string id="Q1_RueckKontoAenderung1">
+<value>Raiffeisenbank Rebstein</value>
+</string>
+<boolean id="ac_showSocialIncome" calculated="true">
+<value>false</value>
+</boolean>
+<string id="Q1_RueckKontoAenderung3">
+</string>
+<boolean id="movablePropertyVehiclePurchaseYear1">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyVehiclePurchaseYear0">
+<value>true</value>
+</boolean>
+<list id="receivedInheritancesDetail" enabled="false" uidMaxSeq="1">
+<entry>{receivedInheritancesDetail=0}</entry>
+</list>
+<boolean id="wizardHasReceivedUndistributedInheritances">
+<value>false</value>
+</boolean>
+<float id="taxCalculator_resultingTax" calculated="true">
+<value>24387.8</value>
+</float>
+<string id="securityDetail_shortDescription_Internal">
+</string>
+<string id="restRevenueAlimonyOverflowHint" calculated="true">
+</string>
+<boolean id="securityDetail_additionDivestitureDetailBtnIsVisibile" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="taxCalculator_cantonalTaxableIncome" calculated="true">
+<value>112100</value>
+</integer>
+<boolean id="pension1Partner2Percentage">
+<value>false</value>
+</boolean>
+<integer id="listOfLiabilitiesTotalPrivateLiabilities" calculated="true">
+</integer>
+<integer id="selfemployedBusinessCapitalAgriculturalTotalFiscalValue" calculated="true">
+</integer>
+<boolean id="jobExpensesOtherP1TableValue0">
+<value>true</value>
+</boolean>
+<string id="attachedDocumentsTotalSizeLbl" calculated="true">
+<value>&lt;html>&lt;b>Dateigrösse Total: 584 KB&lt;/b>&lt;/html</value>
+</string>
+<boolean id="ac_showJobExpensesPartner2RemainingJobCostFlatrate" calculated="true">
+<value>false</value>
+</boolean>
+<string id="personData_accessCodePart3">
+<value>YG</value>
+</string>
+<string id="personData_accessCodePart2">
+<value>LUV2</value>
+</string>
+<string id="personData_accessCodePart1">
+<value>C4VK</value>
+</string>
+<boolean id="movablePropertyLifeInsurancesFixtureYear0">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyLifeInsurancesFixtureYear1">
+<value>true</value>
+</boolean>
+<string id="employedOtherRevenueDetailP2Description">
+</string>
+<integer id="insurancePremiumsSubtotalAmount" calculated="true">
+<value>4042</value>
+</integer>
+<list id="prerecording_propertyMaintenanceCostsEffectivDetail" enabled="false" uidMaxSeq="0">
+</list>
+<float id="securityDetail_securityAdditionDivestitureDetailQuantitySum_Internal" calculated="true">
+</float>
+<string id="taxCalculator_taxScale_calculated" calculated="true">
+<value>single</value>
+</string>
+<boolean id="movablePropertyLifeInsurancesFixtureYear2">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_DefaultTaxValueEndOfYear_Internal" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2WeekdayStayAccommodationDetailMonthlyAmount">
+</integer>
+<boolean id="employedSidelineRevenueDetailP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="SUPPORTED_PERSON_FEDERAL_DEDUCTION" calculated="true">
+<value>6700</value>
+</integer>
+<string id="taxCalculator_maritalStatus" calculated="true">
+<value>Ledig</value>
+</string>
+<list id="wizard.mainWizardCurrentStateList" uidMaxSeq="0">
+<entry>{wizard.mainWizardCurrentStateList=0}</entry>
+<entry>{wizard.mainWizardCurrentStateList=1}</entry>
+<entry>{wizard.mainWizardCurrentStateList=2}</entry>
+<entry>{wizard.mainWizardCurrentStateList=3}</entry>
+<entry>{wizard.mainWizardCurrentStateList=4}</entry>
+<entry>{wizard.mainWizardCurrentStateList=5}</entry>
+<entry>{wizard.mainWizardCurrentStateList=6}</entry>
+<entry>{wizard.mainWizardCurrentStateList=7}</entry>
+<entry>{wizard.mainWizardCurrentStateList=8}</entry>
+<entry>{wizard.mainWizardCurrentStateList=9}</entry>
+<entry>{wizard.mainWizardCurrentStateList=10}</entry>
+<entry>{wizard.mainWizardCurrentStateList=11}</entry>
+<entry>{wizard.mainWizardCurrentStateList=12}</entry>
+<entry>{wizard.mainWizardCurrentStateList=13}</entry>
+<entry>{wizard.mainWizardCurrentStateList=14}</entry>
+<entry>{wizard.mainWizardCurrentStateList=15}</entry>
+</list>
+<string id="preferences_inquiriesToEMail">
+</string>
+<boolean id="jobExpensesMotorVehicleP2TableDailyDistance1">
+<value>true</value>
+</boolean>
+<integer id="socialDeductionChildrenPreSchoolCantonalTax" enabled="false">
+</integer>
+<string id="jobExpensesPartner2PrivateMotorvehicleDetailWayFrom">
+</string>
+<string id="Q1_TIMESTAMP" enabled="false">
+<value>21.11.25, 08:44</value>
+</string>
+<integer id="JOB_EXPENSES_REMAINING_COST_CANTONAL_MAX" calculated="true">
+<value>2400</value>
+</integer>
+<boolean id="F11_BackgroundSubmission">
+</boolean>
+<float id="jobExpensesPartner2PrivateMotorvehicleTotalCost_Calculated" calculated="true">
+</float>
+<boolean id="restRevenueAlimonyAmount">
+<value>true</value>
+</boolean>
+<integer id="pension1P2TotalRevenue" calculated="true">
+</integer>
+<string id="personDataPartner1Municipality">
+<value>Mels</value>
+</string>
+<integer id="jobExpensesPartner1CateringShiftWork" calculated="true">
+</integer>
+<integer id="jobExpensesPartner2PrivateMotorvehicleDetailDistanceOfTrip">
+</integer>
+<boolean id="personDataHasCouple" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="attachedFormsAttachedWageStatement">
+<value>true</value>
+</boolean>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostP2TotalAmountFederal" calculated="true">
+</integer>
+<integer id="employedSidelineRevenueP2TotalRevenue" calculated="true">
+</integer>
+<boolean id="movablePropertyLifeInsurancesFiscalValue1">
+<value>true</value>
+</boolean>
+<integer id="EDUCATION_DEDUCTION_FEDERAL_MAX" calculated="true">
+<value>12900</value>
+</integer>
+<boolean id="movablePropertyLifeInsurancesFiscalValue2">
+<value>true</value>
+</boolean>
+<string id="selfemployedCompanyRevenueDetailP2Description">
+</string>
+<boolean id="movablePropertyLifeInsurancesFiscalValue0">
+<value>true</value>
+</boolean>
+<string id="attachedDocumentsDonations_ticket">
+</string>
+<boolean id="restRevenueDescription">
+<value>true</value>
+</boolean>
+<boolean id="ac_showMovablePropertyHeritageEtcFiscalValue" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_bankAccountLine3" enabled="false">
+<value>Marbach SG</value>
+</string>
+<string id="masterData_bankAccountLine2" enabled="false">
+<value>Raiffeisenbank Marbach-Rebstei</value>
+</string>
+<float id="securityDetail_FaceValueQuantity_EndYear_Internal" calculated="true">
+</float>
+<boolean id="agreementForBackgroundSubmission">
+<value>true</value>
+</boolean>
+<list id="movablePropertyVehicleDetail" uidMaxSeq="2">
+<entry>{movablePropertyVehicleDetail=0}</entry>
+<entry>{movablePropertyVehicleDetail=1}</entry>
+</list>
+<integer id="insurancePremiumsDeductionInsuranceAndInterestMarriedCantonalTax" calculated="true">
+</integer>
+<string id="taxYearPlus1Text" calculated="true">
+<value>2025</value>
+</string>
+<integer id="jobExpensesPartner2MainRevenue" enabled="false" calculated="true">
+</integer>
+<integer id="attachedFormsAttachedDispositionNumber" enabled="false">
+</integer>
+<float id="taxCalculator_cantonalIncomeTax" enabled="false">
+<value>20714.1</value>
+</float>
+<boolean id="movablePropertyLifeInsurancesInsuranceValue2">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP1TableDistance1">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyLifeInsurancesInsuranceValue1">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_SearchSecNumberBtnIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="pension1DetailP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="movablePropertyLifeInsurancesInsuranceValue0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP1TableDistance0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPartner1SidelineFlatrateOrEffective">
+<value>false</value>
+</boolean>
+<integer id="selfemployedOneManCompanyRevenueP2TotalRevenue" calculated="true">
+</integer>
+<string id="Q1_REGNO" enabled="false">
+<value>4330856</value>
+</string>
+<list id="jobExpensesPartner2PrivateMotorvehicleDetail" enabled="false" uidMaxSeq="2">
+<entry>{jobExpensesPartner2PrivateMotorvehicleDetail=0}</entry>
+<entry>{jobExpensesPartner2PrivateMotorvehicleDetail=1}</entry>
+</list>
+<integer id="insuranceAHVIV100AmountPartnerAmount2" enabled="false">
+</integer>
+<string id="masterData_bankAccountLine1" enabled="false">
+<value>CH7781324000003817707</value>
+</string>
+<integer id="securityListColumn_Index">
+</integer>
+<integer id="JOB_EXPENSES_REMAINING_COST_FEDERAL_MIN" calculated="true">
+<value>2000</value>
+</integer>
+<string id="taxCalculator_displayWarning" calculated="true">
+</string>
+<boolean id="employedMainRevenueP2Revenue">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableFrom0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableFrom1">
+<value>true</value>
+</boolean>
+<integer id="selfemployedBusinessCapitalCompanyAssetTotalFiscalValue" calculated="true">
+</integer>
+<boolean id="wizardHasPaidOutDonations">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner1CantonalTax" calculated="true">
+<value>2400</value>
+</integer>
+<boolean id="childDataDetailDateOfBirth0">
+<value>false</value>
+</boolean>
+<boolean id="wizardVisitableDonations" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailDateOfBirth1">
+<value>false</value>
+</boolean>
+<boolean id="ac_showSocialDeductionChildrenPreSchoolCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsEducationAndChildcareCosts_count">
+<value>0</value>
+</integer>
+<boolean id="childDataDetailDateOfBirth2">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsListOfSecurities_count">
+<value>1</value>
+</integer>
+<date id="personDataFiscalYearBegin">
+<value>2024-01-01</value>
+</date>
+<boolean id="partnershipsTableName0">
+<value>true</value>
+</boolean>
+<string id="preferences_inquiriesToOfficialName">
+</string>
+<boolean id="securityDetail_DepositNumberIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="provision3aPartner1EmploymentRevenue" calculated="true">
+<value>119165</value>
+</integer>
+<boolean id="ac_showPayment" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="socialDeductionSupportedPersonNumber" calculated="true">
+<value>0</value>
+</integer>
+<boolean id="selfemployedBusinessCapitalCompanyAssetFiscalValue">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP1TableFrom1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP1TableFrom0">
+<value>true</value>
+</boolean>
+<integer id="deductionDiseaseAndAccidentRetentionCantonalTax" calculated="true">
+</integer>
+<boolean id="jobExpensesPartner2CateringPrint" calculated="true">
+</boolean>
+<list id="Q1_Attachments" uidMaxSeq="6">
+<entry>{Q1_Attachments=0}</entry>
+<entry>{Q1_Attachments=1}</entry>
+<entry>{Q1_Attachments=2}</entry>
+<entry>{Q1_Attachments=3}</entry>
+<entry>{Q1_Attachments=4}</entry>
+<entry>{Q1_Attachments=5}</entry>
+</list>
+<string id="fiscalYearEndDateLongText" calculated="true">
+<value>31. Dezember 2024</value>
+</string>
+<boolean id="childDataDetailDateOfBirth3">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailDateOfBirth4">
+<value>false</value>
+</boolean>
+<boolean id="personDataPartner2IsSelfemployed" enabled="false">
+</boolean>
+<boolean id="hasMissingWageStatement" visible="false">
+</boolean>
+<integer id="F13_EinkommenSteuerbarB" calculated="true">
+<value>112500</value>
+</integer>
+<string id="masterData_partner1AdressLine1" enabled="false">
+</string>
+<string id="uploadAssistantFinishedPrintReceipt" calculated="true">
+<value>Bestätigung drucken...</value>
+</string>
+<integer id="attachedDocumentsAlimony_count">
+<value>0</value>
+</integer>
+<integer id="jobExpensesPartner2RemainingJobCostDetailAmount">
+</integer>
+<integer id="paidOutDonationsTotalAmount" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1SidelineFlatrate" calculated="true">
+</integer>
+<boolean id="ac_showJobExpensesPartner1RemainingJobCost" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="assetMovablePropertyFreeTextFiscalValue">
+<value>true</value>
+</boolean>
+<boolean id="securityCalculatorIcon.TaxValueEndOfYear">
+</boolean>
+<boolean id="securityDetail_GrossRevenueDetailBtnIsVisible" visible="false">
+</boolean>
+<string id="attachedDocumentsWageStatement_ticket">
+</string>
+<float id="securityDetail_FaceValueQuantity_EndYear_Or_Default_Internal" calculated="true">
+</float>
+<integer id="F13_EinkommenSteuerbarK" calculated="true">
+<value>112100</value>
+</integer>
+<dictionary id="wizard.main_wizardStates">
+<entry key="securities_stateHasContent">true</entry>
+<entry key="benefitPayment_stateIsComplete">true</entry>
+<entry key="credentials_stateHasContent">true</entry>
+<entry key="deptData_stateIsSelected">false</entry>
+<entry key="deductionSocial_stateIsComplete">true</entry>
+<entry key="deductionFurtherEducationP1_stateHasContent">true</entry>
+<entry key="deptData_stateIsVisited">true</entry>
+<entry key="donations_stateIsSelected">false</entry>
+<entry key="otherRevenue_stateIsComplete">true</entry>
+<entry key="sicknessDeduction_stateIsSelected">false</entry>
+<entry key="listOfProperties_stateIsVisited">true</entry>
+<entry key="otherRevenue_stateHasContent">false</entry>
+<entry key="insuranceRevenue_stateHasContent">true</entry>
+<entry key="personalData_stateIsVisited">true</entry>
+<entry key="revenueEmployed_stateIsVisited">true</entry>
+<entry key="finalData_stateIsVisited">true</entry>
+<entry key="completion_stateIsVisited">true</entry>
+<entry key="deductionAlimony_stateIsVisited">true</entry>
+<entry key="personalDataProcuration_stateIsComplete">true</entry>
+<entry key="revenueEmployed_stateIsSelected">true</entry>
+<entry key="personalDataChildren_stateIsComplete">true</entry>
+<entry key="jobExpensesPublicTransportP1_stateIsSelected">true</entry>
+<entry key="revenueSelfemployment_stateIsComplete">true</entry>
+<entry key="donations_stateIsComplete">false</entry>
+<entry key="securities_stateIsComplete">true</entry>
+<entry key="sicknessDeduction_stateIsComplete">true</entry>
+<entry key="notes_stateIsComplete">true</entry>
+<entry key="deptData_stateIsComplete">true</entry>
+<entry key="jobExpensesPublicTransportP1_stateHasContent">true</entry>
+<entry key="movableAssetsInsurances_stateIsComplete">true</entry>
+<entry key="deductionOther_stateIsVisited">true</entry>
+<entry key="securities_stateIsVisited">true</entry>
+<entry key="revenueEmployed_stateHasContent">true</entry>
+<entry key="taxStatements_stateIsComplete">true</entry>
+<entry key="partnerships_stateIsSelected">false</entry>
+<entry key="insuranceRevenue_stateIsComplete">true</entry>
+<entry key="inheritances_stateIsComplete">false</entry>
+<entry key="deductionFurtherEducationP1_stateIsSelected">true</entry>
+<entry key="deductionOther_stateHasContent">false</entry>
+<entry key="securitiesOverview_stateIsComplete">true</entry>
+<entry key="securitiesOverview_stateIsVisited">true</entry>
+<entry key="listOfProperties_stateHasContent">true</entry>
+<entry key="finalData_stateIsComplete">true</entry>
+<entry key="revenueSocialInsurance1_stateIsComplete">true</entry>
+<entry key="revenueSelfemployment_stateIsSelected">false</entry>
+<entry key="notes_stateHasContent">false</entry>
+<entry key="completion_stateHasContent">false</entry>
+<entry key="personalData_stateIsComplete">true</entry>
+<entry key="personalDataChildren_stateIsSelected">false</entry>
+<entry key="provision_stateIsSelected">false</entry>
+<entry key="revenueEmployed_stateIsComplete">true</entry>
+<entry key="revenueSocialInsurance2_stateIsSelected">false</entry>
+<entry key="taxStatements_stateIsSelected">false</entry>
+<entry key="wizardNavigationHint_stateIsVisited">true</entry>
+<entry key="revenueSupplementary_stateIsComplete">true</entry>
+<entry key="deductionAlimony_stateIsComplete">true</entry>
+<entry key="movableAssetsInsurances_stateHasContent">false</entry>
+<entry key="politicalDeduction_stateIsSelected">false</entry>
+<entry key="wizardProfile_stateIsComplete">true</entry>
+<entry key="notes_stateIsVisited">true</entry>
+<entry key="partnerships_stateIsComplete">true</entry>
+<entry key="deductionFurtherEducationP1_stateIsVisited">true</entry>
+<entry key="assetsSelfemployed_stateIsComplete">true</entry>
+<entry key="finalData_stateHasContent">true</entry>
+<entry key="wizardProfile_stateIsVisited">true</entry>
+<entry key="listOfProperties_stateIsComplete">true</entry>
+<entry key="provision_stateIsVisited">true</entry>
+<entry key="securitiesOverview_stateHasContent">true</entry>
+<entry key="completion_stateIsComplete">true</entry>
+<entry key="benefitPayment_stateIsSelected">false</entry>
+<entry key="personalData_stateHasContent">true</entry>
+<entry key="provision_stateIsComplete">true</entry>
+<entry key="revenueSocialInsurance1_stateIsSelected">false</entry>
+<entry key="deductionAlimony_stateIsSelected">false</entry>
+<entry key="deductionOther_stateIsComplete">true</entry>
+<entry key="revenueSocialInsurance2_stateIsComplete">true</entry>
+<entry key="revenueSupplementary_stateIsSelected">false</entry>
+<entry key="deductionSocial_stateIsSelected">false</entry>
+<entry key="movableAssetsInsurances_stateIsVisited">true</entry>
+<entry key="deductionFurtherEducationP1_stateIsComplete">true</entry>
+<entry key="inheritances_stateIsSelected">false</entry>
+<entry key="otherRevenue_stateIsSelected">false</entry>
+<entry key="insuranceRevenue_stateIsVisited">true</entry>
+<entry key="wizardProfile_stateHasContent">true</entry>
+<entry key="jobExpensesPublicTransportP1_stateIsVisited">true</entry>
+<entry key="politicalDeduction_stateIsComplete">true</entry>
+<entry key="credentials_stateIsVisited">true</entry>
+<entry key="listOfProperties_stateIsSelected">true</entry>
+<entry key="personalDataProcuration_stateIsSelected">false</entry>
+<entry key="assetsSelfemployed_stateIsSelected">false</entry>
+<entry key="credentials_stateIsComplete">true</entry>
+<entry key="jobExpensesPublicTransportP1_stateIsComplete">true</entry>
+<entry key="wizardWhatsNew_stateIsVisited">true</entry>
+</dictionary>
+<integer id="attachedDocumentsBalance_count">
+<value>0</value>
+</integer>
+<integer id="insurancePremiumsInterestSavings_Calculated" calculated="true">
+<value>10</value>
+</integer>
+<boolean id="childDataDetailFirstName2">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailFirstName3">
+<value>false</value>
+</boolean>
+<string id="bankAccountEdited" calculated="true">
+<value>{0}</value>
+</string>
+<boolean id="childDataDetailFirstName0">
+<value>false</value>
+</boolean>
+<boolean id="ac_showRestRevenueAlimony" calculated="true">
+<value>false</value>
+</boolean>
+<date id="EFFECTIVE_FISCAL_YEAR_START_DATE" calculated="true">
+<value>2024-01-01</value>
+</date>
+<boolean id="childDataDetailFirstName1">
+<value>false</value>
+</boolean>
+<float id="securityDetail_securityAdditionDivestitureDetailEndPeriodQuantity" enabled="false" visible="false" calculated="true">
+</float>
+<string id="F11_Barcode">
+</string>
+<float id="TAX_PERIOD_SCALING_FACTOR" calculated="true">
+<value>1.0</value>
+</float>
+<integer id="MAX_3_DIGITS" calculated="true">
+<value>999</value>
+</integer>
+<boolean id="jobExpensesPartner1RemainingJobCostDetailIsOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showRestRevenueInheritanceEtc" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="JOB_EXPENSES_CATERING_MAX" calculated="true">
+<value>3200</value>
+</integer>
+<string id="taxCalculator_partner2Religion" calculated="true">
+</string>
+<boolean id="childDataDetailFirstName4">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner1" calculated="true">
+<value>true</value>
+</boolean>
+<string id="listOfSecuritiesTotalRefundLabel" visible="false">
+</string>
+<boolean id="employedSidelineRevenueP1Revenue">
+<value>true</value>
+</boolean>
+<boolean id="ac_showSecuritiesRevenueQualifiedDeduction" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner2" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showAdditionalIncome" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="insurancePremiumsAdditionalDeductionSingle" calculated="true">
+</integer>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_CHILDREN_FEDERAL" calculated="true">
+<value>700</value>
+</integer>
+<integer id="JOB_EXPENSES_BICYCLE_OR_SMALL_MOTORBIKE_MAX" calculated="true">
+<value>700</value>
+</integer>
+<integer id="security_TotalAssetsC" calculated="true">
+</integer>
+<integer id="security_TotalAssetsB" calculated="true">
+<value>23940</value>
+</integer>
+<integer id="security_TotalAssetsA" calculated="true">
+</integer>
+<integer id="JOB_EXPENSES_CATERING_SUBSIDIZED_MAX" calculated="true">
+<value>1600</value>
+</integer>
+<integer id="listOfPoliticalPartiesTotalAmount" calculated="true">
+</integer>
+<boolean id="attachmentConditionBalance" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostP1TotalAmount" calculated="true">
+<value>3233</value>
+</integer>
+<boolean id="ac_showPaymentAlimonyChild" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsDonations_count">
+<value>0</value>
+</integer>
+<boolean id="USE_NOMINAL_VALUES" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner1RemainingJobCostFlatrate" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesWeekdayStayP1TableAmountPerMonth0">
+<value>true</value>
+</boolean>
+<integer id="prerecording_politicalPartiesTotalAmount" calculated="true">
+</integer>
+<boolean id="jobExpensesPartner1HasReasonPrivateMotorvehicle" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="paymentAlimonyAmount">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_RevenueDetailChanged" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="prerecording_furtherDeductionJobOrientedFurtherEducationCostP2TotalAmount" calculated="true">
+</integer>
+<boolean id="employedMainRevenuePartnerAmount2">
+<value>false</value>
+</boolean>
+<integer id="securitiesRevenueQualifiedPrivate" calculated="true">
+</integer>
+<boolean id="isOnline" visible="false">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner2CateringSubsidized" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="paymentAlimonyChildAmount">
+<value>true</value>
+</boolean>
+<boolean id="employedMainRevenuePartnerAmount1">
+<value>true</value>
+</boolean>
+<list id="jobExpensesPartner1SidelineEffectiveDetail" enabled="false" uidMaxSeq="1">
+<entry>{jobExpensesPartner1SidelineEffectiveDetail=0}</entry>
+</list>
+<float id="securityDetail_TaxValueBase" visible="false" calculated="true">
+</float>
+<string id="internalSecuritySearchKindDetailedFromDB">
+</string>
+<integer id="jobExpensesPartner1AmountMotorvehicle" calculated="true">
+</integer>
+<string id="Q1_Mitteilungen">
+</string>
+<boolean id="heritageReceivedTableRepartitionDate0">
+<value>true</value>
+</boolean>
+<string id="Q1_RepresentativeName" calculated="true">
+</string>
+<integer id="jobExpensesPartner1SidelineRevenueAmount" calculated="true">
+</integer>
+<string id="taxCalculator_subMunicipality">
+<value>blank</value>
+</string>
+<boolean id="ac_showJobExpensesPartner1BicycleOrSmallMotorbike" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="insurancePremiumsTotalDeductionInsuranceAndInterestFederalTax" calculated="true">
+<value>1800</value>
+</integer>
+<boolean id="selfemployedBusinessCapitalCompanyAssetDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="notifySearchResult" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="employedSidelineRevenueP2Description">
+<value>false</value>
+</boolean>
+<boolean id="employedSidelineRevenueP2Description_onForm">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPartner2SidelineFlatrateOrEffective" enabled="false">
+<value>false</value>
+</boolean>
+<boolean id="printDA1" calculated="true">
+<value>false</value>
+</boolean>
+<list id="eSubmissionWizardWizardCurrentStateList" uidMaxSeq="0">
+<entry>{eSubmissionWizardWizardCurrentStateList=0}</entry>
+<entry>{eSubmissionWizardWizardCurrentStateList=1}</entry>
+</list>
+<boolean id="jobExpensesPartner2ReasonPrivateMotorvehicleJobRequirement" enabled="false">
+</boolean>
+<string id="securityCcyCalculator_Currency_EndYearRate" visible="false">
+</string>
+<integer id="jobExpensesPartner1SidelineFlatrateAmount" calculated="true">
+</integer>
+<float id="securityDetail_NominalValue_YearEnd_Internal" calculated="true">
+</float>
+<boolean id="securityDetail_additionDivestitureDetailBtn" visible="false">
+</boolean>
+<string id="preferences_inquiriesToPhoneNumberPrivate">
+</string>
+<integer id="insurancePremiumsBasicDeductionMarried" calculated="true">
+</integer>
+<string id="securityDetail_AccountNumber">
+<value>CH8480808002056616648</value>
+</string>
+<integer id="CHILD_SUPPORT_IN_SCHOOL" calculated="true">
+<value>10600</value>
+</integer>
+<boolean id="personDataPartner1IsEmployed">
+<value>true</value>
+</boolean>
+<date id="personDataPartner2DateOfBirth" enabled="false">
+</date>
+<boolean id="ac_showSecuritiesRevenueQualifiedBusiness" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsDiseaseAccidnetAndHandicapExpensess_count">
+<value>0</value>
+</integer>
+<string id="attachedDocumentsProvisions_ticket">
+</string>
+<string id="Q1_EMAIL">
+<value>valentino.tomasic@bluewin.ch</value>
+</string>
+<boolean id="jobExpensesPublicTransportP1TableStart0">
+<value>true</value>
+</boolean>
+<boolean id="printRepresentative" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableStart1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesOtherP1TableDescr0">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner1RemainingJobCostFlatrateAmount" calculated="true">
+<value>2400</value>
+</integer>
+<boolean id="wizardHasReceivedDonations">
+<value>false</value>
+</boolean>
+<string id="securityListColumn_Rubric">
+</string>
+<string id="pdfMacroFileName" calculated="true">
+<value>08;4330856;2024</value>
+</string>
+<boolean id="ac_showJobExpensesWeekdayStayP2TableValue0" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="taxCalculator_taxScale">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableEnd0">
+<value>true</value>
+</boolean>
+<integer id="resultingFiscalAssetsFiscalValue" calculated="true">
+<value>0</value>
+</integer>
+<boolean id="jobExpensesPublicTransportP1TableEnd1">
+<value>true</value>
+</boolean>
+<integer id="movablePropertyVehicleTotalFiscalValue" calculated="true">
+</integer>
+<float id="Q1_VERRECH" enabled="false">
+</float>
+<boolean id="jobExpensesOtherP2TableValue0">
+<value>true</value>
+</boolean>
+<boolean id="securityCalculatorIcon.TaxValueBase" visible="false">
+</boolean>
+<date id="personDataFiscalYearEnd">
+<value>2024-12-31</value>
+</date>
+<string id="personDataPartner1Religion">
+<value>romCath</value>
+</string>
+<boolean id="securityDetail_IsDBEntry">
+</boolean>
+<string id="masterData_partner1Town" enabled="false">
+</string>
+<string id="securityDetail_Code">
+</string>
+<integer id="JOB_EXPENSES_TRANSPORTATION_FEDERAL_MAX" calculated="true">
+<value>3200</value>
+</integer>
+<boolean id="ac_showBenefitPaymentAmountTotal" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityDetail_securitiesRevenueDetailCurrency" visibleInParent="false">
+</string>
+<boolean id="movablePropertyVehiclePurchasePrice0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesPublicTransportP1" calculated="true">
+<value>false</value>
+</boolean>
+<date id="terminationPersonalDataEndDate" calculated="true">
+<value>2025-12-30</value>
+</date>
+<boolean id="movablePropertyVehiclePurchasePrice1">
+<value>true</value>
+</boolean>
+<string id="taxYearText" calculated="true">
+<value>2024</value>
+</string>
+<boolean id="ac_showJobExpensesPublicTransportP2" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_partner1OfficialName" enabled="false">
+<value>Tomasic</value>
+</string>
+<list id="jobExpensesTicketCostPublicTransportDetailP1" uidMaxSeq="2">
+<entry>{jobExpensesTicketCostPublicTransportDetailP1=0}</entry>
+<entry>{jobExpensesTicketCostPublicTransportDetailP1=1}</entry>
+</list>
+<string id="masterData_partner2OfficialName" enabled="false">
+</string>
+<string id="jobExpensesPartner1PrivateMotorvehicleOverflowLabel" visible="false" calculated="true">
+<value>siehe Zusatzblätter</value>
+</string>
+<string id="securityDetail_securityAdditionDivestitureDetailReason">
+</string>
+<integer id="insurancePremiumsBasicDeductionSingle" calculated="true">
+<value>3400</value>
+</integer>
+<string id="employedSidelineRevenueDetailP2Description">
+</string>
+<list id="jobExpensesTicketCostPublicTransportDetailP2" enabled="false" uidMaxSeq="2">
+<entry>{jobExpensesTicketCostPublicTransportDetailP2=0}</entry>
+<entry>{jobExpensesTicketCostPublicTransportDetailP2=1}</entry>
+</list>
+<boolean id="actionUploadAssistantBtn" calculated="true">
+<value>true</value>
+</boolean>
+<string id="attachedDocumentsOther_ticket">
+</string>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_MARRIED_CANTONAL_BASEVALUE" calculated="true">
+<value>6700</value>
+</integer>
+<string id="attachedDocumentsExpenses_ticket">
+</string>
+<integer id="Q1_EINKOMMEN" enabled="false">
+<value>112100</value>
+</integer>
+<float id="securityDetail_securitiesRevenueDetailTotalCHF">
+</float>
+<string id="Q1_Personennr" enabled="false">
+<value>888.91.482.000</value>
+</string>
+<boolean id="ac_showJobExpensesPartner1CateringSubsidized" calculated="true">
+<value>false</value>
+</boolean>
+<string id="attachedDocumentsTotalSize">
+<value>584 KB</value>
+</string>
+<integer id="insurancePremiumsAdditionalDeductionMarried" calculated="true">
+</integer>
+<boolean id="selfemployedBusinessCapitalAgriculturalFiscalValue">
+<value>true</value>
+</boolean>
+<string id="personalData_bankAccountIBANNumber">
+<value>CH8480808002056616648</value>
+</string>
+<boolean id="wizardHasRevenueSupplementary">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesWeekdayStayP2TableMonths0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesWeekdayStayP1TableMonths0">
+<value>true</value>
+</boolean>
+<integer id="CHILD_EDUCATION_FRANCHISE" calculated="true">
+<value>3100</value>
+</integer>
+<boolean id="isRestRevenueDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityDetail_CalculatedRubricFromJavaFK1">
+</string>
+<string id="personDataAddressline2" calculated="true">
+<value>Valentino Tomasic</value>
+</string>
+<integer id="securityDetail_IUPAmountWithoutWithholdingTax" enabled="false" visible="false">
+</integer>
+<string id="personDataAddressline1" calculated="true">
+<value>Herr</value>
+</string>
+<string id="personDataAddressline4" calculated="true">
+<value>8887 Mels</value>
+</string>
+<boolean id="prerecordingWizardRunning">
+</boolean>
+<string id="personDataAddressline3" calculated="true">
+<value>Stadtergasse 20</value>
+</string>
+<integer id="totalAmountDeductionFederalTax" calculated="true">
+<value>9108</value>
+</integer>
+<string id="personDataAddressline6" calculated="true">
+</string>
+<string id="personDataAddressline5" calculated="true">
+</string>
+<string id="personDataPartner1Municipality_Copy" calculated="true">
+<value>Mels</value>
+</string>
+<string id="personDataFullName" calculated="true">
+<value>Tomasic Valentino</value>
+</string>
+<string id="personDataAddressline7" calculated="true">
+</string>
+<integer id="jobExpensesPartner1SidelineFlatrateMaxAmount" calculated="true">
+</integer>
+<boolean id="employedSidelineRevenueDetailP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2AmountMotorvehicle" calculated="true">
+</integer>
+<string id="personDataPartner2FirstName" enabled="false">
+</string>
+<integer id="jobExpensesPartner2TransportationCostFederal" calculated="true">
+</integer>
+<integer id="ET_TRY" calculated="true">
+<value>1</value>
+</integer>
+<boolean id="heritageUnrepartitionedTableMunicipality0">
+<value>true</value>
+</boolean>
+<boolean id="employedSidelineRevenueP1Description_onForm">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableDistance1">
+<value>true</value>
+</boolean>
+<boolean id="ac_showSelfemployedBusinessCapitalAgriculturalFiscalValue" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="runOnClient" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableDistance0">
+<value>true</value>
+</boolean>
+<boolean id="employedOtherRevenueP2Revenue">
+<value>false</value>
+</boolean>
+<integer id="restRevenueAlimonyTotalAmount" calculated="true">
+</integer>
+<string id="securityDetail_FaceValueQuantityType" calculated="true">
+<value>saldo</value>
+</string>
+<string id="employedMainRevenueDetailP2Employer">
+</string>
+<integer id="insurancePremiumsDeductionChildFederalTax" calculated="true">
+<value>0</value>
+</integer>
+<float id="listOfSecuritiesWithholdingTax" calculated="true">
+</float>
+<boolean id="pension1Partner1Percentage">
+<value>true</value>
+</boolean>
+<string id="inETaxVerified">
+<value>done</value>
+</string>
+<boolean id="heritageReceivedTableMunicipality0">
+<value>true</value>
+</boolean>
+<integer id="listOfSecuritiesSubtotalGrossRevenueBusinessSecurities" enabled="false" calculated="true">
+</integer>
+<boolean id="Q1_DA1TrivialCase" visible="false">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableEnd1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableEnd0">
+<value>true</value>
+</boolean>
+<float id="jobExpensesPartner2PrivateMotorvehicleCostPerKm_Calculated" calculated="true">
+</float>
+<string id="securityDetail_valesForRubricATitle" visible="false">
+</string>
+<list id="restRevenueInheritanceEtcDetail" uidMaxSeq="1">
+<entry>{restRevenueInheritanceEtcDetail=0}</entry>
+</list>
+<string id="submissionConfirmationEMail">
+<value>valentino.tomasic@bluewin.ch</value>
+</string>
+<boolean id="heritageReceivedTableDeathDate0">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2CateringSubsidizedNumberOfDays" enabled="false">
+</integer>
+<integer id="receivedDonationsTotalAmount" calculated="true">
+</integer>
+<list id="paymentAlimonyChildDetail" uidMaxSeq="1">
+<entry>{paymentAlimonyChildDetail=0}</entry>
+</list>
+<boolean id="securityDetail_RevenueFlatRateTaxChargingPercentageIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableFrom0">
+<value>true</value>
+</boolean>
+<string id="Q1_RUCKFRGName">
+</string>
+<boolean id="jobExpensesPublicTransportP1TableFrom1">
+<value>true</value>
+</boolean>
+<string id="Q1_NAME" enabled="false">
+<value>Tomasic Valentino</value>
+</string>
+<boolean id="securityDetail_IsIUP">
+</boolean>
+<boolean id="jobExpensesPartner2ReasonPrivateMotorvehicleNoPublicTransport" enabled="false">
+</boolean>
+<integer id="moveablePropertyLifeInsurancesTotal" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1TransportationCostCantonal" calculated="true">
+</integer>
+<integer id="attachedDocumentsFurtherEducationCosts_count">
+<value>4</value>
+</integer>
+<integer id="employedMainRevenueDetailP2Revenue">
+</integer>
+<date id="terminationYearEndDate" calculated="true">
+<value>2025-12-31</value>
+</date>
+<integer id="securityDetail_IsIUP_AlertFlag">
+</integer>
+<string id="ET_CopieFilePath">
+<value>C:\Users\valen\Desktop\Steuern 2024\Tomasic_Valentino_2024.sgnp2124</value>
+</string>
+<boolean id="jobExpensesPartner2ReasonPrivateMotorvehicleOtherReasons" enabled="false">
+</boolean>
+<boolean id="pension1Partner1Amount100">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesSidelineReveueP1TableDescr0">
+<value>true</value>
+</boolean>
+<integer id="listOfCharitiesTotalAmount" calculated="true">
+</integer>
+<string id="masterData_partner1Religion_display" calculated="true">
+<value>Römisch-Katholisch</value>
+</string>
+<boolean id="restRevenueAmount">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2TransportationCostCantonal" calculated="true">
+</integer>
+<string id="personalData_bankAccountBankName">
+<value>Raiffeisenbank Rebstein</value>
+</string>
+<boolean id="employedMainRevenueP2Employer">
+<value>false</value>
+</boolean>
+<integer id="attachedFormsAttachedForms4Or5Or6OrEtcNumber" calculated="true">
+<value>3</value>
+</integer>
+<integer id="listOfSecuritiesSubtotalGrossRevenueBusinessSecurities_Calculated" calculated="true">
+</integer>
+<date id="securityDetail_securitiesRevenueDetailExDate" visibleInParent="false">
+</date>
+<integer id="jobExpensesPartner1WeekdayStayAccommodationTotalAmount" calculated="true">
+</integer>
+<integer id="attachedFormsAttachedWageStatementNumber">
+<value>1</value>
+</integer>
+<boolean id="hasMissingConditionBalance" visible="false">
+</boolean>
+<string id="personalData_newBankAccountLine2" calculated="true">
+<value>CH8480808002056616648</value>
+</string>
+<string id="pension1DetailP2Description">
+</string>
+<boolean id="jobExpensesSidelineReveueP2TableValue0">
+<value>true</value>
+</boolean>
+<string id="securityDetail_valesForRubricBTitle" visible="false">
+</string>
+<string id="personalData_newBankAccountLine3" calculated="true">
+</string>
+<boolean id="wizardHasRevenuesOtherRevenues">
+<value>false</value>
+</boolean>
+<string id="personalData_newBankAccountLine1" calculated="true">
+<value>Raiffeisenbank Rebstein</value>
+</string>
+<integer id="jobExpensesPartner2TotalTransportationCost" calculated="true">
+</integer>
+<boolean id="securityDetailsWizardRunning">
+<value>false</value>
+</boolean>
+<integer id="securityDetail_GrossRevenue">
+<value>2</value>
+</integer>
+<boolean id="ac_showAssetAllowanceSingle" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="pension1DetailP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_IsIUPWithoutWithholdingTax" visible="false">
+</boolean>
+<list id="paidOutDonationsDetail" enabled="false" uidMaxSeq="1">
+<entry>{paidOutDonationsDetail=0}</entry>
+</list>
+<boolean id="restRevenueInheritanceEtcDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="restRevenueAlimonyChildAmount">
+<value>true</value>
+</boolean>
+<integer id="DEDUCTION_POLITICAL_PARTIES_CANTONAL_MAX_SINGLES" calculated="true">
+<value>10500</value>
+</integer>
+<integer id="eOCompensationPartnerAmount2" enabled="false">
+</integer>
+<float id="securityDetail_NominalValue_CHF_YearEnd_Internal" calculated="true">
+</float>
+<string id="securityDetail_Country" visible="false">
+</string>
+<string id="securityDetail_DepositNumber" visible="false">
+</string>
+<list id="assetMovablePropertyFreeTextDetail" uidMaxSeq="1">
+<entry>{assetMovablePropertyFreeTextDetail=0}</entry>
+</list>
+<integer id="DEDUCTION_EMPLOYMENT_BOTH_FEDERAL_MIN" calculated="true">
+<value>8500</value>
+</integer>
+<string id="attachedFormsAttachedFreetext2Text" enabled="false">
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableDailyDistance1">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_AccountNumberIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<string id="securityDetail_TaxableAmountColumnTitle" visible="false">
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableDailyDistance0">
+<value>true</value>
+</boolean>
+<string id="personDataPartner2Job" enabled="false">
+</string>
+<integer id="jobExpensesPartner2FederalTax" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1WeekdayStayCateringTotalAmount" calculated="true">
+</integer>
+<boolean id="attachedFormsAttachedBalanceSheet">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner1CateringShiftWork" calculated="true">
+<value>false</value>
+</boolean>
+<string id="attachedDocumentsFurtherEducationCosts_ticket">
+</string>
+<boolean id="employedOtherRevenueDetailP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<float id="securityDetail_TaxValueEndOfYear_Calculated_Round" calculated="true">
+</float>
+<boolean id="movablePropertyLifeInsurancesExpirationYear2">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableValue1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableValue0">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyLifeInsurancesExpirationYear0">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyLifeInsurancesExpirationYear1">
+<value>true</value>
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_SINGLE_FEDERAL_WITHOUT_PROVISIONS" calculated="true">
+<value>2700</value>
+</integer>
+<integer id="jobExpensesPartner2CateringSubsidized" enabled="false" calculated="true">
+</integer>
+<integer id="receivedInheritancesTotalAmount" calculated="true">
+</integer>
+<boolean id="jobExpensesPartner2RemainingJobCostFlatrateOrEffective" enabled="false">
+<value>false</value>
+</boolean>
+<string id="Q1_PERIOD" enabled="false">
+<value>2024</value>
+</string>
+<string id="da1Steet" calculated="true">
+</string>
+<integer id="F12_SE_DoppelverEinkFrau" calculated="true">
+</integer>
+<integer id="deductionPoliticalPartiesFederalTax" calculated="true">
+</integer>
+<integer id="EDUCATION_DEDUCTION_CANTONAL_MAX" calculated="true">
+<value>12900</value>
+</integer>
+<string id="representativePersonName">
+</string>
+<integer id="securityDetail_TaxValueEndOfYearRubricA" visible="false">
+</integer>
+<integer id="securityDetail_TaxValueEndOfYearRubricB" visible="false">
+</integer>
+<integer id="jobExpensesPartner1RemainingJobCostTotalAmount" calculated="true">
+</integer>
+<integer id="securityDetail_TaxValueEndOfYearRubricC" visible="false">
+</integer>
+<integer id="assetAllowanceSingle" calculated="true">
+<value>75000</value>
+</integer>
+<string id="masterData_maritalStatus_display" calculated="true">
+<value>Ledig</value>
+</string>
+<boolean id="attachmentConditionListOfSecurities" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_CHILDREN_CANTONAL" calculated="true">
+<value>1100</value>
+</integer>
+<boolean id="selfemployedOneManCompanyRevenueDetailP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="selfemployedCompanyRevenueP2Revenue">
+<value>false</value>
+</boolean>
+<float id="securityDetail_securitiesRevenueDetailNumber_Calculated">
+<value>0.0</value>
+</float>
+<string id="personDataPartner1AbbreviatedName" calculated="true">
+<value>Valentino T.</value>
+</string>
+<string id="securityDetail_KindTypeFromDB_Internal">
+</string>
+<integer id="resultingFiscalRevenueFederalTax" calculated="true">
+<value>112500</value>
+</integer>
+<boolean id="ac_showJobExpensesPartner2WeekdayStay" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2TotalExpensesFederal" calculated="true">
+</integer>
+<string id="Q1_NUMBER" enabled="false">
+<value>37324014640</value>
+</string>
+<string id="representativePersonLocationAndDate">
+</string>
+<boolean id="ac_showFurtherDeductionNonparentalSuperVisionCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_eSteuerauszugFlag" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="furtherDeductionFinancialMangementAmount">
+<value>true</value>
+</boolean>
+<string id="taxCalculator_taxScale_manual" calculated="true">
+<value>single</value>
+</string>
+<date id="maxDate" calculated="true">
+<value>2100-12-31</value>
+</date>
+<string id="da1Place" calculated="true">
+</string>
+<list id="listOfPropertiesDetail" uidMaxSeq="1">
+<entry>{listOfPropertiesDetail=0}</entry>
+</list>
+<boolean id="personDataPartner2IsNonWorking" enabled="false">
+</boolean>
+<boolean id="attachmentConditionOther" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_partner1FirstName" enabled="false">
+<value>Valentino</value>
+</string>
+<boolean id="hasInvolvedLimitedPartnership">
+<value>false</value>
+</boolean>
+<float id="Q1_DA1" enabled="false" visible="false">
+</float>
+<integer id="listOfLiabilitiesBusinessLiabilities" calculated="true">
+</integer>
+<string id="attachedDocumentsEducationAndChildcareCosts_ticket">
+</string>
+<integer id="provision3aPartner1DeductionTotalAmount" calculated="true">
+</integer>
+<integer id="insurancePremiumsDeductionChildNumber" calculated="true">
+<value>0</value>
+</integer>
+<integer id="revenueCalculationSocialDeductionChildFederalTax" calculated="true">
+<value>0</value>
+</integer>
+<boolean id="jobExpensesPartner1SidelineEffectiveDetailIsOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<string id="eSubmissionWizardWizardCurrentState">
+<value>submitFinished</value>
+</string>
+<list id="Q1_Vouchers" uidMaxSeq="3">
+<entry>{Q1_Vouchers=0}</entry>
+<entry>{Q1_Vouchers=1}</entry>
+<entry>{Q1_Vouchers=2}</entry>
+</list>
+<boolean id="ac_showSelfemployedBusinessCapitalCompanyAssetFiscalValue" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner1AmountMotorvehicle" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="donationsGivenTableName0">
+<value>true</value>
+</boolean>
+<float id="securityDetail_NominalAmount" enabled="false" visible="false">
+</float>
+<boolean id="ac_showSelfemployedBusinessCapitalCompanyFiscalValue" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_MARRIED_FEDERAL_WITH_PROVISIONS" calculated="true">
+<value>3600</value>
+</integer>
+<float id="securityDetail_RevenueFlatRateTaxChargingPercentage" visible="false">
+</float>
+<integer id="F12_SE_DoppelverEinkMann" calculated="true">
+</integer>
+<integer id="security_TotalRetention" calculated="true">
+</integer>
+<string id="securityDetail_TaxValueBaseType" calculated="true">
+<value>unknown</value>
+</string>
+<integer id="attachedDocumentsProvisions_count">
+<value>0</value>
+</integer>
+<integer id="DEDUCTION_POLITICAL_PARTIES_FEDERAL_MAX" calculated="true">
+<value>10400</value>
+</integer>
+<integer id="deductionCharityFederalTax" calculated="true">
+</integer>
+<boolean id="personalData_bankAccountIsForeign" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="prerecording_handicapExpensesTotalSelfPaidCost" calculated="true">
+</integer>
+<string id="jobExpensesPartner2SidelineEffectiveDetailDescription">
+</string>
+<boolean id="jobExpensesPublicTransportP2TableValue0">
+<value>true</value>
+</boolean>
+<integer id="Q1_VERMOEGEN" enabled="false">
+<value>0</value>
+</integer>
+<boolean id="heritageUnrepartitionedTableValue0">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP2TableValue1">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_RevenueFlatRateTaxChargingIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="provision3aPartner2EmploymentRevenue" calculated="true">
+</integer>
+<list id="selfemployedCompanyRevenueDetailP1" uidMaxSeq="1">
+<entry>{selfemployedCompanyRevenueDetailP1=0}</entry>
+</list>
+<boolean id="donationsReceivedTableAddress0">
+<value>true</value>
+</boolean>
+<list id="selfemployedCompanyRevenueDetailP2" enabled="false" uidMaxSeq="1">
+<entry>{selfemployedCompanyRevenueDetailP2=0}</entry>
+</list>
+<boolean id="jobExpensesSidelineReveueP1TableValue0">
+<value>true</value>
+</boolean>
+<boolean id="selfemployedOneManCompanyRevenueDetailP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<string id="taxCalculator_municipality">
+<value>Mels</value>
+</string>
+<integer id="securityDetail_TaxValueEndOfYear">
+<value>23740</value>
+</integer>
+<boolean id="childDataDetailCorrectTo4">
+<value>false</value>
+</boolean>
+<date id="attachedFormsAttachedBalanceSheetDate" enabled="false">
+</date>
+<boolean id="childDataDetailCorrectTo2">
+<value>false</value>
+</boolean>
+<boolean id="paymentAlimonyDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailCorrectTo3">
+<value>false</value>
+</boolean>
+<string id="attachedDocumentsAlimony_ticket">
+</string>
+<boolean id="childDataDetailCorrectTo0">
+<value>false</value>
+</boolean>
+<boolean id="deductionFurtherDeductionFreeTextAmount">
+<value>true</value>
+</boolean>
+<boolean id="childDataDetailCorrectTo1">
+<value>false</value>
+</boolean>
+<boolean id="wizardHasInvolvedLimitedPartnership">
+<value>false</value>
+</boolean>
+<boolean id="ac_showSecuritiesRevenueQualifiedPrivate" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsExpenses_count">
+<value>0</value>
+</integer>
+<boolean id="pension1Partner1AmountFinal">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2SidelineFinalAmount" calculated="true">
+</integer>
+<boolean id="movablePropertyVehicleDescription0">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyVehicleDescription1">
+<value>true</value>
+</boolean>
+<integer id="attachedFormsAttachedLotteryCertificatesNumber" enabled="false">
+</integer>
+<boolean id="jobExpensesPartner1WeekdayStayHasCatering" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPartner2HasReasonPrivateMotorvehicle" calculated="true">
+<value>false</value>
+</boolean>
+<text id="Q1_FooterText">
+<value><![CDATA[Unterschriebene Quittung und aufgelistete Belege sind per Post
+dem Gemeindesteueramt Mels einzureichen.]]></value>
+</text>
+<integer id="numberOfChildrenInEducation" calculated="true">
+<value>0</value>
+</integer>
+<boolean id="personalDataPartner2Employer" enabled="false">
+<value>false</value>
+</boolean>
+<boolean id="isDA1TrivialCase" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfSecuritiesDA_TotalGrossRevenue" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1WeekdayStayCateringDeductibleAmount" calculated="true">
+</integer>
+<list id="selfemployedBusinessCapitalAgriculturalDetail" uidMaxSeq="1">
+<entry>{selfemployedBusinessCapitalAgriculturalDetail=0}</entry>
+</list>
+<string id="securityCcyCalculator_Currency_MiddleYearRate" visible="false">
+</string>
+<string id="Q1_Gemeinde">
+<value>Mels</value>
+</string>
+<boolean id="ac_showProvision3aP1" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showProvision3aP2" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="personDataPartner2IsEmployed" enabled="false">
+</boolean>
+<date id="fiscalYearEndDate" calculated="true">
+<value>2024-12-31</value>
+</date>
+<integer id="socialDeductionChildrenEducationCantonalTax" enabled="false">
+</integer>
+<integer id="listOfSecuritiesDA_RelevantGrossRevenue" calculated="true">
+</integer>
+<string id="personDataPartner1MaritalStatus">
+<value>single</value>
+</string>
+<integer id="deductionHandicap" calculated="true">
+</integer>
+<integer id="JOB_EXPENSES_SIDELINE_MIN" calculated="true">
+<value>800</value>
+</integer>
+<boolean id="restRevenueAlimonyDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<list id="paymentAlimonyDetail" uidMaxSeq="1">
+<entry>{paymentAlimonyDetail=0}</entry>
+</list>
+<boolean id="personDataPartner1PaymentPension">
+<value>true</value>
+</boolean>
+<integer id="securityDetail_RevenueTaxSecureUSA" visible="false">
+</integer>
+<integer id="prerecording_furtherDeductionJobOrientedFurtherEducationCostP1TotalAmount" calculated="true">
+</integer>
+<integer id="jobExpensesPartner2SidelineEffectiveDetailAmount">
+</integer>
+<boolean id="wizardHasEmployment" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="insurancePremiumsHasAdditionalDeduction" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="employmentPartner2TotalAmountCantonal" calculated="true">
+</integer>
+<integer id="listOfSecuritiesSubtotalGrossRevenueB" calculated="true">
+<value>10</value>
+</integer>
+<integer id="listOfSecuritiesSubtotalGrossRevenueA" calculated="true">
+</integer>
+<boolean id="readOnly">
+<value>false</value>
+</boolean>
+<integer id="restRevenueLumpSumSettlementYears">
+</integer>
+<string id="attachedDocumentsDepts_ticket">
+</string>
+<float id="jobExpensesPartner1PrivateMotorvehicleCostPerKm_Calculated" calculated="true">
+</float>
+<integer id="listOfSecuritiesSubtotalGrossRevenueC" calculated="true">
+</integer>
+<boolean id="jobExpensesOtherP2TableDescr0">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_DepotPanelIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner2WeekdayStayCateringNonSubsidizedNumberOfDays" enabled="false">
+</integer>
+<list id="restRevenueAlimonyDetail" uidMaxSeq="1">
+<entry>{restRevenueAlimonyDetail=0}</entry>
+</list>
+<boolean id="isOnlineManual" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="revenueSelfemployedDetailsP2HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="SUPPORTED_PERSON_DEDUCTION_MIN" calculated="true">
+<value>6700</value>
+</integer>
+<boolean id="personalDataPartner1Employer">
+<value>true</value>
+</boolean>
+<integer id="childDataEducationalCostTotalAmount" calculated="true">
+</integer>
+<boolean id="ac_showJobExpensesOtherP2TableValue0" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_SecuritiesNumberIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<date id="terminationYearStartDate" calculated="true">
+<value>2025-01-01</value>
+</date>
+<date id="minDate" calculated="true">
+<value>1890-01-01</value>
+</date>
+<boolean id="ac_showSocialDeductions" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_SINGLE_FEDERAL_WITH_PROVISIONS" calculated="true">
+<value>1800</value>
+</integer>
+<boolean id="attachedFormsAttachedListOfAssets" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="COLUMN_3A_MAX_WITHOUT_PROVISION" calculated="true">
+<value>35280</value>
+</integer>
+<boolean id="jobExpensesPublicTransportP2TableStart0">
+<value>true</value>
+</boolean>
+<integer id="assetAllowanceChildren" calculated="true">
+</integer>
+<boolean id="jobExpensesPublicTransportP2TableStart1">
+<value>true</value>
+</boolean>
+<boolean id="ac_showEOCompensationP1" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_GrossRevenueIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="attachedDocumentsPension_count">
+<value>0</value>
+</integer>
+<integer id="securityDetail_TaxValueOriginalCurrency">
+<value>23740</value>
+</integer>
+<string id="applicationName" calculated="true">
+<value>Steuer St.Gallen</value>
+</string>
+<boolean id="deductionFurtherDeductionFreeTextDescription">
+<value>true</value>
+</boolean>
+<boolean id="securityDetail_CountryIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="selfemployedCompanyRevenueP2TotalRevenue" calculated="true">
+</integer>
+<integer id="selfemployedCompanyRevenueP1TotalRevenue" calculated="true">
+</integer>
+<boolean id="ac_showProvision" calculated="true">
+<value>false</value>
+</boolean>
+<string id="attachedFormsAttachedFreetext1Text" enabled="false">
+</string>
+<integer id="furtherDeductionNonparentalSuperVisionCantonalTax" calculated="true">
+</integer>
+<float id="securityDetail_securitiesRevenueDetailGrossRevenue">
+</float>
+<integer id="jobExpensesPartner2PrivateMotorvehicleDetailNumberOfWorkdays">
+</integer>
+<integer id="attachedDocumentsEconomicAffiliation_count">
+<value>0</value>
+</integer>
+<string id="jobExpensesPartner2TicketCostPublicTransportOverflowLabel" visible="false" calculated="true">
+<value>siehe Zusatzblätter</value>
+</string>
+<string id="personDataPartner1Vn" calculated="true">
+<value>7561234567897</value>
+</string>
+<integer id="listOfSecuritiesTotalTaxValue" calculated="true">
+<value>23940</value>
+</integer>
+<boolean id="isOnlineSearchAllowed" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="CHILD_CARE_CANTONAL_MAX" calculated="true">
+<value>26400</value>
+</integer>
+<boolean id="ac_showSelfemployedOneManCompanyRevenueP2" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner1TransportationCostFederal" calculated="true">
+</integer>
+<integer id="insurancePremiumsInterestSavings" calculated="true">
+<value>10</value>
+</integer>
+<boolean id="ac_showJobExpensesPartner2BicycleOrSmallMotorbike" calculated="true">
+<value>false</value>
+</boolean>
+<string id="attachedDocumentsPrivateProperties_ticket">
+</string>
+<boolean id="ac_showJobExpensesPartner1TransportationCostCantonal" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showMovablePropertyCashValue" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="restRevenueAlimonyChildDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<float id="securityDetail_securityAdditionDivestitureDetailQuantity">
+</float>
+<boolean id="ac_showSelfemployedOneManCompanyRevenueP1" calculated="true">
+<value>false</value>
+</boolean>
+<list id="jobExpensesPartner1WeekdayStayAccommodationDetail" uidMaxSeq="1">
+<entry>{jobExpensesPartner1WeekdayStayAccommodationDetail=0}</entry>
+</list>
+<boolean id="assetMovablePropertyFreeTextDescription">
+<value>true</value>
+</boolean>
+<string id="attachedDocumentsPension_ticket">
+</string>
+<integer id="taxCalculator_cantonalTaxableAssets" calculated="true">
+<value>0</value>
+</integer>
+<string id="securityDetail_EnteredDescription">
+<value>Mitglieder Privatkonto (CHF)</value>
+</string>
+<integer id="insurancePremiumsTotalDeductionInsuranceAndInterestCantonalTax" calculated="true">
+<value>3400</value>
+</integer>
+<boolean id="ac_showAmountLiabilitiesInterest" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="paymentPensionDeductionAmount">
+<value>true</value>
+</boolean>
+<list id="deductionFurtherDeductionFreeTextDetail" uidMaxSeq="1">
+<entry>{deductionFurtherDeductionFreeTextDetail=0}</entry>
+</list>
+<boolean id="ac_showDeductionDiseaseAndAccidentCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfSecuritiesDA_RevenueQualifiedDeduction" calculated="true">
+</integer>
+<date id="jobExpensesTicketCostPublicTransportDetailP2BeginDate">
+</date>
+<date id="diseaseAndAccidentExpensesHealthInsuranceBillDate">
+<value>2024-12-31</value>
+</date>
+<string id="securityDetail_FaceValueQuantityText" visible="false" calculated="true">
+<value>typeBoth</value>
+</string>
+<boolean id="showLastSteps" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showInsuranceAndInterestCantonalTax" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2CantonalTax" calculated="true">
+</integer>
+<list id="jobExpensesPartner2SidelineEffectiveDetail" enabled="false" uidMaxSeq="1">
+<entry>{jobExpensesPartner2SidelineEffectiveDetail=0}</entry>
+</list>
+<boolean id="securityDetail_RedemptionIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="mainWizardRunning">
+<value>false</value>
+</boolean>
+<integer id="JOB_EXPENSES_STAY_MAX_WITH" calculated="true">
+<value>4800</value>
+</integer>
+<integer id="selfemployedCompanyRevenueDetailP2Revenue">
+</integer>
+<string id="fiscalYearEndDateShortText" calculated="true">
+<value>31.12.2024</value>
+</string>
+<boolean id="attachmentConditionDiseaseAccidnetAndHandicapExpensess" calculated="true">
+<value>false</value>
+</boolean>
+<list id="receivedDonationsDetail" enabled="false" uidMaxSeq="1">
+<entry>{receivedDonationsDetail=0}</entry>
+</list>
+<date id="jobExpensesTicketCostPublicTransportDetailP2EndDate">
+</date>
+<integer id="minYear" calculated="true">
+<value>1890</value>
+</integer>
+<boolean id="ac_showListOfSecuritiesTotalGrossRevenue" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="ac_showUnemploymentInsuranceP1" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showUnemploymentInsuranceP2" calculated="true">
+<value>false</value>
+</boolean>
+<list id="listOfSecurities" uidMaxSeq="4">
+<entry>{listOfSecurities=1}</entry>
+<entry>{listOfSecurities=2}</entry>
+</list>
+<boolean id="donationsReceivedTableDate0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesSidelineReveueP2TableValue0" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="Q1_NoSign">
+<value>true</value>
+</boolean>
+<string id="uploadAssistantFinishedTitle" calculated="true">
+<value>Übertragung erfolgreich - Übermittlungsbestätigung drucken</value>
+</string>
+<string id="formLabelF13InSchule" calculated="true">
+<value>10’600</value>
+</string>
+<string id="personDataPartner1OtherPersonId">
+<value>4330856</value>
+</string>
+<boolean id="ac_showSocialDeductionChildrenTotalCostEducationCantonalTax" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsOther_count">
+<value>0</value>
+</integer>
+<integer id="securityDetail_GrossRevenueRubricC" visible="false">
+</integer>
+<float id="taxCalculator_federalIncomeTax" enabled="false">
+<value>3673.7</value>
+</float>
+<list id="employedMainRevenueDetailP2" enabled="false" uidMaxSeq="1">
+<entry>{employedMainRevenueDetailP2=0}</entry>
+</list>
+<list id="employedMainRevenueDetailP1" uidMaxSeq="1">
+<entry>{employedMainRevenueDetailP1=0}</entry>
+</list>
+<boolean id="jobExpensesMotorVehicleP2TableDays0">
+<value>true</value>
+</boolean>
+<boolean id="noSign">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableDays1">
+<value>true</value>
+</boolean>
+<boolean id="employedMainRevenueP1Revenue">
+<value>true</value>
+</boolean>
+<integer id="securitiesRevenueQualifiedDeductionBC" calculated="true">
+</integer>
+<list id="pension1DetailP1" uidMaxSeq="1">
+<entry>{pension1DetailP1=0}</entry>
+</list>
+<list id="pension1DetailP2" enabled="false" uidMaxSeq="1">
+<entry>{pension1DetailP2=0}</entry>
+</list>
+<boolean id="securityDetail_SearchSecNumberBtn" visible="false">
+</boolean>
+<string id="masterData_partner2OtherPersonId" enabled="false">
+</string>
+<integer id="securityList_FormGrossRevenueC">
+</integer>
+<integer id="securityList_FormGrossRevenueA">
+</integer>
+<integer id="securityList_FormGrossRevenueB">
+</integer>
+<integer id="securitiesRevenueQualifiedDeduction" calculated="true">
+</integer>
+<integer id="securityDetail_GrossRevenueRubricB" visible="false">
+</integer>
+<boolean id="employedSidelineRevenueP1Description">
+<value>true</value>
+</boolean>
+<integer id="securityDetail_GrossRevenueRubricA" visible="false">
+</integer>
+<string id="personDataPartner2AbbreviatedName" enabled="false" calculated="true">
+<value>.</value>
+</string>
+<boolean id="hasTaxStatements" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="restRevenueLumpSumSettlementAmount">
+</integer>
+<integer id="jobExpensesPartner2CateringNonSubsidized" enabled="false" calculated="true">
+</integer>
+<integer id="resultingFiscalRevenueCantonalTax" calculated="true">
+<value>112100</value>
+</integer>
+<boolean id="selfemployedOneManCompanyRevenuePartnerAmount1">
+<value>true</value>
+</boolean>
+<boolean id="donationsReceivedTableValue0">
+<value>true</value>
+</boolean>
+<integer id="deductionDiseaseAndAccidentCantonalTax" calculated="true">
+</integer>
+<integer id="totalAmountFiscalAssetsAfterAllowances" calculated="true">
+<value>0</value>
+</integer>
+<integer id="jobExpensesPartner2PrivateMotorvehicleTotalDistancePerYear" calculated="true">
+</integer>
+<integer id="employedSidelineRevenueP1TotalRevenue" calculated="true">
+</integer>
+<integer id="JOB_EXPENSES_SIDELINE_MAX" calculated="true">
+<value>2400</value>
+</integer>
+<boolean id="selfemployedOneManCompanyRevenuePartnerAmount2">
+<value>false</value>
+</boolean>
+<date id="masterData_partner2DateOfBirth" enabled="false">
+</date>
+<date id="securityDetail_RedemptionFromSearch">
+</date>
+<integer id="maxFutureYear" calculated="true">
+<value>2100</value>
+</integer>
+<integer id="jobExpensesTicketCostPublicTransportDetailP2Amount">
+</integer>
+<integer id="listOfLiabilitiesTotalPrivateLiabilitiesInterest" calculated="true">
+</integer>
+<integer id="PARTNER_FEDERAL_DEDUCTION" calculated="true">
+<value>2800</value>
+</integer>
+<string id="securityDetail_eSteuerauszugID">
+</string>
+<boolean id="wizardHasSelfemployment" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableTo1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesPublicTransportP1TableTo0">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner2SidelineFlatrateAmount" calculated="true">
+</integer>
+<boolean id="jobExpensesPartner2CateringReachedMax" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesPartner2ReasonPrivateMotorvehicleMedicalReasons" enabled="false">
+</boolean>
+<boolean id="jobExpensesPartner1CateringPrint" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="hasMissingAttachments" calculated="true">
+<value>false</value>
+</boolean>
+<string id="marriedOverflowLabel" calculated="true">
+</string>
+<boolean id="ac_showFurtherDeductionJobOrientedFurtherEducationP2" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="provision3aPartner1DeductionAmount" calculated="true">
+</integer>
+<boolean id="jobExpensesMotorVehicleP1TableTo0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showFurtherDeductionJobOrientedFurtherEducationP1" calculated="true">
+<value>true</value>
+</boolean>
+<string id="uploadAssistantFinishedUpperText" calculated="true">
+<value>Die Daten wurden erfolgreich übermittelt.&lt;br>&lt;br>Eine Kopie der Steuererklärung wurde unter&lt;br></value>
+</string>
+<string id="representativePersonFormBarcode" calculated="true">
+<value>4330856_2024</value>
+</string>
+<boolean id="jobExpensesMotorVehicleP1TableTo1">
+<value>true</value>
+</boolean>
+<boolean id="ac_showAssetAllowanceChildren" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="CHILD_SUPPORT_COMPULSORY_SCHOOL" calculated="true">
+<value>7500</value>
+</integer>
+<boolean id="ac_showDeductionFurther" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="jobExpensesPartner1CateringNonSubsidized" calculated="true">
+</integer>
+<integer id="prerecording_diseaseAndAccidentExpensesTotalAmountExpenses" calculated="true">
+</integer>
+<integer id="totalAmountAssetsFiscalValue" calculated="true">
+<value>73940</value>
+</integer>
+<integer id="provision3aPartner2DeductionAmount" calculated="true">
+</integer>
+<integer id="securityDetail_RevenueFlatRateTaxCharging" visible="false">
+</integer>
+<string id="overflowLabel" calculated="true">
+<value>siehe Zusatzblätter</value>
+</string>
+<date id="masterData_taxDeclarationDate" enabled="false">
+</date>
+<boolean id="movablePropertyLifeInsurancesDetailCompany0">
+<value>true</value>
+</boolean>
+<integer id="attachedFormsAttachedWrittenConfirmationNumber" enabled="false">
+</integer>
+<string id="personDataPartner1FullName" calculated="true">
+<value>Tomasic Valentino</value>
+</string>
+<boolean id="movablePropertyLifeInsurancesDetailCompany1">
+<value>true</value>
+</boolean>
+<boolean id="movablePropertyLifeInsurancesDetailCompany2">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner1PrivateMotorvehicleTotalDistancePerYear" calculated="true">
+</integer>
+<integer id="insurancePremiumsPrivateHealthInsurance">
+<value>4032</value>
+</integer>
+<string id="numberOfChildrenOverflowLabel" visible="false" calculated="true">
+<value>Zusatzbl.</value>
+</string>
+<string id="masterData_municipalityCode" enabled="false">
+</string>
+<boolean id="donationsReceivedTableName0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner2SidelineFlatrate" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_INSURANCE_PREMIUMS_SINGLE_CANTONAL_BONUSVALUE" calculated="true">
+<value>500</value>
+</integer>
+<boolean id="attachmentConditionDa1" calculated="true">
+<value>false</value>
+</boolean>
+<list id="furtherDeductionJobOrientedFurtherEducationCostDetailP1" uidMaxSeq="4">
+<entry>{furtherDeductionJobOrientedFurtherEducationCostDetailP1=0}</entry>
+<entry>{furtherDeductionJobOrientedFurtherEducationCostDetailP1=1}</entry>
+<entry>{furtherDeductionJobOrientedFurtherEducationCostDetailP1=2}</entry>
+<entry>{furtherDeductionJobOrientedFurtherEducationCostDetailP1=3}</entry>
+</list>
+<list id="furtherDeductionJobOrientedFurtherEducationCostDetailP2" enabled="false" uidMaxSeq="0">
+</list>
+<integer id="insurancePremiumsPaidInsuranceAndInterest" calculated="true">
+<value>4042</value>
+</integer>
+<string id="Q1_TELP">
+</string>
+<boolean id="attachmentsDownloadBtn" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="socialDeductionPartnerFederalTax" calculated="true">
+</integer>
+<date id="jobExpensesPartner2PrivateMotorvehicleDetailBeginDate">
+</date>
+<string id="Q1_TELG">
+</string>
+<string id="preferences_inquiriesToPhoneNumberBusiness">
+</string>
+<integer id="F12_DoppelverEinkMann" calculated="true">
+<value>115590</value>
+</integer>
+<integer id="selfemployedOneManCompanyRevenueP1TotalRevenue" calculated="true">
+</integer>
+<string id="taxCalculator_partner1Religion" calculated="true">
+<value>Römisch-Katholisch</value>
+</string>
+<string id="attachedDocumentsListOfSecurities_ticket">
+</string>
+<string id="Q1_RUCKFRGVorname">
+</string>
+<boolean id="jobExpensesPartner2SidelineEffectiveDetailIsOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="restRevenueInheritanceEtcTotalAmount" calculated="true">
+</integer>
+<boolean id="heritageReceivedTableCanton0">
+<value>true</value>
+</boolean>
+<date id="securityDetail_Issue">
+</date>
+<string id="securityDetail_GrossRevenueColumnTitle" visible="false">
+</string>
+<integer id="attachedDocumentsWageStatement_count">
+<value>1</value>
+</integer>
+<boolean id="ac_showEmployedMainRevenueP1" calculated="true">
+<value>true</value>
+</boolean>
+<boolean id="wizardHasRepresentative">
+<value>false</value>
+</boolean>
+<boolean id="ac_showEmployedMainRevenueP2" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showHelplessBenefits" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="restRevenueAlimonyChildTotalAmount" calculated="true">
+</integer>
+<integer id="security_TotalRefund" calculated="true">
+</integer>
+<string id="formLabelF13Schulpflichtige" calculated="true">
+<value>7’500</value>
+</string>
+<boolean id="ac_showProvision2P2" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="listOfPropertiesTotalMaintenanceCost" calculated="true">
+<value>500</value>
+</integer>
+<string id="selfemployedOneManCompanyRevenueDetailP2Description">
+</string>
+<boolean id="ac_showProvision2P1" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="DEDUCTION_EMPLOYMENT_BOTH_CANTONAL" calculated="true">
+<value>500</value>
+</integer>
+<boolean id="ac_showOtherIncome" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="donationsGivenTableRelation0">
+<value>true</value>
+</boolean>
+<string id="masterData_taxDeclarationNumber" enabled="false">
+</string>
+<boolean id="ac_showJobExpensesPartner1WeekdayStay" calculated="true">
+<value>false</value>
+</boolean>
+<date id="jobExpensesPartner2PrivateMotorvehicleDetailEndDate">
+</date>
+<boolean id="ac_showSelfemployedCompanyRevenueP2" calculated="true">
+<value>false</value>
+</boolean>
+<string id="masterData_partner2FirstName" enabled="false">
+</string>
+<boolean id="ac_showSelfemployedCompanyRevenueP1" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="employedSidelineRevenueDetailP2Revenue">
+</integer>
+<boolean id="employedSidelineRevenueP2Revenue">
+<value>false</value>
+</boolean>
+<integer id="provision3aPartner2DeductionTotalAmount" calculated="true">
+</integer>
+<string id="jobExpensesPartner2ReasonPrivateMotorvehicleOtherReasonsText" enabled="false">
+</string>
+<boolean id="ac_showJobExpensesPartner2CateringShiftWork" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showListOfLiabilitiesBusinessLiabilities" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showFurtherDeductionFinancialMangement" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="pension1Partner2Amount100">
+<value>false</value>
+</boolean>
+<list id="jobExpensesPartner1PrivateMotorvehicleDetail" uidMaxSeq="2">
+<entry>{jobExpensesPartner1PrivateMotorvehicleDetail=0}</entry>
+<entry>{jobExpensesPartner1PrivateMotorvehicleDetail=1}</entry>
+</list>
+<boolean id="ac_showRestRevenue" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner2Catering" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityDetail_TaxValueBaseText" calculated="true">
+<value>all</value>
+</string>
+<integer id="socialDeductionChildrenTotalCostEducationCantonalTax" calculated="true">
+</integer>
+<string id="personalData_bankAccountForeignTown" enabled="false">
+</string>
+<date id="EFFECTIVE_FISCAL_YEAR_END_DATE" calculated="true">
+<value>2024-12-31</value>
+</date>
+<boolean id="ac_showSelfemployedBusinessCapital" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="F12_DoppelverEinkFrau" calculated="true">
+</integer>
+<integer id="prerecording_propertyMaintenanceCostsEffectiveTotalAmount" calculated="true">
+</integer>
+<boolean id="childDataDetailCompulsoryEducation0">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailCompulsoryEducation1">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailCompulsoryEducation2">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailCompulsoryEducation3">
+<value>false</value>
+</boolean>
+<boolean id="childDataDetailCompulsoryEducation4">
+<value>false</value>
+</boolean>
+<list id="jobExpensesPartner1RemainingJobCostDetail" enabled="false" uidMaxSeq="1">
+<entry>{jobExpensesPartner1RemainingJobCostDetail=0}</entry>
+</list>
+<boolean id="ac_showRestRevenueAlimonyChild" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="masterData_useData">
+<value>true</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner1WeekdayStayCatering" calculated="true">
+<value>false</value>
+</boolean>
+<float id="securityDetail_securitiesRevenueDetailBruttoFW" visibleInParent="false">
+</float>
+<integer id="listOfSecuritiesSubtotalGrossQualifiedInvestmentsPrivate" calculated="true">
+</integer>
+<boolean id="ac_showPaymentAlimony" calculated="true">
+<value>false</value>
+</boolean>
+<string id="listOfSecuritiesisTrivialCaseHintLabel" visible="false">
+</string>
+<boolean id="paymentAlimonyChildDetailOverflown" calculated="true">
+<value>false</value>
+</boolean>
+<date id="attachedFormsAttachedIncomeStatementDate" enabled="false">
+</date>
+<string id="securityDetail_IssueText" calculated="true">
+<value>openingDate</value>
+</string>
+<integer id="attachedFormsAttachedBankCertificatesNumber" enabled="false">
+</integer>
+<boolean id="ac_showAssetMovablePropertyFreeTextFiscalValue" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showListOfLiabilities" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableTotalDistance1">
+<value>true</value>
+</boolean>
+<boolean id="jobExpensesMotorVehicleP2TableTotalDistance0">
+<value>true</value>
+</boolean>
+<integer id="selfemployedBusinessCapitalCompanyTotalFiscalValue" calculated="true">
+</integer>
+<integer id="totalAmountDeductionCantonalTax" calculated="true">
+<value>9533</value>
+</integer>
+<boolean id="revenueSelfemployedDetailsP1HasEntries" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="attachedDocumentsPrivateProperties_count">
+<value>0</value>
+</integer>
+<integer id="insurancePremiumsDeductionChildCantonalTax" calculated="true">
+<value>0</value>
+</integer>
+<boolean id="masterData_stateOK">
+<value>true</value>
+</boolean>
+<string id="submitFooter" calculated="true">
+<value>Ich/wir erkläre(n), dass diese Steuererklärung mit allen Beilageformularen wahrheitsgemäss und&lt;br>vollständig ausgefüllt ist.</value>
+</string>
+<string id="attachedDocumentsDiseaseAccidnetAndHandicapExpensess_ticket">
+</string>
+<boolean id="employedSidelineRevenuePartnerAmount2">
+<value>false</value>
+</boolean>
+<integer id="restRevenueTotalAmount" calculated="true">
+</integer>
+<integer id="employedMainRevenueP2TotalRevenue" calculated="true">
+</integer>
+<boolean id="jobExpensesSidelineReveueP2TableDescr0">
+<value>true</value>
+</boolean>
+<boolean id="employedSidelineRevenuePartnerAmount1">
+<value>true</value>
+</boolean>
+<integer id="jobExpensesPartner1SidelineFinalAmount" calculated="true">
+</integer>
+<integer id="jobExpensesPartner2WeekdayStayAccommodationDetailMonths">
+</integer>
+<integer id="totalAmountFiscalAssetsFiscalValue" calculated="true">
+<value>73940</value>
+</integer>
+<integer id="listOfSecuritiesSubTotalTaxValueBusinessSecurities" enabled="false" calculated="true">
+</integer>
+<boolean id="jobExpensesMotorVehicleP2TableStart1">
+<value>true</value>
+</boolean>
+<string id="masterData_partner1Religion" enabled="false">
+<value>romCath</value>
+</string>
+<integer id="employmentBothPartnerFederalTax" calculated="true">
+</integer>
+<string id="representativePersonAddressline1">
+</string>
+<boolean id="wizardHasRevenuesSocialInsurance">
+<value>false</value>
+</boolean>
+<string id="representativePersonAddressline2">
+</string>
+<boolean id="jobExpensesMotorVehicleP2TableStart0">
+<value>true</value>
+</boolean>
+<boolean id="ac_showListOfPropertiesTotalFiscalValue" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="revenuePropertyRevenueOtherProperty" calculated="true">
+<value>2500</value>
+</integer>
+<integer id="COLUMN_3A_MAX_WITH_PROVISION" calculated="true">
+<value>7056</value>
+</integer>
+<integer id="numberOfChildrenPreschooler" calculated="true">
+<value>0</value>
+</integer>
+<integer id="jobExpensesPartner1SidelineEffectiveTotalAmount" calculated="true">
+</integer>
+<boolean id="jobExpensesPartner1CateringReachedMax" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showPensionP1" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="JOB_EXPENSES_CATERING_NONSUBSIDIZED_MAX" calculated="true">
+<value>3200</value>
+</integer>
+<integer id="JOB_EXPENSES_STAY_MAX_WITHOUT" calculated="true">
+<value>6400</value>
+</integer>
+<boolean id="ac_showPensionP2" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="ac_showJobExpensesPartner2CateringNonSubsidized" calculated="true">
+<value>false</value>
+</boolean>
+</group>
+<group>
+<context>{"eSubmissionWizardWizardCurrentStateList":1}</context>
+<string id="eSubmissionWizardWizardCurrentStateList">
+<value>submitFinished</value>
+</string>
+</group>
+<group>
+<context>{"eSubmissionWizardWizardCurrentStateList":0}</context>
+<string id="eSubmissionWizardWizardCurrentStateList">
+<value>eSubmission</value>
+</string>
+</group>
+<group>
+<context>{"paidOutDonationsDetail":0}</context>
+</group>
+<group>
+<context>{"selfemployedOneManCompanyRevenueDetailP1":0}</context>
+<integer id="selfemployedOneManCompanyRevenueDetailP1RevenueP2" calculated="true">
+</integer>
+<integer id="selfemployedOneManCompanyRevenueDetailP1Revenue">
+</integer>
+<string id="selfemployedOneManCompanyRevenueDetailP1Description">
+</string>
+<float id="selfemployedOneManCompanyRevenueDetailP1ParticipationOfPartnerFactor" calculated="true">
+<value>1.0</value>
+</float>
+<boolean id="selfemployedOneManCompanyRevenueDetailP1ParticipationOfPartner" enabled="false">
+</boolean>
+<integer id="selfemployedOneManCompanyRevenueDetailP1RevenueP1" calculated="true">
+</integer>
+</group>
+<group>
+<context>{"Q1_Vouchers":0}</context>
+<string id="voucher">
+<value>Original des Steuererklärungsformulars (wird als Aktenmantel benötigt)</value>
+</string>
+</group>
+<group>
+<context>{"selfemployedOneManCompanyRevenueDetailP2":0}</context>
+<integer id="selfemployedOneManCompanyRevenueDetailP2RevenueP1">
+</integer>
+<integer id="selfemployedOneManCompanyRevenueDetailP2RevenueP2">
+</integer>
+<integer id="selfemployedOneManCompanyRevenueDetailP2Revenue">
+</integer>
+<string id="selfemployedOneManCompanyRevenueDetailP2Description">
+</string>
+<boolean id="selfemployedOneManCompanyRevenueDetailP2ParticipationOfPartner" enabled="false">
+</boolean>
+<float id="selfemployedOneManCompanyRevenueDetailP2ParticipationOfPartnerFactor" calculated="true">
+<value>1.0</value>
+</float>
+</group>
+<group>
+<context>{"Q1_Vouchers":1}</context>
+<string id="voucher">
+<value>Lohnausweis(e) unselbständiger Haupterwerb von Valentino Tomasic</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Vouchers":2}</context>
+<string id="voucher">
+<value>Beilagen zum Wertschriftenverzeichnis: weitere Beilagen (gem. Wegleitung)</value>
+</string>
+</group>
+<group>
+<context>{"movablePropertyVehicleDetail":1}</context>
+<integer id="movablePropertyVehicleDetailPurchasePrice">
+</integer>
+<string id="movablePropertyVehicleDetailDescription">
+</string>
+<integer id="movablePropertyVehicleDetailFiscalValue_Calculated" calculated="true">
+</integer>
+<integer id="movablePropertyVehicleDetailPurchaseYear">
+</integer>
+<integer id="movablePropertyVehicleDetailFiscalValue" calculated="true">
+</integer>
+</group>
+<group>
+<context>{"jobExpensesPartner1WeekdayStayAccommodationDetail":0}</context>
+<integer id="jobExpensesPartner1WeekdayStayAccommodationDetailMonthlyAmount">
+</integer>
+<integer id="jobExpensesPartner1WeekdayStayAccommodationDetailMonths">
+</integer>
+<integer id="jobExpensesPartner1WeekdayStayAccommodationDetailAmount" calculated="true">
+</integer>
+</group>
+<group>
+<context>{"movablePropertyVehicleDetail":0}</context>
+<integer id="movablePropertyVehicleDetailPurchasePrice">
+</integer>
+<string id="movablePropertyVehicleDetailDescription">
+</string>
+<integer id="movablePropertyVehicleDetailFiscalValue_Calculated" calculated="true">
+</integer>
+<integer id="movablePropertyVehicleDetailPurchaseYear">
+</integer>
+<integer id="movablePropertyVehicleDetailFiscalValue" calculated="true">
+</integer>
+</group>
+<group>
+<context>{"paymentAlimonyDetail":0}</context>
+</group>
+<group>
+<context>{"assetMovablePropertyFreeTextDetail":0}</context>
+<integer id="assetMovablePropertyFreeTextDetailFiscalValue">
+</integer>
+<string id="assetMovablePropertyFreeTextDetailDescription">
+</string>
+</group>
+<group>
+<context>{"listOfSecuritiesWV":0}</context>
+<sourceContext>{"listOfSecurities":1}</sourceContext>
+<string id="securityListWV_FormDescription" calculated="true">
+<value>Mitglieder Privatkonto (CHF)</value>
+</string>
+<integer id="securityListColumnWV_TaxValueEndOfYear" calculated="true">
+<value>23740</value>
+</integer>
+<string id="securityListColumnWV_SecuritiesNumber" calculated="true">
+<value>CH84 8080 8002 0566 1664 8</value>
+</string>
+<integer id="securityListWV_FormGrossRevenueB" calculated="true">
+<value>2</value>
+</integer>
+</group>
+<group>
+<context>{"listOfSecuritiesWV":1}</context>
+<sourceContext>{"listOfSecurities":2}</sourceContext>
+<string id="securityListWV_FormDescription" calculated="true">
+<value>Anteilschein Raiffeisenbank Marbach-Rebstein Genossenschaft (CHF)</value>
+</string>
+<integer id="securityListColumnWV_TaxValueEndOfYear" calculated="true">
+<value>200</value>
+</integer>
+<string id="securityListColumnWV_FaceValueQuantity" calculated="true">
+<value>1</value>
+</string>
+<integer id="securityListWV_FormGrossRevenueB" calculated="true">
+<value>8</value>
+</integer>
+</group>
+<group>
+<context>{"jobExpensesPartner1PrivateMotorvehicleDetail":1}</context>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistanceOfTrip">
+</integer>
+<string id="jobExpensesPartner1PrivateMotorvehicleDetailWayTo">
+</string>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistancePerDay" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistancePerYear" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailNumberOfWorkdays" calculated="true">
+</integer>
+<date id="jobExpensesPartner1PrivateMotorvehicleDetailEndDate">
+</date>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistancePerDay_Calculated" calculated="true">
+</integer>
+<date id="jobExpensesPartner1PrivateMotorvehicleDetailBeginDate">
+</date>
+<string id="jobExpensesPartner1PrivateMotorvehicleDetailWayFrom">
+</string>
+</group>
+<group>
+<context>{"jobExpensesPartner1PrivateMotorvehicleDetail":0}</context>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistanceOfTrip">
+</integer>
+<string id="jobExpensesPartner1PrivateMotorvehicleDetailWayTo">
+</string>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistancePerDay" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistancePerYear" calculated="true">
+</integer>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailNumberOfWorkdays" calculated="true">
+</integer>
+<date id="jobExpensesPartner1PrivateMotorvehicleDetailEndDate">
+</date>
+<integer id="jobExpensesPartner1PrivateMotorvehicleDetailDistancePerDay_Calculated" calculated="true">
+</integer>
+<date id="jobExpensesPartner1PrivateMotorvehicleDetailBeginDate">
+</date>
+<string id="jobExpensesPartner1PrivateMotorvehicleDetailWayFrom">
+</string>
+</group>
+<group>
+<context>{"deductionFurtherDeductionFreeTextDetail":0}</context>
+<integer id="deductionFurtherDeductionFreeTextDetailAmount">
+</integer>
+<string id="deductionFurtherDeductionFreeTextDetailDescription">
+</string>
+</group>
+<group>
+<context>{"jobExpensesPartner2RemainingJobCostDetail":0}</context>
+</group>
+<group>
+<context>{"selfemployedBusinessCapitalCompanyDetail":0}</context>
+<string id="selfemployedBusinessCapitalCompanyDetailDescription">
+</string>
+<integer id="selfemployedBusinessCapitalCompanyDetailFiscalValue">
+</integer>
+</group>
+<group>
+<context>{"restRevenueInheritanceEtcDetail":0}</context>
+<integer id="restRevenueInheritanceEtcDetailAmount">
+</integer>
+<string id="restRevenueInheritanceEtcDetailDescription">
+</string>
+</group>
+<group>
+<context>{"jobExpensesPartner2PrivateMotorvehicleDetail":1}</context>
+</group>
+<group>
+<context>{"jobExpensesPartner2PrivateMotorvehicleDetail":0}</context>
+</group>
+<group>
+<context>{"jobExpensesPartner2SidelineEffectiveDetail":0}</context>
+<integer id="jobExpensesPartner2SidelineEffectiveDetailAmount" enabled="false">
+</integer>
+<string id="jobExpensesPartner2SidelineEffectiveDetailDescription" enabled="false">
+</string>
+</group>
+<group>
+<context>{"restRevenueDetail":0}</context>
+<integer id="restRevenueDetailAmount">
+</integer>
+<string id="restRevenueDetailDescription">
+</string>
+</group>
+<group>
+<context>{"receivedInheritancesDetail":0}</context>
+</group>
+<group>
+<context>{"jobExpensesPartner1RemainingJobCostDetail":0}</context>
+</group>
+<group>
+<context>{"restRevenueAlimonyDetail":0}</context>
+<integer id="restRevenueAlimonyDetailAmount">
+</integer>
+<string id="restRevenueAlimonyDetailDescription">
+</string>
+</group>
+<group>
+<context>{"restRevenueAlimonyChildDetail":0}</context>
+<string id="restRevenueAlimonyChildDetailDescription">
+</string>
+<integer id="restRevenueAlimonyChildDetailAmount">
+</integer>
+</group>
+<group>
+<context>{"selfemployedBusinessCapitalCompanyAssetDetail":0}</context>
+<integer id="selfemployedBusinessCapitalCompanyAssetDetailFiscalValue">
+</integer>
+<date id="selfemployedBusinessCapitalCompanyAssetDetailDate">
+</date>
+<string id="selfemployedBusinessCapitalCompanyAssetDetailDescription">
+</string>
+</group>
+<group>
+<context>{"paymentAlimonyChildDetail":0}</context>
+</group>
+<group>
+<context>{"receivedDonationsDetail":0}</context>
+</group>
+<group>
+<context>{"furtherDeductionJobOrientedFurtherEducationCostDetailP1":3}</context>
+<string id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Description">
+<value>Modulkosten ICBD 2025</value>
+</string>
+<date id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Date">
+<value>2024-12-09</value>
+</date>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Amount">
+<value>1150</value>
+</integer>
+</group>
+<group>
+<context>{"furtherDeductionJobOrientedFurtherEducationCostDetailP1":2}</context>
+<string id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Description">
+<value>Unternehmensbewertung und Aktienanalyse</value>
+</string>
+<date id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Date">
+<value>2024-10-05</value>
+</date>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Amount">
+<value>83</value>
+</integer>
+</group>
+<group>
+<context>{"selfemployedCompanyRevenueDetailP1":0}</context>
+<string id="selfemployedCompanyRevenueDetailP1Description">
+</string>
+<float id="selfemployedCompanyRevenueDetailP1ParticipationOfPartnerFactor" calculated="true">
+<value>1.0</value>
+</float>
+<integer id="selfemployedCompanyRevenueDetailP1Revenue">
+</integer>
+<integer id="selfemployedCompanyRevenueDetailP1RevenueP1" calculated="true">
+</integer>
+<boolean id="selfemployedCompanyRevenueDetailP1ParticipationOfPartner" enabled="false">
+</boolean>
+<integer id="selfemployedCompanyRevenueDetailP1RevenueP2" calculated="true">
+</integer>
+</group>
+<group>
+<context>{"furtherDeductionJobOrientedFurtherEducationCostDetailP1":1}</context>
+<string id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Description">
+<value>Studiengebühr Herbstsemester 2024</value>
+</string>
+<date id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Date">
+<value>2024-10-22</value>
+</date>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Amount">
+<value>1000</value>
+</integer>
+</group>
+<group>
+<context>{"selfemployedCompanyRevenueDetailP2":0}</context>
+<integer id="selfemployedCompanyRevenueDetailP2RevenueP2">
+</integer>
+<integer id="selfemployedCompanyRevenueDetailP2RevenueP1">
+</integer>
+<boolean id="selfemployedCompanyRevenueDetailP2ParticipationOfPartner" enabled="false">
+</boolean>
+<string id="selfemployedCompanyRevenueDetailP2Description">
+</string>
+<integer id="selfemployedCompanyRevenueDetailP2Revenue">
+</integer>
+<float id="selfemployedCompanyRevenueDetailP2ParticipationOfPartnerFactor" calculated="true">
+<value>1.0</value>
+</float>
+</group>
+<group>
+<context>{"furtherDeductionJobOrientedFurtherEducationCostDetailP1":0}</context>
+<string id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Description">
+<value>Studiengebühr Frühlingssemester 2024</value>
+</string>
+<date id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Date">
+<value>2024-03-25</value>
+</date>
+<integer id="furtherDeductionJobOrientedFurtherEducationCostDetailP1Amount">
+<value>1000</value>
+</integer>
+</group>
+<group>
+<context>{"jobExpensesPartner2WeekdayStayAccommodationDetail":0}</context>
+</group>
+<group>
+<context>{"listOfSecurities":2}</context>
+<float id="securityList_securityAdditionDivestitureDetailEndPeriodQuantity">
+</float>
+<boolean id="securityList_IsDBEntry">
+</boolean>
+<integer id="securityList_RevenueFlatRateTaxCharging_Calculated">
+</integer>
+<string id="securityList_AccountNumber">
+</string>
+<string id="securityList_FaceValueQuantityType">
+<value>count</value>
+</string>
+<boolean id="securityDetail_IsIUPWithoutWithholdingTax" visible="false">
+</boolean>
+<string id="securityList_QuotationTypeFromDB_Internal">
+</string>
+<string id="securityList_KindGroupFromDB_Internal">
+</string>
+<boolean id="securityListColumn_DirectColumnsEnabled" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityList_RevenueDetailChanged">
+<value>true</value>
+</boolean>
+<boolean id="securityList_eSteuerauszugFlag" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityList_SecuritiesNumber">
+</string>
+<string id="securityList_AdditionalDetails">
+</string>
+<string id="securityList_FaceValueQuantityString">
+<value>1</value>
+</string>
+<string id="securityList_Rubric">
+<value>withoutHoldingTax</value>
+</string>
+<string id="securityList_internalSecuritySearchKindDetailedFromDB">
+</string>
+<string id="securityDetail_Country" visible="false">
+</string>
+<integer id="securityDetail_RevenueTaxSecureUSA" visible="false">
+</integer>
+<boolean id="securityDetail_RevenueTaxSecureUSAIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityList_IsIUP">
+</boolean>
+<string id="securityList_shortDescription_Internal">
+</string>
+<boolean id="securityList_IsIUPWithoutWithholdingTax">
+</boolean>
+<float id="securityDetail_RevenueFlatRateTaxChargingPercentage" visible="false">
+</float>
+<string id="securityDetail_Rubric">
+</string>
+<boolean id="securityList_isEdited">
+<value>true</value>
+</boolean>
+<string id="securityListColumn_Rubric">
+<value>B</value>
+</string>
+<string id="securityList_Code">
+</string>
+<string id="securityList_DepositNumber">
+</string>
+<integer id="securityList_GrossRevenue">
+<value>8</value>
+</integer>
+<float id="securityList_RevenueFlatRateTaxChargingPercentage">
+</float>
+<date id="securityList_RedemptionFromSearch">
+</date>
+<integer id="securityListColumn_Index" calculated="true">
+<value>2</value>
+</integer>
+<string id="securityListColumn_SearchSign">
+</string>
+<integer id="securityList_TaxValueEndOfYear">
+<value>200</value>
+</integer>
+<integer id="securityList_RevenueFlatRateTaxCharging">
+</integer>
+<integer id="securityDetail_RevenueFlatRateTaxCharging" visible="false">
+</integer>
+<integer id="securityList_TaxValueEndOfYear_Calculated">
+<value>0</value>
+</integer>
+<boolean id="securityDetail_RevenueFlatRateTaxChargingPercentageIsVisible">
+<value>false</value>
+</boolean>
+<string id="securityList_KindTypeFromDB_Internal">
+</string>
+<boolean id="securityDetail_RevenueFlatRateTaxChargingIsVisible">
+<value>false</value>
+</boolean>
+<date id="securityList_Issue">
+</date>
+<integer id="securityList_securityAdditionDivestitureDetailTotalPanel">
+<value>0</value>
+</integer>
+<string id="securityList_EnteredDescription">
+<value>Anteilschein Raiffeisenbank Marbach-Rebstein Genossenschaft (CHF)</value>
+</string>
+<boolean id="securityList_SearchSecNumberBtnIsVisible" calculated="true">
+<value>true</value>
+</boolean>
+<string id="securityListColumn_State">
+<value>OK</value>
+</string>
+<string id="securityList_CalculatedRubricFromJavaFK1">
+</string>
+<boolean id="securityListColumn_TaxValueEndOfYearDirect">
+<value>false</value>
+</boolean>
+<integer id="securityList_GrossRevenue_Calculated">
+</integer>
+<integer id="securityList_GrossRevenueRubricA">
+</integer>
+<boolean id="securityDetail_IUPWithoutWithholdingTaxIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityList_notifySearchResult">
+<value>false</value>
+</boolean>
+<string id="securityListColumn_FaceValueQuantity" calculated="true">
+<value>1</value>
+</string>
+<integer id="securityList_IUPAmountWithoutWithholdingTax">
+</integer>
+<boolean id="securityList_additionDivestitureDetailBtnIsVisibile" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="securityList_GrossRevenueRubricC">
+</integer>
+<integer id="securityDetail_TaxValueEndOfYearRubricC">
+</integer>
+<string id="securityList_tooltipLabel">
+<value>Neu erfasste Wertschrift, manuell erfasst, ohne Validierungsmeldungen Stufe WARNUNG oder höher</value>
+</string>
+<integer id="securityList_GrossRevenueRubricB">
+</integer>
+<boolean id="securityList_GrossRevenueIsVisible">
+<value>true</value>
+</boolean>
+<string id="securityList_Kind">
+<value>cooperativeShares</value>
+</string>
+<integer id="securityList_FormTaxValueEndOfYearAB">
+<value>200</value>
+</integer>
+<boolean id="securityDetail_CountryIsVisible">
+<value>false</value>
+</boolean>
+<integer id="securityListColumn_TaxValueEndOfYear">
+<value>200</value>
+</integer>
+<boolean id="securityList_IsOnlineDBEntry">
+</boolean>
+<float id="securityList_TaxValueBase">
+</float>
+<boolean id="securityList_HasRubricA" calculated="true">
+<value>false</value>
+</boolean>
+<date id="securityList_Redemption">
+</date>
+<integer id="securityList_TaxValueOriginalCurrency">
+</integer>
+<integer id="securityDetail_GrossRevenueRubricC">
+</integer>
+<boolean id="securityList_IsSold_Internal">
+<value>false</value>
+</boolean>
+<boolean id="securityList_TaxValueEndOfYearIsVisible">
+<value>true</value>
+</boolean>
+<boolean id="securityList_HasRubricC" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityList_HasRubricB" calculated="true">
+<value>true</value>
+</boolean>
+<list id="securityList_AdditionDivestitureDetail" uidMaxSeq="0">
+</list>
+<integer id="securityList_TaxValueEndOfYearRubricC">
+</integer>
+<integer id="securityList_TaxValueEndOfYearRubricB">
+</integer>
+<integer id="securityList_TaxValueEndOfYearRubricA">
+</integer>
+<boolean id="securityListColumn_GrossRevenueDirect">
+<value>false</value>
+</boolean>
+<integer id="securityList_RevenueTaxSecureUSA_Calculated">
+</integer>
+<float id="securityList_securityAdditionDivestitureDetailStartPeriodQuantity">
+</float>
+<integer id="securityDetail_IUPAmountWithoutWithholdingTax" enabled="false" visible="false">
+</integer>
+<float id="securityList_NominalAmount">
+</float>
+<integer id="securityList_FormGrossRevenueC">
+</integer>
+<string id="securityList_FormDescription">
+<value>Anteilschein Raiffeisenbank Marbach-Rebstein Genossenschaft (CHF)</value>
+</string>
+<string id="securityList_OriginalCurrency">
+</string>
+<integer id="securityList_FormGrossRevenueA">
+</integer>
+<string id="securityList_Country">
+</string>
+<integer id="securityList_FormGrossRevenueB">
+<value>8</value>
+</integer>
+<integer id="securityList_RevenueTaxSecureUSA">
+</integer>
+<string id="securityList_Currency">
+</string>
+<integer id="securityList_FormTaxValueEndOfYearC">
+</integer>
+<string id="securityListColumn_EnteredDescription">
+<value>Anteilschein Raiffeisenbank Marbach-Rebstein Genossenschaft (CHF)</value>
+</string>
+<float id="securityList_FaceValueQuantity">
+<value>1.0</value>
+</float>
+<integer id="securityListColumn_GrossRevenue">
+<value>8</value>
+</integer>
+</group>
+<group>
+<context>{"jobExpensesPartner1SidelineEffectiveDetail":0}</context>
+<integer id="jobExpensesPartner1SidelineEffectiveDetailAmount" enabled="false">
+</integer>
+<string id="jobExpensesPartner1SidelineEffectiveDetailDescription" enabled="false">
+</string>
+</group>
+<group>
+<context>{"listOfSecurities":1}</context>
+<boolean id="securityList_IsDBEntry">
+</boolean>
+<integer id="securityList_RevenueFlatRateTaxCharging_Calculated">
+</integer>
+<string id="securityList_FaceValueQuantityType">
+<value>saldo</value>
+</string>
+<boolean id="securityDetail_IsIUPWithoutWithholdingTax" visible="false">
+</boolean>
+<boolean id="securityListColumn_DirectColumnsEnabled" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityList_eSteuerauszugFlag" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityList_SecuritiesNumber">
+</string>
+<string id="securityList_AdditionalDetails">
+</string>
+<string id="securityDetail_Country" visible="false">
+</string>
+<integer id="securityDetail_RevenueTaxSecureUSA" visible="false">
+</integer>
+<boolean id="securityDetail_RevenueTaxSecureUSAIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityList_IsIUPWithoutWithholdingTax">
+</boolean>
+<string id="securityListColumn_SecuritiesNumber">
+<value>CH84 8080 8002 0566 1664 8</value>
+</string>
+<boolean id="securityList_isEdited">
+<value>true</value>
+</boolean>
+<string id="securityListColumn_Rubric">
+<value>B</value>
+</string>
+<integer id="securityList_GrossRevenue">
+<value>2</value>
+</integer>
+<float id="securityList_RevenueFlatRateTaxChargingPercentage">
+</float>
+<integer id="securityListColumn_Index" calculated="true">
+<value>1</value>
+</integer>
+<integer id="securityList_TaxValueEndOfYear">
+<value>23740</value>
+</integer>
+<integer id="securityDetail_RevenueFlatRateTaxCharging" visible="false">
+</integer>
+<integer id="securityList_TaxValueEndOfYear_Calculated">
+</integer>
+<string id="securityList_KindTypeFromDB_Internal">
+</string>
+<date id="securityList_Issue">
+</date>
+<integer id="securityList_securityAdditionDivestitureDetailTotalPanel">
+<value>0</value>
+</integer>
+<string id="securityList_EnteredDescription">
+<value>Mitglieder Privatkonto (CHF)</value>
+</string>
+<string id="securityListColumn_State">
+<value>OK</value>
+</string>
+<integer id="securityList_GrossRevenue_Calculated">
+</integer>
+<integer id="securityList_GrossRevenueRubricA">
+</integer>
+<boolean id="securityDetail_IUPWithoutWithholdingTaxIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityList_notifySearchResult">
+<value>false</value>
+</boolean>
+<integer id="securityList_GrossRevenueRubricC">
+</integer>
+<integer id="securityDetail_TaxValueEndOfYearRubricC">
+</integer>
+<integer id="securityList_GrossRevenueRubricB">
+</integer>
+<string id="securityList_Kind">
+<value>otherCredits</value>
+</string>
+<integer id="securityList_FormTaxValueEndOfYearAB">
+<value>23740</value>
+</integer>
+<boolean id="securityDetail_CountryIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityList_IsOnlineDBEntry">
+</boolean>
+<float id="securityList_TaxValueBase">
+</float>
+<boolean id="securityList_HasRubricA" calculated="true">
+<value>false</value>
+</boolean>
+<integer id="securityList_TaxValueOriginalCurrency">
+<value>23740</value>
+</integer>
+<boolean id="securityList_TaxValueEndOfYearIsVisible">
+<value>true</value>
+</boolean>
+<boolean id="securityList_HasRubricC" calculated="true">
+<value>false</value>
+</boolean>
+<boolean id="securityList_HasRubricB" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="securityList_TaxValueEndOfYearRubricC">
+</integer>
+<integer id="securityList_TaxValueEndOfYearRubricB">
+</integer>
+<integer id="securityList_TaxValueEndOfYearRubricA">
+</integer>
+<integer id="securityList_RevenueTaxSecureUSA_Calculated">
+</integer>
+<list id="securityDetailsWizardWizardCurrentStateList" uidMaxSeq="0">
+</list>
+<float id="securityList_securityAdditionDivestitureDetailStartPeriodQuantity" enabled="false">
+</float>
+<integer id="securityDetail_IUPAmountWithoutWithholdingTax" enabled="false" visible="false">
+</integer>
+<float id="securityList_NominalAmount">
+</float>
+<string id="securityList_FormDescription">
+<value>Mitglieder Privatkonto (CHF)</value>
+</string>
+<string id="securityList_Currency">
+</string>
+<float id="securityList_FaceValueQuantity">
+</float>
+<integer id="securityListColumn_GrossRevenue">
+<value>2</value>
+</integer>
+<dictionary id="securityDetailsWizard_wizardStates">
+<entry key="securityDetails.state_stateIsVisited">true</entry>
+</dictionary>
+<float id="securityList_securityAdditionDivestitureDetailEndPeriodQuantity" enabled="false">
+</float>
+<string id="securityList_AccountNumber">
+<value>CH8480808002056616648</value>
+</string>
+<string id="securityList_QuotationTypeFromDB_Internal">
+</string>
+<string id="securityList_KindGroupFromDB_Internal">
+</string>
+<boolean id="securityList_RevenueDetailChanged">
+<value>true</value>
+</boolean>
+<string id="securityList_Rubric">
+<value>withoutHoldingTax</value>
+</string>
+<string id="securityList_internalSecuritySearchKindDetailedFromDB">
+</string>
+<boolean id="securityList_IsIUP">
+</boolean>
+<string id="securityList_shortDescription_Internal">
+</string>
+<float id="securityDetail_RevenueFlatRateTaxChargingPercentage" visible="false">
+</float>
+<string id="securityDetail_Rubric">
+</string>
+<string id="securityList_Code">
+</string>
+<string id="securityList_DepositNumber">
+</string>
+<date id="securityList_RedemptionFromSearch">
+</date>
+<string id="securityListColumn_SearchSign">
+</string>
+<integer id="securityList_RevenueFlatRateTaxCharging">
+</integer>
+<string id="securityDetailsWizardWizardPreviousState">
+<value>securityDetails.state</value>
+</string>
+<boolean id="securityDetail_RevenueFlatRateTaxChargingPercentageIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityDetail_RevenueFlatRateTaxChargingIsVisible">
+<value>false</value>
+</boolean>
+<boolean id="securityList_SearchSecNumberBtnIsVisible" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityList_CalculatedRubricFromJavaFK1">
+</string>
+<boolean id="securityListColumn_TaxValueEndOfYearDirect">
+<value>false</value>
+</boolean>
+<string id="securityListColumn_FaceValueQuantity" calculated="true">
+</string>
+<string id="securityDetailsWizardWizardCurrentState">
+<value>securityDetails.state</value>
+</string>
+<integer id="securityList_IUPAmountWithoutWithholdingTax">
+</integer>
+<boolean id="securityList_additionDivestitureDetailBtnIsVisibile" calculated="true">
+<value>false</value>
+</boolean>
+<string id="securityList_tooltipLabel">
+<value>Neu erfasste Wertschrift, manuell erfasst, ohne Validierungsmeldungen Stufe WARNUNG oder höher</value>
+</string>
+<boolean id="securityList_GrossRevenueIsVisible">
+<value>true</value>
+</boolean>
+<integer id="securityListColumn_TaxValueEndOfYear">
+<value>23740</value>
+</integer>
+<date id="securityList_Redemption">
+</date>
+<integer id="securityDetail_GrossRevenueRubricC">
+</integer>
+<boolean id="securityList_IsSold_Internal">
+<value>false</value>
+</boolean>
+<list id="securityList_AdditionDivestitureDetail" enabled="false" uidMaxSeq="0">
+</list>
+<boolean id="securityListColumn_GrossRevenueDirect">
+<value>false</value>
+</boolean>
+<integer id="securityList_FormGrossRevenueC">
+</integer>
+<string id="securityList_OriginalCurrency">
+</string>
+<integer id="securityList_FormGrossRevenueA">
+</integer>
+<string id="securityList_Country">
+</string>
+<integer id="securityList_FormGrossRevenueB">
+<value>2</value>
+</integer>
+<integer id="securityList_RevenueTaxSecureUSA">
+</integer>
+<integer id="securityList_FormTaxValueEndOfYearC">
+</integer>
+<string id="securityListColumn_EnteredDescription">
+<value>Mitglieder Privatkonto (CHF)</value>
+</string>
+</group>
+<group>
+<context>{"involvedLimitedPartnershipDetail":0}</context>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":12}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>movableAssetsInsurances</value>
+</string>
+</group>
+<group>
+<context>{"receivedUndistributedInheritancesDetail":0}</context>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":13}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>listOfProperties</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":14}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>finalData</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":15}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>completion</value>
+</string>
+</group>
+<group>
+<context>{"jobExpensesTicketCostPublicTransportDetailP1":0}</context>
+<date id="jobExpensesTicketCostPublicTransportDetailP1BeginDate">
+</date>
+<string id="jobExpensesTicketCostPublicTransportDetailP1WayTo">
+</string>
+<integer id="jobExpensesTicketCostPublicTransportDetailP1Amount">
+</integer>
+<string id="jobExpensesTicketCostPublicTransportDetailP1WayFrom">
+</string>
+<date id="jobExpensesTicketCostPublicTransportDetailP1EndDate">
+</date>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":8}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>jobExpensesPublicTransportP1</value>
+</string>
+</group>
+<group>
+<context>{"jobExpensesTicketCostPublicTransportDetailP1":1}</context>
+<date id="jobExpensesTicketCostPublicTransportDetailP1BeginDate">
+</date>
+<string id="jobExpensesTicketCostPublicTransportDetailP1WayTo">
+</string>
+<integer id="jobExpensesTicketCostPublicTransportDetailP1Amount">
+</integer>
+<string id="jobExpensesTicketCostPublicTransportDetailP1WayFrom">
+</string>
+<date id="jobExpensesTicketCostPublicTransportDetailP1EndDate">
+</date>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":9}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>insuranceRevenue</value>
+</string>
+</group>
+<group>
+<context>{"jobExpensesTicketCostPublicTransportDetailP2":1}</context>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":10}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>deductionOther</value>
+</string>
+</group>
+<group>
+<context>{"jobExpensesTicketCostPublicTransportDetailP2":0}</context>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":11}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>deductionFurtherEducationP1</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":4}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>wizardProfile</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Attachments":3}</context>
+<string id="Q1_AttachmentsCategory">
+<value>Aus- und Weiterbildungskosten</value>
+</string>
+<string id="Q1_AttachmentsFilename">
+<value>Rechnung_70064919.pdf</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":5}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>securities</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Attachments":2}</context>
+<string id="Q1_AttachmentsCategory">
+<value>Aus- und Weiterbildungskosten</value>
+</string>
+<string id="Q1_AttachmentsFilename">
+<value>Rechnung_70054881.pdf</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":6}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>securitiesOverview</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Attachments":1}</context>
+<string id="Q1_AttachmentsCategory">
+<value>Aus- und Weiterbildungskosten</value>
+</string>
+<string id="Q1_AttachmentsFilename">
+<value>10.10.2024_Rechnung_3535955.pdf</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":7}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>revenueEmployed</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Attachments":0}</context>
+<string id="Q1_AttachmentsCategory">
+<value>Bankbelege/Steuerauszüge</value>
+</string>
+<string id="Q1_AttachmentsFilename">
+<value>Zins- und Saldoverzeichnis vom 01.01.2024 bis 31.12.2024 - Valentino Tomasic - 2024-12-31.pdf</value>
+</string>
+</group>
+<group>
+<context>{"movablePropertyLifeInsurancesDetail":1}</context>
+<integer id="movablePropertyLifeInsurancesDetailInsuranceValue">
+</integer>
+<string id="movablePropertyLifeInsurancesDetailCompany">
+</string>
+<integer id="movablePropertyLifeInsurancesDetailFiscalValue">
+</integer>
+<integer id="movablePropertyLifeInsurancesDetailFixtureYear">
+</integer>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":0}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>wizardWhatsNew</value>
+</string>
+</group>
+<group>
+<context>{"movablePropertyLifeInsurancesDetail":0}</context>
+<integer id="movablePropertyLifeInsurancesDetailInsuranceValue">
+</integer>
+<string id="movablePropertyLifeInsurancesDetailCompany">
+</string>
+<integer id="movablePropertyLifeInsurancesDetailFiscalValue">
+</integer>
+<integer id="movablePropertyLifeInsurancesDetailFixtureYear">
+</integer>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":1}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>wizardNavigationHint</value>
+</string>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":2}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>credentials</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Attachments":5}</context>
+<string id="Q1_AttachmentsCategory">
+<value>Lohnausweise</value>
+</string>
+<string id="Q1_AttachmentsFilename">
+<value>Lohnausweis - 2024, 6 Valentino Tomasic.pdf</value>
+</string>
+</group>
+<group>
+<context>{"furtherDeductionFinancialMangementDetail":0}</context>
+</group>
+<group>
+<context>{"movablePropertyLifeInsurancesDetail":2}</context>
+<integer id="movablePropertyLifeInsurancesDetailInsuranceValue">
+</integer>
+<string id="movablePropertyLifeInsurancesDetailCompany">
+</string>
+<integer id="movablePropertyLifeInsurancesDetailFiscalValue">
+</integer>
+<integer id="movablePropertyLifeInsurancesDetailFixtureYear">
+</integer>
+</group>
+<group>
+<context>{"wizard.mainWizardCurrentStateList":3}</context>
+<string id="wizard.mainWizardCurrentStateList">
+<value>personalData</value>
+</string>
+</group>
+<group>
+<context>{"Q1_Attachments":4}</context>
+<string id="Q1_AttachmentsCategory">
+<value>Aus- und Weiterbildungskosten</value>
+</string>
+<string id="Q1_AttachmentsFilename">
+<value>Rechnung_70069706.pdf</value>
+</string>
+</group>
+<group>
+<context>{"employedOtherRevenueDetailP2":0}</context>
+</group>
+<group>
+<context>{"employedMainRevenueDetailP2":0}</context>
+</group>
+<group>
+<context>{"employedMainRevenueDetailP1":0}</context>
+<string id="employedMainRevenueDetailP1Employer">
+<value>lentiltec GmbH</value>
+</string>
+<integer id="employedMainRevenueDetailP1Revenue">
+<value>119165</value>
+</integer>
+</group>
+<group>
+<context>{"employedOtherRevenueDetailP1":0}</context>
+<integer id="employedOtherRevenueDetailP1Revenue">
+</integer>
+<string id="employedOtherRevenueDetailP1Description">
+</string>
+</group>
+<group>
+<context>{"paymentPensionDeductionDetail":0}</context>
+</group>
+<group>
+<context>{"pension1DetailP1":0}</context>
+<integer id="pension1DetailP1AmountFinal" calculated="true">
+</integer>
+<integer id="pension1DetailP1Amount100">
+</integer>
+<string id="pension1DetailP1Description">
+</string>
+<string id="pension1DetailP1Percentage">
+</string>
+<float id="pension1DetailP1Percentage_onForm" calculated="true">
+</float>
+</group>
+<group>
+<context>{"pension1DetailP2":0}</context>
+</group>
+<group>
+<context>{"listOfPropertiesDetail":0}</context>
+<integer id="listOfPropertiesDetailSelfRentalValue">
+<value>2500</value>
+</integer>
+<date id="listOfPropertiesDetailEntryDate">
+</date>
+<string id="listOfPropertiesDetailPropertyUsage">
+<value>self</value>
+</string>
+<string id="listOfPropertiesDetailCalculator_Currency_EndYearRate" visible="false">
+</string>
+<integer id="listOfPropertiesDetailSelfRentalValueDeductionAmount_onForm" calculated="true">
+<value>0</value>
+</integer>
+<integer id="listOfPropertiesDetailTaxValue">
+<value>50000</value>
+</integer>
+<string id="listOfPropertiesDetailCanton" enabled="false">
+</string>
+<string id="listOfPropertiesDetailAbolitionReason">
+</string>
+<string id="listOfPropertiesDetailMunicipalityCanton">
+</string>
+<integer id="listOfPropertiesDetailMaintenanceCC" enabled="false">
+</integer>
+<string id="listOfPropertiesDetailPropertyKind">
+<value>unknown</value>
+</string>
+<list id="listOfPropertiesDetailMaintenanceCostsEffectiveDetail" enabled="false" uidMaxSeq="0">
+</list>
+<integer id="listOfPropertiesDetailTotalMaintenanceCost">
+</integer>
+<string id="listOfPropertiesDetailMaintenanceCostsEffectiveDetailDescription">
+</string>
+<dictionary id="dialogStatusMap" valueType="BOOLEAN">
+<entry key="propertyPlace.complete">true</entry>
+<entry key="propertyDetails.visited">true</entry>
+<entry key="incomeFromPrivateProperties.visited">true</entry>
+<entry key="propertyPlace.visited">true</entry>
+<entry key="incomeFromPrivateProperties.complete">true</entry>
+<entry key="propertyDetails.complete">true</entry>
+</dictionary>
+<integer id="listOfPropertiesDetailSelfRentalValueDeductionAmount">
+</integer>
+<string id="listOfPropertiesDetailStateOrMunicipalityCanton">
+<value>Kroatien</value>
+</string>
+<float id="listOfPropertiesDetailCalculator_CcyRate" enabled="false">
+</float>
+<boolean id="listOfPropertiesDetailRowHasData" calculated="true">
+<value>true</value>
+</boolean>
+<date id="listOfPropertiesDetailMaintenanceCostsEffectiveDetailDate">
+</date>
+<integer id="listOfPropertiesDetailSelfRentalValueExported" calculated="true">
+<value>2500</value>
+</integer>
+<boolean id="listOfPropertiesDetailSelfRentalValueHasDeduction">
+<value>false</value>
+</boolean>
+<integer id="listOfPropertiesDetailRentalValueTotal">
+<value>2500</value>
+</integer>
+<string id="listOfPropertiesDetailThirdPartyContributionsDescription" enabled="false">
+</string>
+<integer id="listOfPropertiesDetailMaintenanceCost">
+<value>500</value>
+</integer>
+<string id="listOfPropertiesDetailSelectedIndex">
+<value>{listOfPropertiesDetailPropertyPlaceDetail=0, listOfPropertiesDetail=0}</value>
+</string>
+<string id="listOfPropertiesDetailCountryCode">
+<value>HR</value>
+</string>
+<date id="listOfPropertiesDetailAbolitionDate">
+</date>
+<list id="listOfPropertiesDetailPropertyPlaceDetail" uidMaxSeq="1">
+</list>
+<boolean id="listOfPropertiesDetailLocationIsValid">
+<value>true</value>
+</boolean>
+<string id="listOfPropertiesDetailMunicipalityCode">
+</string>
+<string id="listOfPropertiesDetailMaintenanceCostsEffectiveDetailName">
+</string>
+<boolean id="listOfPropertiesDetailMaintenanceCostsEffectiveDetailButton" enabled="false">
+</boolean>
+<string id="listOfPropertiesDetailCountry" enabled="false">
+<value>Kroatien</value>
+</string>
+<string id="listOfPropertiesDetailCantonCode">
+</string>
+<string id="listOfPropertiesDetailPropertyRegisterNumberCopy">
+<value>999</value>
+</string>
+<float id="listOfPropertiesDetailPropertySharePartner1">
+<value>100.0</value>
+</float>
+<float id="listOfPropertiesDetailPropertySharePartner2" enabled="false">
+</float>
+<boolean id="listOfPropertiesDetailRevenueHasData" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="listOfPropertiesDetailMaintenanceCostsEffectiveDetailInvestmentAmount">
+</integer>
+<string id="listOfPropertiesDetailEntryReason">
+</string>
+<string id="listOfPropertiesDetailLocation">
+<value>Kroatien</value>
+</string>
+<float id="listOfPropertiesDetailPropertyShare">
+<value>100.0</value>
+</float>
+<string id="listOfPropertiesDetailPlaceFilter">
+<value>Kroatien</value>
+</string>
+<string id="listOfPropertiesDetailPropertyRegisterNumber">
+<value>999</value>
+</string>
+<string id="listOfPropertiesDetailCantonState">
+<value>Kroatien</value>
+</string>
+<integer id="listOfPropertiesDetailFiscalValue">
+<value>50000</value>
+</integer>
+<string id="listOfPropertiesDetail_OriginalCurrency">
+<value>CHF</value>
+</string>
+<string id="listOfPropertiesDetailMunicipality" enabled="false">
+</string>
+<integer id="listOfPropertiesDetailMaintenanceCostsEffectiveDetailAmount">
+</integer>
+<string id="listOfPropertiesDetailMaintenanceCostKind" overridden="true" calculated="true">
+<value>flatrate</value>
+</string>
+<integer id="listOfPropertiesDetailMaintenanceCostFlatrateAmount">
+<value>500</value>
+</integer>
+<integer id="F7100_MietwertBrutto">
+<value>2500</value>
+</integer>
+<string id="listOfPropertiesDetailCalculator_Currency_MiddleYearRate" visible="false">
+</string>
+<boolean id="listOfPropertiesDetailMaintenanceCostHasData" calculated="true">
+<value>true</value>
+</boolean>
+<integer id="listOfPropertiesDetailIndex" calculated="true">
+<value>1</value>
+</integer>
+<integer id="listOfPropertiesDetailThirdPartyContributions" enabled="false">
+</integer>
+<integer id="listOfPropertiesDetailMaintenanceCostFlatrate">
+<value>500</value>
+</integer>
+<float id="listOfPropertiesDetailCalculator_AmountCHF">
+</float>
+<integer id="listOfPropertiesDetailRevenueTotal">
+<value>2500</value>
+</integer>
+</group>
+<group>
+<context>{"sourceSystemDetail":4}</context>
+<date id="sourceSystemDetailReleaseDate" calculated="true">
+<value>2025-01-22</value>
+</date>
+<date id="sourceSystemDetailModificationDate" calculated="true">
+<value>2025-11-17</value>
+</date>
+<string id="sourceSystemDetailSystem" calculated="true">
+<value>Steuer St.Gallen</value>
+</string>
+<string id="sourceSystemDetailVersion" calculated="true">
+<value>2024-1.2.0</value>
+</string>
+</group>
+<group>
+<context>{"employedSidelineRevenueDetailP2":0}</context>
+</group>
+<group>
+<context>{"selfemployedBusinessCapitalAgriculturalDetail":0}</context>
+<integer id="selfemployedBusinessCapitalAgriculturalDetailFiscalValue">
+</integer>
+<string id="selfemployedBusinessCapitalAgriculturalDetailDescription">
+</string>
+</group>
+<group>
+<context>{"employedSidelineRevenueDetailP1":0}</context>
+<string id="employedSidelineRevenueDetailP1Description">
+</string>
+<integer id="employedSidelineRevenueDetailP1Revenue">
+</integer>
+</group>
+</data>
